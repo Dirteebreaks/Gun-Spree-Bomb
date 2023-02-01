@@ -7673,7 +7673,7 @@
                                       <block type="Message">
                                         <value name="VALUE-0">
                                           <block type="Text">
-                                            <field name="TEXT">Down_=_Fire_|_Up_=_Zoom_|_Select_=_Interact    Back_=_Jump_|_Ready_Up_=_Prone </field>
+                                            <field name="TEXT">Down_=_Zoom_|_Up_=_Fire_|_Select_=_Interact    Back_=_Jump_|_Ready_Up_=_Prone </field>
                                           </block>
                                         </value>
                                       </block>
@@ -11554,7 +11554,7 @@
                                                             <value name="VALUE-1">
                                                               <block type="SoldierStateBoolItem">
                                                                 <field name="VALUE-0">SoldierStateBool</field>
-                                                                <field name="VALUE-1">IsFiring</field>
+                                                                <field name="VALUE-1">IsZooming</field>
                                                               </block>
                                                             </value>
                                                           </block>
@@ -11719,7 +11719,7 @@
                                                                     <value name="VALUE-1">
                                                                       <block type="SoldierStateBoolItem">
                                                                         <field name="VALUE-0">SoldierStateBool</field>
-                                                                        <field name="VALUE-1">IsZooming</field>
+                                                                        <field name="VALUE-1">IsFiring</field>
                                                                       </block>
                                                                     </value>
                                                                   </block>
@@ -16755,7 +16755,7 @@
                   <block type="Message">
                     <value name="VALUE-0">
                       <block type="Text">
-                        <field name="TEXT">Down_=_Fire_|_Up_=_Zoom_|_Select_=_Interact    Back_=_Jump_|_Ready_Up_=_Prone </field>
+                        <field name="TEXT">Down_=_Zoom_|_Up_=_Fire_|_Select_=_Interact    Back_=_Jump_|_Ready_Up_=_Prone </field>
                       </block>
                     </value>
                   </block>
