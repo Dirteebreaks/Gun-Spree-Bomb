@@ -53,7 +53,7 @@
     <variable type="TeamId" id="^1G#;*K|ifsvH^)vp@@1">SpawnYaw</variable>
     <variable type="TeamId" id="n66zz)UlI7+=|oPpUPGO">Spawns</variable>
   </variables>
-  <block type="subroutineBlock" deletable="false" x="-5018" y="2798">
+  <block type="subroutineBlock" deletable="false" x="-5393" y="2747">
     <field name="SUBROUTINE_NAME">set_mcoms</field>
     <statement name="ACTIONS">
       <block type="Teleport">
@@ -792,6 +792,1073 @@
             </next>
           </block>
         </next>
+      </block>
+    </statement>
+  </block>
+  <block type="subroutineBlock" deletable="false" x="-2820" y="2701">
+    <field name="SUBROUTINE_NAME">set_spawnpoints</field>
+    <statement name="ACTIONS">
+      <block type="If">
+        <value name="VALUE-0">
+          <block type="IsCurrentMap">
+            <value name="VALUE-0">
+              <block type="MapsItem">
+                <field name="VALUE-0">Maps</field>
+                <field name="VALUE-1">Drained</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="SetVariable">
+            <value name="VALUE-0">
+              <block type="variableReferenceBlock">
+                <mutation isObjectVar="false"></mutation>
+                <field name="OBJECTTYPE">Global</field>
+                <field name="VAR" id=")yHUb2eMUc2Ryrahaq[~" variabletype="Global">McomSpawnPoints</field>
+              </block>
+            </value>
+            <value name="VALUE-1">
+              <block type="EmptyArray"></block>
+            </value>
+            <next>
+              <block type="SetVariable">
+                <value name="VALUE-0">
+                  <block type="variableReferenceBlock">
+                    <mutation isObjectVar="false"></mutation>
+                    <field name="OBJECTTYPE">Global</field>
+                    <field name="VAR" id=")yHUb2eMUc2Ryrahaq[~" variabletype="Global">McomSpawnPoints</field>
+                  </block>
+                </value>
+                <value name="VALUE-1">
+                  <block type="AppendToArray">
+                    <value name="VALUE-0">
+                      <block type="GetVariable">
+                        <value name="VALUE-0">
+                          <block type="variableReferenceBlock">
+                            <mutation isObjectVar="false"></mutation>
+                            <field name="OBJECTTYPE">Global</field>
+                            <field name="VAR" id=")yHUb2eMUc2Ryrahaq[~" variabletype="Global">McomSpawnPoints</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="VALUE-1">
+                      <block type="CreateVector">
+                        <value name="VALUE-0">
+                          <block type="Number">
+                            <field name="NUM">71.15527</field>
+                          </block>
+                        </value>
+                        <value name="VALUE-1">
+                          <block type="Number">
+                            <field name="NUM">114.77705</field>
+                          </block>
+                        </value>
+                        <value name="VALUE-2">
+                          <block type="Number">
+                            <field name="NUM">-94.06152</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="SetVariable">
+                    <value name="VALUE-0">
+                      <block type="variableReferenceBlock">
+                        <mutation isObjectVar="false"></mutation>
+                        <field name="OBJECTTYPE">Global</field>
+                        <field name="VAR" id=")yHUb2eMUc2Ryrahaq[~" variabletype="Global">McomSpawnPoints</field>
+                      </block>
+                    </value>
+                    <value name="VALUE-1">
+                      <block type="AppendToArray">
+                        <value name="VALUE-0">
+                          <block type="GetVariable">
+                            <value name="VALUE-0">
+                              <block type="variableReferenceBlock">
+                                <mutation isObjectVar="false"></mutation>
+                                <field name="OBJECTTYPE">Global</field>
+                                <field name="VAR" id=")yHUb2eMUc2Ryrahaq[~" variabletype="Global">McomSpawnPoints</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="VALUE-1">
+                          <block type="CreateVector">
+                            <value name="VALUE-0">
+                              <block type="Number">
+                                <field name="NUM">82.626789</field>
+                              </block>
+                            </value>
+                            <value name="VALUE-1">
+                              <block type="Number">
+                                <field name="NUM">109.5</field>
+                              </block>
+                            </value>
+                            <value name="VALUE-2">
+                              <block type="Number">
+                                <field name="NUM">-92.2137</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="SetVariable">
+                        <value name="VALUE-0">
+                          <block type="variableReferenceBlock">
+                            <mutation isObjectVar="false"></mutation>
+                            <field name="OBJECTTYPE">Global</field>
+                            <field name="VAR" id="2~aJU`A1S(i+^JA3{8.g" variabletype="Global">McomYaw</field>
+                          </block>
+                        </value>
+                        <value name="VALUE-1">
+                          <block type="EmptyArray"></block>
+                        </value>
+                        <next>
+                          <block type="SetVariable">
+                            <value name="VALUE-0">
+                              <block type="variableReferenceBlock">
+                                <mutation isObjectVar="false"></mutation>
+                                <field name="OBJECTTYPE">Global</field>
+                                <field name="VAR" id="2~aJU`A1S(i+^JA3{8.g" variabletype="Global">McomYaw</field>
+                              </block>
+                            </value>
+                            <value name="VALUE-1">
+                              <block type="AppendToArray">
+                                <value name="VALUE-0">
+                                  <block type="GetVariable">
+                                    <value name="VALUE-0">
+                                      <block type="variableReferenceBlock">
+                                        <mutation isObjectVar="false"></mutation>
+                                        <field name="OBJECTTYPE">Global</field>
+                                        <field name="VAR" id="2~aJU`A1S(i+^JA3{8.g" variabletype="Global">McomYaw</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <value name="VALUE-1">
+                                  <block type="Number">
+                                    <field name="NUM">1.7000003</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="SetVariable">
+                                <value name="VALUE-0">
+                                  <block type="variableReferenceBlock">
+                                    <mutation isObjectVar="false"></mutation>
+                                    <field name="OBJECTTYPE">Global</field>
+                                    <field name="VAR" id="2~aJU`A1S(i+^JA3{8.g" variabletype="Global">McomYaw</field>
+                                  </block>
+                                </value>
+                                <value name="VALUE-1">
+                                  <block type="AppendToArray">
+                                    <value name="VALUE-0">
+                                      <block type="GetVariable">
+                                        <value name="VALUE-0">
+                                          <block type="variableReferenceBlock">
+                                            <mutation isObjectVar="false"></mutation>
+                                            <field name="OBJECTTYPE">Global</field>
+                                            <field name="VAR" id="2~aJU`A1S(i+^JA3{8.g" variabletype="Global">McomYaw</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <value name="VALUE-1">
+                                      <block type="Number">
+                                        <field name="NUM">0.1000001</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="SetVariable">
+                                    <value name="VALUE-0">
+                                      <block type="variableReferenceBlock">
+                                        <mutation isObjectVar="true"></mutation>
+                                        <field name="OBJECTTYPE">TeamId</field>
+                                        <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                        <value name="OBJECT">
+                                          <block type="GetTeamId">
+                                            <value name="VALUE-0">
+                                              <block type="GetVariable">
+                                                <value name="VALUE-0">
+                                                  <block type="variableReferenceBlock">
+                                                    <mutation isObjectVar="false"></mutation>
+                                                    <field name="OBJECTTYPE">Global</field>
+                                                    <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <value name="VALUE-1">
+                                      <block type="EmptyArray"></block>
+                                    </value>
+                                    <next>
+                                      <block type="SetVariable">
+                                        <value name="VALUE-0">
+                                          <block type="variableReferenceBlock">
+                                            <mutation isObjectVar="true"></mutation>
+                                            <field name="OBJECTTYPE">TeamId</field>
+                                            <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                            <value name="OBJECT">
+                                              <block type="GetTeamId">
+                                                <value name="VALUE-0">
+                                                  <block type="GetVariable">
+                                                    <value name="VALUE-0">
+                                                      <block type="variableReferenceBlock">
+                                                        <mutation isObjectVar="false"></mutation>
+                                                        <field name="OBJECTTYPE">Global</field>
+                                                        <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <value name="VALUE-1">
+                                          <block type="AppendToArray">
+                                            <value name="VALUE-0">
+                                              <block type="GetVariable">
+                                                <value name="VALUE-0">
+                                                  <block type="variableReferenceBlock">
+                                                    <mutation isObjectVar="true"></mutation>
+                                                    <field name="OBJECTTYPE">TeamId</field>
+                                                    <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                    <value name="OBJECT">
+                                                      <block type="GetTeamId">
+                                                        <value name="VALUE-0">
+                                                          <block type="GetVariable">
+                                                            <value name="VALUE-0">
+                                                              <block type="variableReferenceBlock">
+                                                                <mutation isObjectVar="false"></mutation>
+                                                                <field name="OBJECTTYPE">Global</field>
+                                                                <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <value name="VALUE-1">
+                                              <block type="CreateVector">
+                                                <value name="VALUE-0">
+                                                  <block type="Number">
+                                                    <field name="NUM">212.43167</field>
+                                                  </block>
+                                                </value>
+                                                <value name="VALUE-1">
+                                                  <block type="Number">
+                                                    <field name="NUM">109.303058</field>
+                                                  </block>
+                                                </value>
+                                                <value name="VALUE-2">
+                                                  <block type="Number">
+                                                    <field name="NUM">-114.44787</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="SetVariable">
+                                            <value name="VALUE-0">
+                                              <block type="variableReferenceBlock">
+                                                <mutation isObjectVar="true"></mutation>
+                                                <field name="OBJECTTYPE">TeamId</field>
+                                                <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                <value name="OBJECT">
+                                                  <block type="GetTeamId">
+                                                    <value name="VALUE-0">
+                                                      <block type="GetVariable">
+                                                        <value name="VALUE-0">
+                                                          <block type="variableReferenceBlock">
+                                                            <mutation isObjectVar="false"></mutation>
+                                                            <field name="OBJECTTYPE">Global</field>
+                                                            <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <value name="VALUE-1">
+                                              <block type="AppendToArray">
+                                                <value name="VALUE-0">
+                                                  <block type="GetVariable">
+                                                    <value name="VALUE-0">
+                                                      <block type="variableReferenceBlock">
+                                                        <mutation isObjectVar="true"></mutation>
+                                                        <field name="OBJECTTYPE">TeamId</field>
+                                                        <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                        <value name="OBJECT">
+                                                          <block type="GetTeamId">
+                                                            <value name="VALUE-0">
+                                                              <block type="GetVariable">
+                                                                <value name="VALUE-0">
+                                                                  <block type="variableReferenceBlock">
+                                                                    <mutation isObjectVar="false"></mutation>
+                                                                    <field name="OBJECTTYPE">Global</field>
+                                                                    <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <value name="VALUE-1">
+                                                  <block type="CreateVector">
+                                                    <value name="VALUE-0">
+                                                      <block type="Number">
+                                                        <field name="NUM">212.70796</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="VALUE-1">
+                                                      <block type="Number">
+                                                        <field name="NUM">109.303058</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="VALUE-2">
+                                                      <block type="Number">
+                                                        <field name="NUM">-110.95108</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="SetVariable">
+                                                <value name="VALUE-0">
+                                                  <block type="variableReferenceBlock">
+                                                    <mutation isObjectVar="true"></mutation>
+                                                    <field name="OBJECTTYPE">TeamId</field>
+                                                    <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                    <value name="OBJECT">
+                                                      <block type="GetTeamId">
+                                                        <value name="VALUE-0">
+                                                          <block type="GetVariable">
+                                                            <value name="VALUE-0">
+                                                              <block type="variableReferenceBlock">
+                                                                <mutation isObjectVar="false"></mutation>
+                                                                <field name="OBJECTTYPE">Global</field>
+                                                                <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <value name="VALUE-1">
+                                                  <block type="AppendToArray">
+                                                    <value name="VALUE-0">
+                                                      <block type="GetVariable">
+                                                        <value name="VALUE-0">
+                                                          <block type="variableReferenceBlock">
+                                                            <mutation isObjectVar="true"></mutation>
+                                                            <field name="OBJECTTYPE">TeamId</field>
+                                                            <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                            <value name="OBJECT">
+                                                              <block type="GetTeamId">
+                                                                <value name="VALUE-0">
+                                                                  <block type="GetVariable">
+                                                                    <value name="VALUE-0">
+                                                                      <block type="variableReferenceBlock">
+                                                                        <mutation isObjectVar="false"></mutation>
+                                                                        <field name="OBJECTTYPE">Global</field>
+                                                                        <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <value name="VALUE-1">
+                                                      <block type="CreateVector">
+                                                        <value name="VALUE-0">
+                                                          <block type="Number">
+                                                            <field name="NUM">213.14012</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="VALUE-1">
+                                                          <block type="Number">
+                                                            <field name="NUM">109.303058</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="VALUE-2">
+                                                          <block type="Number">
+                                                            <field name="NUM">-106.8792</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="SetVariable">
+                                                    <value name="VALUE-0">
+                                                      <block type="variableReferenceBlock">
+                                                        <mutation isObjectVar="true"></mutation>
+                                                        <field name="OBJECTTYPE">TeamId</field>
+                                                        <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                        <value name="OBJECT">
+                                                          <block type="GetTeamId">
+                                                            <value name="VALUE-0">
+                                                              <block type="GetVariable">
+                                                                <value name="VALUE-0">
+                                                                  <block type="variableReferenceBlock">
+                                                                    <mutation isObjectVar="false"></mutation>
+                                                                    <field name="OBJECTTYPE">Global</field>
+                                                                    <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <value name="VALUE-1">
+                                                      <block type="AppendToArray">
+                                                        <value name="VALUE-0">
+                                                          <block type="GetVariable">
+                                                            <value name="VALUE-0">
+                                                              <block type="variableReferenceBlock">
+                                                                <mutation isObjectVar="true"></mutation>
+                                                                <field name="OBJECTTYPE">TeamId</field>
+                                                                <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                                <value name="OBJECT">
+                                                                  <block type="GetTeamId">
+                                                                    <value name="VALUE-0">
+                                                                      <block type="GetVariable">
+                                                                        <value name="VALUE-0">
+                                                                          <block type="variableReferenceBlock">
+                                                                            <mutation isObjectVar="false"></mutation>
+                                                                            <field name="OBJECTTYPE">Global</field>
+                                                                            <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="VALUE-1">
+                                                          <block type="CreateVector">
+                                                            <value name="VALUE-0">
+                                                              <block type="Number">
+                                                                <field name="NUM">213.46346</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="VALUE-1">
+                                                              <block type="Number">
+                                                                <field name="NUM">109.303058</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="VALUE-2">
+                                                              <block type="Number">
+                                                                <field name="NUM">-102.82385</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="SetVariable">
+                                                        <value name="VALUE-0">
+                                                          <block type="variableReferenceBlock">
+                                                            <mutation isObjectVar="true"></mutation>
+                                                            <field name="OBJECTTYPE">TeamId</field>
+                                                            <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                            <value name="OBJECT">
+                                                              <block type="GetTeamId">
+                                                                <value name="VALUE-0">
+                                                                  <block type="GetVariable">
+                                                                    <value name="VALUE-0">
+                                                                      <block type="variableReferenceBlock">
+                                                                        <mutation isObjectVar="false"></mutation>
+                                                                        <field name="OBJECTTYPE">Global</field>
+                                                                        <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <value name="VALUE-1">
+                                                          <block type="AppendToArray">
+                                                            <value name="VALUE-0">
+                                                              <block type="GetVariable">
+                                                                <value name="VALUE-0">
+                                                                  <block type="variableReferenceBlock">
+                                                                    <mutation isObjectVar="true"></mutation>
+                                                                    <field name="OBJECTTYPE">TeamId</field>
+                                                                    <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                                    <value name="OBJECT">
+                                                                      <block type="GetTeamId">
+                                                                        <value name="VALUE-0">
+                                                                          <block type="GetVariable">
+                                                                            <value name="VALUE-0">
+                                                                              <block type="variableReferenceBlock">
+                                                                                <mutation isObjectVar="false"></mutation>
+                                                                                <field name="OBJECTTYPE">Global</field>
+                                                                                <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <value name="VALUE-1">
+                                                              <block type="CreateVector">
+                                                                <value name="VALUE-0">
+                                                                  <block type="Number">
+                                                                    <field name="NUM">213.81252</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="VALUE-1">
+                                                                  <block type="Number">
+                                                                    <field name="NUM">109.303058</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="VALUE-2">
+                                                                  <block type="Number">
+                                                                    <field name="NUM">-98.529529</field>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="SetVariable">
+                                                            <value name="VALUE-0">
+                                                              <block type="variableReferenceBlock">
+                                                                <mutation isObjectVar="true"></mutation>
+                                                                <field name="OBJECTTYPE">TeamId</field>
+                                                                <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                                <value name="OBJECT">
+                                                                  <block type="GetTeamId">
+                                                                    <value name="VALUE-0">
+                                                                      <block type="GetVariable">
+                                                                        <value name="VALUE-0">
+                                                                          <block type="variableReferenceBlock">
+                                                                            <mutation isObjectVar="false"></mutation>
+                                                                            <field name="OBJECTTYPE">Global</field>
+                                                                            <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <value name="VALUE-1">
+                                                              <block type="EmptyArray"></block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="SetVariable">
+                                                                <value name="VALUE-0">
+                                                                  <block type="variableReferenceBlock">
+                                                                    <mutation isObjectVar="true"></mutation>
+                                                                    <field name="OBJECTTYPE">TeamId</field>
+                                                                    <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                                    <value name="OBJECT">
+                                                                      <block type="GetTeamId">
+                                                                        <value name="VALUE-0">
+                                                                          <block type="GetVariable">
+                                                                            <value name="VALUE-0">
+                                                                              <block type="variableReferenceBlock">
+                                                                                <mutation isObjectVar="false"></mutation>
+                                                                                <field name="OBJECTTYPE">Global</field>
+                                                                                <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="VALUE-1">
+                                                                  <block type="AppendToArray">
+                                                                    <value name="VALUE-0">
+                                                                      <block type="GetVariable">
+                                                                        <value name="VALUE-0">
+                                                                          <block type="variableReferenceBlock">
+                                                                            <mutation isObjectVar="true"></mutation>
+                                                                            <field name="OBJECTTYPE">TeamId</field>
+                                                                            <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                                            <value name="OBJECT">
+                                                                              <block type="GetTeamId">
+                                                                                <value name="VALUE-0">
+                                                                                  <block type="GetVariable">
+                                                                                    <value name="VALUE-0">
+                                                                                      <block type="variableReferenceBlock">
+                                                                                        <mutation isObjectVar="false"></mutation>
+                                                                                        <field name="OBJECTTYPE">Global</field>
+                                                                                        <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="VALUE-1">
+                                                                      <block type="CreateVector">
+                                                                        <value name="VALUE-0">
+                                                                          <block type="Number">
+                                                                            <field name="NUM">-9.159761</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="VALUE-1">
+                                                                          <block type="Number">
+                                                                            <field name="NUM">109.302539</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="VALUE-2">
+                                                                          <block type="Number">
+                                                                            <field name="NUM">-81.768558</field>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="SetVariable">
+                                                                    <value name="VALUE-0">
+                                                                      <block type="variableReferenceBlock">
+                                                                        <mutation isObjectVar="true"></mutation>
+                                                                        <field name="OBJECTTYPE">TeamId</field>
+                                                                        <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                                        <value name="OBJECT">
+                                                                          <block type="GetTeamId">
+                                                                            <value name="VALUE-0">
+                                                                              <block type="GetVariable">
+                                                                                <value name="VALUE-0">
+                                                                                  <block type="variableReferenceBlock">
+                                                                                    <mutation isObjectVar="false"></mutation>
+                                                                                    <field name="OBJECTTYPE">Global</field>
+                                                                                    <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="VALUE-1">
+                                                                      <block type="AppendToArray">
+                                                                        <value name="VALUE-0">
+                                                                          <block type="GetVariable">
+                                                                            <value name="VALUE-0">
+                                                                              <block type="variableReferenceBlock">
+                                                                                <mutation isObjectVar="true"></mutation>
+                                                                                <field name="OBJECTTYPE">TeamId</field>
+                                                                                <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                                                <value name="OBJECT">
+                                                                                  <block type="GetTeamId">
+                                                                                    <value name="VALUE-0">
+                                                                                      <block type="GetVariable">
+                                                                                        <value name="VALUE-0">
+                                                                                          <block type="variableReferenceBlock">
+                                                                                            <mutation isObjectVar="false"></mutation>
+                                                                                            <field name="OBJECTTYPE">Global</field>
+                                                                                            <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="VALUE-1">
+                                                                          <block type="CreateVector">
+                                                                            <value name="VALUE-0">
+                                                                              <block type="Number">
+                                                                                <field name="NUM">-9.216783</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="VALUE-1">
+                                                                              <block type="Number">
+                                                                                <field name="NUM">109.30255</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="VALUE-2">
+                                                                              <block type="Number">
+                                                                                <field name="NUM">-83.64168</field>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="SetVariable">
+                                                                        <value name="VALUE-0">
+                                                                          <block type="variableReferenceBlock">
+                                                                            <mutation isObjectVar="true"></mutation>
+                                                                            <field name="OBJECTTYPE">TeamId</field>
+                                                                            <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                                            <value name="OBJECT">
+                                                                              <block type="GetTeamId">
+                                                                                <value name="VALUE-0">
+                                                                                  <block type="GetVariable">
+                                                                                    <value name="VALUE-0">
+                                                                                      <block type="variableReferenceBlock">
+                                                                                        <mutation isObjectVar="false"></mutation>
+                                                                                        <field name="OBJECTTYPE">Global</field>
+                                                                                        <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="VALUE-1">
+                                                                          <block type="AppendToArray">
+                                                                            <value name="VALUE-0">
+                                                                              <block type="GetVariable">
+                                                                                <value name="VALUE-0">
+                                                                                  <block type="variableReferenceBlock">
+                                                                                    <mutation isObjectVar="true"></mutation>
+                                                                                    <field name="OBJECTTYPE">TeamId</field>
+                                                                                    <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                                                    <value name="OBJECT">
+                                                                                      <block type="GetTeamId">
+                                                                                        <value name="VALUE-0">
+                                                                                          <block type="GetVariable">
+                                                                                            <value name="VALUE-0">
+                                                                                              <block type="variableReferenceBlock">
+                                                                                                <mutation isObjectVar="false"></mutation>
+                                                                                                <field name="OBJECTTYPE">Global</field>
+                                                                                                <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="VALUE-1">
+                                                                              <block type="CreateVector">
+                                                                                <value name="VALUE-0">
+                                                                                  <block type="Number">
+                                                                                    <field name="NUM">-9.354744</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="VALUE-1">
+                                                                                  <block type="Number">
+                                                                                    <field name="NUM">109.30256</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="VALUE-2">
+                                                                                  <block type="Number">
+                                                                                    <field name="NUM">-85.64958</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="SetVariable">
+                                                                            <value name="VALUE-0">
+                                                                              <block type="variableReferenceBlock">
+                                                                                <mutation isObjectVar="true"></mutation>
+                                                                                <field name="OBJECTTYPE">TeamId</field>
+                                                                                <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                                                <value name="OBJECT">
+                                                                                  <block type="GetTeamId">
+                                                                                    <value name="VALUE-0">
+                                                                                      <block type="GetVariable">
+                                                                                        <value name="VALUE-0">
+                                                                                          <block type="variableReferenceBlock">
+                                                                                            <mutation isObjectVar="false"></mutation>
+                                                                                            <field name="OBJECTTYPE">Global</field>
+                                                                                            <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="VALUE-1">
+                                                                              <block type="AppendToArray">
+                                                                                <value name="VALUE-0">
+                                                                                  <block type="GetVariable">
+                                                                                    <value name="VALUE-0">
+                                                                                      <block type="variableReferenceBlock">
+                                                                                        <mutation isObjectVar="true"></mutation>
+                                                                                        <field name="OBJECTTYPE">TeamId</field>
+                                                                                        <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                                                        <value name="OBJECT">
+                                                                                          <block type="GetTeamId">
+                                                                                            <value name="VALUE-0">
+                                                                                              <block type="GetVariable">
+                                                                                                <value name="VALUE-0">
+                                                                                                  <block type="variableReferenceBlock">
+                                                                                                    <mutation isObjectVar="false"></mutation>
+                                                                                                    <field name="OBJECTTYPE">Global</field>
+                                                                                                    <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="VALUE-1">
+                                                                                  <block type="CreateVector">
+                                                                                    <value name="VALUE-0">
+                                                                                      <block type="Number">
+                                                                                        <field name="NUM">-9.47337</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="VALUE-1">
+                                                                                      <block type="Number">
+                                                                                        <field name="NUM">109.302577</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="VALUE-2">
+                                                                                      <block type="Number">
+                                                                                        <field name="NUM">-87.7237</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="SetVariable">
+                                                                                <value name="VALUE-0">
+                                                                                  <block type="variableReferenceBlock">
+                                                                                    <mutation isObjectVar="true"></mutation>
+                                                                                    <field name="OBJECTTYPE">TeamId</field>
+                                                                                    <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                                                    <value name="OBJECT">
+                                                                                      <block type="GetTeamId">
+                                                                                        <value name="VALUE-0">
+                                                                                          <block type="GetVariable">
+                                                                                            <value name="VALUE-0">
+                                                                                              <block type="variableReferenceBlock">
+                                                                                                <mutation isObjectVar="false"></mutation>
+                                                                                                <field name="OBJECTTYPE">Global</field>
+                                                                                                <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="VALUE-1">
+                                                                                  <block type="AppendToArray">
+                                                                                    <value name="VALUE-0">
+                                                                                      <block type="GetVariable">
+                                                                                        <value name="VALUE-0">
+                                                                                          <block type="variableReferenceBlock">
+                                                                                            <mutation isObjectVar="true"></mutation>
+                                                                                            <field name="OBJECTTYPE">TeamId</field>
+                                                                                            <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
+                                                                                            <value name="OBJECT">
+                                                                                              <block type="GetTeamId">
+                                                                                                <value name="VALUE-0">
+                                                                                                  <block type="GetVariable">
+                                                                                                    <value name="VALUE-0">
+                                                                                                      <block type="variableReferenceBlock">
+                                                                                                        <mutation isObjectVar="false"></mutation>
+                                                                                                        <field name="OBJECTTYPE">Global</field>
+                                                                                                        <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="VALUE-1">
+                                                                                      <block type="CreateVector">
+                                                                                        <value name="VALUE-0">
+                                                                                          <block type="Number">
+                                                                                            <field name="NUM">-9.562251</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="VALUE-1">
+                                                                                          <block type="Number">
+                                                                                            <field name="NUM">109.30259</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="VALUE-2">
+                                                                                          <block type="Number">
+                                                                                            <field name="NUM">-89.29954</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <next>
+                                                                                  <block type="SetVariable">
+                                                                                    <value name="VALUE-0">
+                                                                                      <block type="variableReferenceBlock">
+                                                                                        <mutation isObjectVar="true"></mutation>
+                                                                                        <field name="OBJECTTYPE">TeamId</field>
+                                                                                        <field name="VAR" id="^1G#;*K|ifsvH^)vp@@1" variabletype="TeamId">SpawnYaw</field>
+                                                                                        <value name="OBJECT">
+                                                                                          <block type="GetTeamId">
+                                                                                            <value name="VALUE-0">
+                                                                                              <block type="GetVariable">
+                                                                                                <value name="VALUE-0">
+                                                                                                  <block type="variableReferenceBlock">
+                                                                                                    <mutation isObjectVar="false"></mutation>
+                                                                                                    <field name="OBJECTTYPE">Global</field>
+                                                                                                    <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="VALUE-1">
+                                                                                      <block type="Number">
+                                                                                        <field name="NUM">4.7</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="SetVariable">
+                                                                                        <value name="VALUE-0">
+                                                                                          <block type="variableReferenceBlock">
+                                                                                            <mutation isObjectVar="true"></mutation>
+                                                                                            <field name="OBJECTTYPE">TeamId</field>
+                                                                                            <field name="VAR" id="^1G#;*K|ifsvH^)vp@@1" variabletype="TeamId">SpawnYaw</field>
+                                                                                            <value name="OBJECT">
+                                                                                              <block type="GetTeamId">
+                                                                                                <value name="VALUE-0">
+                                                                                                  <block type="GetVariable">
+                                                                                                    <value name="VALUE-0">
+                                                                                                      <block type="variableReferenceBlock">
+                                                                                                        <mutation isObjectVar="false"></mutation>
+                                                                                                        <field name="OBJECTTYPE">Global</field>
+                                                                                                        <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="VALUE-1">
+                                                                                          <block type="Number">
+                                                                                            <field name="NUM">1.58</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
       </block>
     </statement>
   </block>
@@ -4725,1073 +5792,6 @@
     <value name="VALUE-3">
       <block type="EventPlayer"></block>
     </value>
-  </block>
-  <block type="subroutineBlock" deletable="false" x="-2827" y="4425">
-    <field name="SUBROUTINE_NAME">set_spawnpoints</field>
-    <statement name="ACTIONS">
-      <block type="If">
-        <value name="VALUE-0">
-          <block type="IsCurrentMap">
-            <value name="VALUE-0">
-              <block type="MapsItem">
-                <field name="VALUE-0">Maps</field>
-                <field name="VALUE-1">Drained</field>
-              </block>
-            </value>
-          </block>
-        </value>
-        <statement name="DO">
-          <block type="SetVariable">
-            <value name="VALUE-0">
-              <block type="variableReferenceBlock">
-                <mutation isObjectVar="false"></mutation>
-                <field name="OBJECTTYPE">Global</field>
-                <field name="VAR" id=")yHUb2eMUc2Ryrahaq[~" variabletype="Global">McomSpawnPoints</field>
-              </block>
-            </value>
-            <value name="VALUE-1">
-              <block type="EmptyArray"></block>
-            </value>
-            <next>
-              <block type="SetVariable">
-                <value name="VALUE-0">
-                  <block type="variableReferenceBlock">
-                    <mutation isObjectVar="false"></mutation>
-                    <field name="OBJECTTYPE">Global</field>
-                    <field name="VAR" id=")yHUb2eMUc2Ryrahaq[~" variabletype="Global">McomSpawnPoints</field>
-                  </block>
-                </value>
-                <value name="VALUE-1">
-                  <block type="AppendToArray">
-                    <value name="VALUE-0">
-                      <block type="GetVariable">
-                        <value name="VALUE-0">
-                          <block type="variableReferenceBlock">
-                            <mutation isObjectVar="false"></mutation>
-                            <field name="OBJECTTYPE">Global</field>
-                            <field name="VAR" id=")yHUb2eMUc2Ryrahaq[~" variabletype="Global">McomSpawnPoints</field>
-                          </block>
-                        </value>
-                      </block>
-                    </value>
-                    <value name="VALUE-1">
-                      <block type="CreateVector">
-                        <value name="VALUE-0">
-                          <block type="Number">
-                            <field name="NUM">71.15527</field>
-                          </block>
-                        </value>
-                        <value name="VALUE-1">
-                          <block type="Number">
-                            <field name="NUM">114.77705</field>
-                          </block>
-                        </value>
-                        <value name="VALUE-2">
-                          <block type="Number">
-                            <field name="NUM">-94.06152</field>
-                          </block>
-                        </value>
-                      </block>
-                    </value>
-                  </block>
-                </value>
-                <next>
-                  <block type="SetVariable">
-                    <value name="VALUE-0">
-                      <block type="variableReferenceBlock">
-                        <mutation isObjectVar="false"></mutation>
-                        <field name="OBJECTTYPE">Global</field>
-                        <field name="VAR" id=")yHUb2eMUc2Ryrahaq[~" variabletype="Global">McomSpawnPoints</field>
-                      </block>
-                    </value>
-                    <value name="VALUE-1">
-                      <block type="AppendToArray">
-                        <value name="VALUE-0">
-                          <block type="GetVariable">
-                            <value name="VALUE-0">
-                              <block type="variableReferenceBlock">
-                                <mutation isObjectVar="false"></mutation>
-                                <field name="OBJECTTYPE">Global</field>
-                                <field name="VAR" id=")yHUb2eMUc2Ryrahaq[~" variabletype="Global">McomSpawnPoints</field>
-                              </block>
-                            </value>
-                          </block>
-                        </value>
-                        <value name="VALUE-1">
-                          <block type="CreateVector">
-                            <value name="VALUE-0">
-                              <block type="Number">
-                                <field name="NUM">82.626789</field>
-                              </block>
-                            </value>
-                            <value name="VALUE-1">
-                              <block type="Number">
-                                <field name="NUM">109.5</field>
-                              </block>
-                            </value>
-                            <value name="VALUE-2">
-                              <block type="Number">
-                                <field name="NUM">-92.2137</field>
-                              </block>
-                            </value>
-                          </block>
-                        </value>
-                      </block>
-                    </value>
-                    <next>
-                      <block type="SetVariable">
-                        <value name="VALUE-0">
-                          <block type="variableReferenceBlock">
-                            <mutation isObjectVar="false"></mutation>
-                            <field name="OBJECTTYPE">Global</field>
-                            <field name="VAR" id="2~aJU`A1S(i+^JA3{8.g" variabletype="Global">McomYaw</field>
-                          </block>
-                        </value>
-                        <value name="VALUE-1">
-                          <block type="EmptyArray"></block>
-                        </value>
-                        <next>
-                          <block type="SetVariable">
-                            <value name="VALUE-0">
-                              <block type="variableReferenceBlock">
-                                <mutation isObjectVar="false"></mutation>
-                                <field name="OBJECTTYPE">Global</field>
-                                <field name="VAR" id="2~aJU`A1S(i+^JA3{8.g" variabletype="Global">McomYaw</field>
-                              </block>
-                            </value>
-                            <value name="VALUE-1">
-                              <block type="AppendToArray">
-                                <value name="VALUE-0">
-                                  <block type="GetVariable">
-                                    <value name="VALUE-0">
-                                      <block type="variableReferenceBlock">
-                                        <mutation isObjectVar="false"></mutation>
-                                        <field name="OBJECTTYPE">Global</field>
-                                        <field name="VAR" id="2~aJU`A1S(i+^JA3{8.g" variabletype="Global">McomYaw</field>
-                                      </block>
-                                    </value>
-                                  </block>
-                                </value>
-                                <value name="VALUE-1">
-                                  <block type="Number">
-                                    <field name="NUM">1.7000003</field>
-                                  </block>
-                                </value>
-                              </block>
-                            </value>
-                            <next>
-                              <block type="SetVariable">
-                                <value name="VALUE-0">
-                                  <block type="variableReferenceBlock">
-                                    <mutation isObjectVar="false"></mutation>
-                                    <field name="OBJECTTYPE">Global</field>
-                                    <field name="VAR" id="2~aJU`A1S(i+^JA3{8.g" variabletype="Global">McomYaw</field>
-                                  </block>
-                                </value>
-                                <value name="VALUE-1">
-                                  <block type="AppendToArray">
-                                    <value name="VALUE-0">
-                                      <block type="GetVariable">
-                                        <value name="VALUE-0">
-                                          <block type="variableReferenceBlock">
-                                            <mutation isObjectVar="false"></mutation>
-                                            <field name="OBJECTTYPE">Global</field>
-                                            <field name="VAR" id="2~aJU`A1S(i+^JA3{8.g" variabletype="Global">McomYaw</field>
-                                          </block>
-                                        </value>
-                                      </block>
-                                    </value>
-                                    <value name="VALUE-1">
-                                      <block type="Number">
-                                        <field name="NUM">0.1000001</field>
-                                      </block>
-                                    </value>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="SetVariable">
-                                    <value name="VALUE-0">
-                                      <block type="variableReferenceBlock">
-                                        <mutation isObjectVar="true"></mutation>
-                                        <field name="OBJECTTYPE">TeamId</field>
-                                        <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                        <value name="OBJECT">
-                                          <block type="GetTeamId">
-                                            <value name="VALUE-0">
-                                              <block type="GetVariable">
-                                                <value name="VALUE-0">
-                                                  <block type="variableReferenceBlock">
-                                                    <mutation isObjectVar="false"></mutation>
-                                                    <field name="OBJECTTYPE">Global</field>
-                                                    <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                          </block>
-                                        </value>
-                                      </block>
-                                    </value>
-                                    <value name="VALUE-1">
-                                      <block type="EmptyArray"></block>
-                                    </value>
-                                    <next>
-                                      <block type="SetVariable">
-                                        <value name="VALUE-0">
-                                          <block type="variableReferenceBlock">
-                                            <mutation isObjectVar="true"></mutation>
-                                            <field name="OBJECTTYPE">TeamId</field>
-                                            <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                            <value name="OBJECT">
-                                              <block type="GetTeamId">
-                                                <value name="VALUE-0">
-                                                  <block type="GetVariable">
-                                                    <value name="VALUE-0">
-                                                      <block type="variableReferenceBlock">
-                                                        <mutation isObjectVar="false"></mutation>
-                                                        <field name="OBJECTTYPE">Global</field>
-                                                        <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
-                                                      </block>
-                                                    </value>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                          </block>
-                                        </value>
-                                        <value name="VALUE-1">
-                                          <block type="AppendToArray">
-                                            <value name="VALUE-0">
-                                              <block type="GetVariable">
-                                                <value name="VALUE-0">
-                                                  <block type="variableReferenceBlock">
-                                                    <mutation isObjectVar="true"></mutation>
-                                                    <field name="OBJECTTYPE">TeamId</field>
-                                                    <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                    <value name="OBJECT">
-                                                      <block type="GetTeamId">
-                                                        <value name="VALUE-0">
-                                                          <block type="GetVariable">
-                                                            <value name="VALUE-0">
-                                                              <block type="variableReferenceBlock">
-                                                                <mutation isObjectVar="false"></mutation>
-                                                                <field name="OBJECTTYPE">Global</field>
-                                                                <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
-                                                              </block>
-                                                            </value>
-                                                          </block>
-                                                        </value>
-                                                      </block>
-                                                    </value>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                            <value name="VALUE-1">
-                                              <block type="CreateVector">
-                                                <value name="VALUE-0">
-                                                  <block type="Number">
-                                                    <field name="NUM">212.43167</field>
-                                                  </block>
-                                                </value>
-                                                <value name="VALUE-1">
-                                                  <block type="Number">
-                                                    <field name="NUM">109.303058</field>
-                                                  </block>
-                                                </value>
-                                                <value name="VALUE-2">
-                                                  <block type="Number">
-                                                    <field name="NUM">-114.44787</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                          </block>
-                                        </value>
-                                        <next>
-                                          <block type="SetVariable">
-                                            <value name="VALUE-0">
-                                              <block type="variableReferenceBlock">
-                                                <mutation isObjectVar="true"></mutation>
-                                                <field name="OBJECTTYPE">TeamId</field>
-                                                <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                <value name="OBJECT">
-                                                  <block type="GetTeamId">
-                                                    <value name="VALUE-0">
-                                                      <block type="GetVariable">
-                                                        <value name="VALUE-0">
-                                                          <block type="variableReferenceBlock">
-                                                            <mutation isObjectVar="false"></mutation>
-                                                            <field name="OBJECTTYPE">Global</field>
-                                                            <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
-                                                          </block>
-                                                        </value>
-                                                      </block>
-                                                    </value>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                            <value name="VALUE-1">
-                                              <block type="AppendToArray">
-                                                <value name="VALUE-0">
-                                                  <block type="GetVariable">
-                                                    <value name="VALUE-0">
-                                                      <block type="variableReferenceBlock">
-                                                        <mutation isObjectVar="true"></mutation>
-                                                        <field name="OBJECTTYPE">TeamId</field>
-                                                        <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                        <value name="OBJECT">
-                                                          <block type="GetTeamId">
-                                                            <value name="VALUE-0">
-                                                              <block type="GetVariable">
-                                                                <value name="VALUE-0">
-                                                                  <block type="variableReferenceBlock">
-                                                                    <mutation isObjectVar="false"></mutation>
-                                                                    <field name="OBJECTTYPE">Global</field>
-                                                                    <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
-                                                                  </block>
-                                                                </value>
-                                                              </block>
-                                                            </value>
-                                                          </block>
-                                                        </value>
-                                                      </block>
-                                                    </value>
-                                                  </block>
-                                                </value>
-                                                <value name="VALUE-1">
-                                                  <block type="CreateVector">
-                                                    <value name="VALUE-0">
-                                                      <block type="Number">
-                                                        <field name="NUM">212.70796</field>
-                                                      </block>
-                                                    </value>
-                                                    <value name="VALUE-1">
-                                                      <block type="Number">
-                                                        <field name="NUM">109.303058</field>
-                                                      </block>
-                                                    </value>
-                                                    <value name="VALUE-2">
-                                                      <block type="Number">
-                                                        <field name="NUM">-110.95108</field>
-                                                      </block>
-                                                    </value>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                            <next>
-                                              <block type="SetVariable">
-                                                <value name="VALUE-0">
-                                                  <block type="variableReferenceBlock">
-                                                    <mutation isObjectVar="true"></mutation>
-                                                    <field name="OBJECTTYPE">TeamId</field>
-                                                    <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                    <value name="OBJECT">
-                                                      <block type="GetTeamId">
-                                                        <value name="VALUE-0">
-                                                          <block type="GetVariable">
-                                                            <value name="VALUE-0">
-                                                              <block type="variableReferenceBlock">
-                                                                <mutation isObjectVar="false"></mutation>
-                                                                <field name="OBJECTTYPE">Global</field>
-                                                                <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
-                                                              </block>
-                                                            </value>
-                                                          </block>
-                                                        </value>
-                                                      </block>
-                                                    </value>
-                                                  </block>
-                                                </value>
-                                                <value name="VALUE-1">
-                                                  <block type="AppendToArray">
-                                                    <value name="VALUE-0">
-                                                      <block type="GetVariable">
-                                                        <value name="VALUE-0">
-                                                          <block type="variableReferenceBlock">
-                                                            <mutation isObjectVar="true"></mutation>
-                                                            <field name="OBJECTTYPE">TeamId</field>
-                                                            <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                            <value name="OBJECT">
-                                                              <block type="GetTeamId">
-                                                                <value name="VALUE-0">
-                                                                  <block type="GetVariable">
-                                                                    <value name="VALUE-0">
-                                                                      <block type="variableReferenceBlock">
-                                                                        <mutation isObjectVar="false"></mutation>
-                                                                        <field name="OBJECTTYPE">Global</field>
-                                                                        <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
-                                                                      </block>
-                                                                    </value>
-                                                                  </block>
-                                                                </value>
-                                                              </block>
-                                                            </value>
-                                                          </block>
-                                                        </value>
-                                                      </block>
-                                                    </value>
-                                                    <value name="VALUE-1">
-                                                      <block type="CreateVector">
-                                                        <value name="VALUE-0">
-                                                          <block type="Number">
-                                                            <field name="NUM">213.14012</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="VALUE-1">
-                                                          <block type="Number">
-                                                            <field name="NUM">109.303058</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="VALUE-2">
-                                                          <block type="Number">
-                                                            <field name="NUM">-106.8792</field>
-                                                          </block>
-                                                        </value>
-                                                      </block>
-                                                    </value>
-                                                  </block>
-                                                </value>
-                                                <next>
-                                                  <block type="SetVariable">
-                                                    <value name="VALUE-0">
-                                                      <block type="variableReferenceBlock">
-                                                        <mutation isObjectVar="true"></mutation>
-                                                        <field name="OBJECTTYPE">TeamId</field>
-                                                        <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                        <value name="OBJECT">
-                                                          <block type="GetTeamId">
-                                                            <value name="VALUE-0">
-                                                              <block type="GetVariable">
-                                                                <value name="VALUE-0">
-                                                                  <block type="variableReferenceBlock">
-                                                                    <mutation isObjectVar="false"></mutation>
-                                                                    <field name="OBJECTTYPE">Global</field>
-                                                                    <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
-                                                                  </block>
-                                                                </value>
-                                                              </block>
-                                                            </value>
-                                                          </block>
-                                                        </value>
-                                                      </block>
-                                                    </value>
-                                                    <value name="VALUE-1">
-                                                      <block type="AppendToArray">
-                                                        <value name="VALUE-0">
-                                                          <block type="GetVariable">
-                                                            <value name="VALUE-0">
-                                                              <block type="variableReferenceBlock">
-                                                                <mutation isObjectVar="true"></mutation>
-                                                                <field name="OBJECTTYPE">TeamId</field>
-                                                                <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                                <value name="OBJECT">
-                                                                  <block type="GetTeamId">
-                                                                    <value name="VALUE-0">
-                                                                      <block type="GetVariable">
-                                                                        <value name="VALUE-0">
-                                                                          <block type="variableReferenceBlock">
-                                                                            <mutation isObjectVar="false"></mutation>
-                                                                            <field name="OBJECTTYPE">Global</field>
-                                                                            <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
-                                                                          </block>
-                                                                        </value>
-                                                                      </block>
-                                                                    </value>
-                                                                  </block>
-                                                                </value>
-                                                              </block>
-                                                            </value>
-                                                          </block>
-                                                        </value>
-                                                        <value name="VALUE-1">
-                                                          <block type="CreateVector">
-                                                            <value name="VALUE-0">
-                                                              <block type="Number">
-                                                                <field name="NUM">213.46346</field>
-                                                              </block>
-                                                            </value>
-                                                            <value name="VALUE-1">
-                                                              <block type="Number">
-                                                                <field name="NUM">109.303058</field>
-                                                              </block>
-                                                            </value>
-                                                            <value name="VALUE-2">
-                                                              <block type="Number">
-                                                                <field name="NUM">-102.82385</field>
-                                                              </block>
-                                                            </value>
-                                                          </block>
-                                                        </value>
-                                                      </block>
-                                                    </value>
-                                                    <next>
-                                                      <block type="SetVariable">
-                                                        <value name="VALUE-0">
-                                                          <block type="variableReferenceBlock">
-                                                            <mutation isObjectVar="true"></mutation>
-                                                            <field name="OBJECTTYPE">TeamId</field>
-                                                            <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                            <value name="OBJECT">
-                                                              <block type="GetTeamId">
-                                                                <value name="VALUE-0">
-                                                                  <block type="GetVariable">
-                                                                    <value name="VALUE-0">
-                                                                      <block type="variableReferenceBlock">
-                                                                        <mutation isObjectVar="false"></mutation>
-                                                                        <field name="OBJECTTYPE">Global</field>
-                                                                        <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
-                                                                      </block>
-                                                                    </value>
-                                                                  </block>
-                                                                </value>
-                                                              </block>
-                                                            </value>
-                                                          </block>
-                                                        </value>
-                                                        <value name="VALUE-1">
-                                                          <block type="AppendToArray">
-                                                            <value name="VALUE-0">
-                                                              <block type="GetVariable">
-                                                                <value name="VALUE-0">
-                                                                  <block type="variableReferenceBlock">
-                                                                    <mutation isObjectVar="true"></mutation>
-                                                                    <field name="OBJECTTYPE">TeamId</field>
-                                                                    <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                                    <value name="OBJECT">
-                                                                      <block type="GetTeamId">
-                                                                        <value name="VALUE-0">
-                                                                          <block type="GetVariable">
-                                                                            <value name="VALUE-0">
-                                                                              <block type="variableReferenceBlock">
-                                                                                <mutation isObjectVar="false"></mutation>
-                                                                                <field name="OBJECTTYPE">Global</field>
-                                                                                <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
-                                                                              </block>
-                                                                            </value>
-                                                                          </block>
-                                                                        </value>
-                                                                      </block>
-                                                                    </value>
-                                                                  </block>
-                                                                </value>
-                                                              </block>
-                                                            </value>
-                                                            <value name="VALUE-1">
-                                                              <block type="CreateVector">
-                                                                <value name="VALUE-0">
-                                                                  <block type="Number">
-                                                                    <field name="NUM">213.81252</field>
-                                                                  </block>
-                                                                </value>
-                                                                <value name="VALUE-1">
-                                                                  <block type="Number">
-                                                                    <field name="NUM">109.303058</field>
-                                                                  </block>
-                                                                </value>
-                                                                <value name="VALUE-2">
-                                                                  <block type="Number">
-                                                                    <field name="NUM">-98.529529</field>
-                                                                  </block>
-                                                                </value>
-                                                              </block>
-                                                            </value>
-                                                          </block>
-                                                        </value>
-                                                        <next>
-                                                          <block type="SetVariable">
-                                                            <value name="VALUE-0">
-                                                              <block type="variableReferenceBlock">
-                                                                <mutation isObjectVar="true"></mutation>
-                                                                <field name="OBJECTTYPE">TeamId</field>
-                                                                <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                                <value name="OBJECT">
-                                                                  <block type="GetTeamId">
-                                                                    <value name="VALUE-0">
-                                                                      <block type="GetVariable">
-                                                                        <value name="VALUE-0">
-                                                                          <block type="variableReferenceBlock">
-                                                                            <mutation isObjectVar="false"></mutation>
-                                                                            <field name="OBJECTTYPE">Global</field>
-                                                                            <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
-                                                                          </block>
-                                                                        </value>
-                                                                      </block>
-                                                                    </value>
-                                                                  </block>
-                                                                </value>
-                                                              </block>
-                                                            </value>
-                                                            <value name="VALUE-1">
-                                                              <block type="EmptyArray"></block>
-                                                            </value>
-                                                            <next>
-                                                              <block type="SetVariable">
-                                                                <value name="VALUE-0">
-                                                                  <block type="variableReferenceBlock">
-                                                                    <mutation isObjectVar="true"></mutation>
-                                                                    <field name="OBJECTTYPE">TeamId</field>
-                                                                    <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                                    <value name="OBJECT">
-                                                                      <block type="GetTeamId">
-                                                                        <value name="VALUE-0">
-                                                                          <block type="GetVariable">
-                                                                            <value name="VALUE-0">
-                                                                              <block type="variableReferenceBlock">
-                                                                                <mutation isObjectVar="false"></mutation>
-                                                                                <field name="OBJECTTYPE">Global</field>
-                                                                                <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
-                                                                              </block>
-                                                                            </value>
-                                                                          </block>
-                                                                        </value>
-                                                                      </block>
-                                                                    </value>
-                                                                  </block>
-                                                                </value>
-                                                                <value name="VALUE-1">
-                                                                  <block type="AppendToArray">
-                                                                    <value name="VALUE-0">
-                                                                      <block type="GetVariable">
-                                                                        <value name="VALUE-0">
-                                                                          <block type="variableReferenceBlock">
-                                                                            <mutation isObjectVar="true"></mutation>
-                                                                            <field name="OBJECTTYPE">TeamId</field>
-                                                                            <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                                            <value name="OBJECT">
-                                                                              <block type="GetTeamId">
-                                                                                <value name="VALUE-0">
-                                                                                  <block type="GetVariable">
-                                                                                    <value name="VALUE-0">
-                                                                                      <block type="variableReferenceBlock">
-                                                                                        <mutation isObjectVar="false"></mutation>
-                                                                                        <field name="OBJECTTYPE">Global</field>
-                                                                                        <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                  </block>
-                                                                                </value>
-                                                                              </block>
-                                                                            </value>
-                                                                          </block>
-                                                                        </value>
-                                                                      </block>
-                                                                    </value>
-                                                                    <value name="VALUE-1">
-                                                                      <block type="CreateVector">
-                                                                        <value name="VALUE-0">
-                                                                          <block type="Number">
-                                                                            <field name="NUM">-9.159761</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="VALUE-1">
-                                                                          <block type="Number">
-                                                                            <field name="NUM">109.302539</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="VALUE-2">
-                                                                          <block type="Number">
-                                                                            <field name="NUM">-81.768558</field>
-                                                                          </block>
-                                                                        </value>
-                                                                      </block>
-                                                                    </value>
-                                                                  </block>
-                                                                </value>
-                                                                <next>
-                                                                  <block type="SetVariable">
-                                                                    <value name="VALUE-0">
-                                                                      <block type="variableReferenceBlock">
-                                                                        <mutation isObjectVar="true"></mutation>
-                                                                        <field name="OBJECTTYPE">TeamId</field>
-                                                                        <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                                        <value name="OBJECT">
-                                                                          <block type="GetTeamId">
-                                                                            <value name="VALUE-0">
-                                                                              <block type="GetVariable">
-                                                                                <value name="VALUE-0">
-                                                                                  <block type="variableReferenceBlock">
-                                                                                    <mutation isObjectVar="false"></mutation>
-                                                                                    <field name="OBJECTTYPE">Global</field>
-                                                                                    <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
-                                                                                  </block>
-                                                                                </value>
-                                                                              </block>
-                                                                            </value>
-                                                                          </block>
-                                                                        </value>
-                                                                      </block>
-                                                                    </value>
-                                                                    <value name="VALUE-1">
-                                                                      <block type="AppendToArray">
-                                                                        <value name="VALUE-0">
-                                                                          <block type="GetVariable">
-                                                                            <value name="VALUE-0">
-                                                                              <block type="variableReferenceBlock">
-                                                                                <mutation isObjectVar="true"></mutation>
-                                                                                <field name="OBJECTTYPE">TeamId</field>
-                                                                                <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                                                <value name="OBJECT">
-                                                                                  <block type="GetTeamId">
-                                                                                    <value name="VALUE-0">
-                                                                                      <block type="GetVariable">
-                                                                                        <value name="VALUE-0">
-                                                                                          <block type="variableReferenceBlock">
-                                                                                            <mutation isObjectVar="false"></mutation>
-                                                                                            <field name="OBJECTTYPE">Global</field>
-                                                                                            <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                  </block>
-                                                                                </value>
-                                                                              </block>
-                                                                            </value>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="VALUE-1">
-                                                                          <block type="CreateVector">
-                                                                            <value name="VALUE-0">
-                                                                              <block type="Number">
-                                                                                <field name="NUM">-9.216783</field>
-                                                                              </block>
-                                                                            </value>
-                                                                            <value name="VALUE-1">
-                                                                              <block type="Number">
-                                                                                <field name="NUM">109.30255</field>
-                                                                              </block>
-                                                                            </value>
-                                                                            <value name="VALUE-2">
-                                                                              <block type="Number">
-                                                                                <field name="NUM">-83.64168</field>
-                                                                              </block>
-                                                                            </value>
-                                                                          </block>
-                                                                        </value>
-                                                                      </block>
-                                                                    </value>
-                                                                    <next>
-                                                                      <block type="SetVariable">
-                                                                        <value name="VALUE-0">
-                                                                          <block type="variableReferenceBlock">
-                                                                            <mutation isObjectVar="true"></mutation>
-                                                                            <field name="OBJECTTYPE">TeamId</field>
-                                                                            <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                                            <value name="OBJECT">
-                                                                              <block type="GetTeamId">
-                                                                                <value name="VALUE-0">
-                                                                                  <block type="GetVariable">
-                                                                                    <value name="VALUE-0">
-                                                                                      <block type="variableReferenceBlock">
-                                                                                        <mutation isObjectVar="false"></mutation>
-                                                                                        <field name="OBJECTTYPE">Global</field>
-                                                                                        <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                  </block>
-                                                                                </value>
-                                                                              </block>
-                                                                            </value>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="VALUE-1">
-                                                                          <block type="AppendToArray">
-                                                                            <value name="VALUE-0">
-                                                                              <block type="GetVariable">
-                                                                                <value name="VALUE-0">
-                                                                                  <block type="variableReferenceBlock">
-                                                                                    <mutation isObjectVar="true"></mutation>
-                                                                                    <field name="OBJECTTYPE">TeamId</field>
-                                                                                    <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                                                    <value name="OBJECT">
-                                                                                      <block type="GetTeamId">
-                                                                                        <value name="VALUE-0">
-                                                                                          <block type="GetVariable">
-                                                                                            <value name="VALUE-0">
-                                                                                              <block type="variableReferenceBlock">
-                                                                                                <mutation isObjectVar="false"></mutation>
-                                                                                                <field name="OBJECTTYPE">Global</field>
-                                                                                                <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
-                                                                                              </block>
-                                                                                            </value>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                  </block>
-                                                                                </value>
-                                                                              </block>
-                                                                            </value>
-                                                                            <value name="VALUE-1">
-                                                                              <block type="CreateVector">
-                                                                                <value name="VALUE-0">
-                                                                                  <block type="Number">
-                                                                                    <field name="NUM">-9.354744</field>
-                                                                                  </block>
-                                                                                </value>
-                                                                                <value name="VALUE-1">
-                                                                                  <block type="Number">
-                                                                                    <field name="NUM">109.30256</field>
-                                                                                  </block>
-                                                                                </value>
-                                                                                <value name="VALUE-2">
-                                                                                  <block type="Number">
-                                                                                    <field name="NUM">-85.64958</field>
-                                                                                  </block>
-                                                                                </value>
-                                                                              </block>
-                                                                            </value>
-                                                                          </block>
-                                                                        </value>
-                                                                        <next>
-                                                                          <block type="SetVariable">
-                                                                            <value name="VALUE-0">
-                                                                              <block type="variableReferenceBlock">
-                                                                                <mutation isObjectVar="true"></mutation>
-                                                                                <field name="OBJECTTYPE">TeamId</field>
-                                                                                <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                                                <value name="OBJECT">
-                                                                                  <block type="GetTeamId">
-                                                                                    <value name="VALUE-0">
-                                                                                      <block type="GetVariable">
-                                                                                        <value name="VALUE-0">
-                                                                                          <block type="variableReferenceBlock">
-                                                                                            <mutation isObjectVar="false"></mutation>
-                                                                                            <field name="OBJECTTYPE">Global</field>
-                                                                                            <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                  </block>
-                                                                                </value>
-                                                                              </block>
-                                                                            </value>
-                                                                            <value name="VALUE-1">
-                                                                              <block type="AppendToArray">
-                                                                                <value name="VALUE-0">
-                                                                                  <block type="GetVariable">
-                                                                                    <value name="VALUE-0">
-                                                                                      <block type="variableReferenceBlock">
-                                                                                        <mutation isObjectVar="true"></mutation>
-                                                                                        <field name="OBJECTTYPE">TeamId</field>
-                                                                                        <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                                                        <value name="OBJECT">
-                                                                                          <block type="GetTeamId">
-                                                                                            <value name="VALUE-0">
-                                                                                              <block type="GetVariable">
-                                                                                                <value name="VALUE-0">
-                                                                                                  <block type="variableReferenceBlock">
-                                                                                                    <mutation isObjectVar="false"></mutation>
-                                                                                                    <field name="OBJECTTYPE">Global</field>
-                                                                                                    <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
-                                                                                                  </block>
-                                                                                                </value>
-                                                                                              </block>
-                                                                                            </value>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                  </block>
-                                                                                </value>
-                                                                                <value name="VALUE-1">
-                                                                                  <block type="CreateVector">
-                                                                                    <value name="VALUE-0">
-                                                                                      <block type="Number">
-                                                                                        <field name="NUM">-9.47337</field>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                    <value name="VALUE-1">
-                                                                                      <block type="Number">
-                                                                                        <field name="NUM">109.302577</field>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                    <value name="VALUE-2">
-                                                                                      <block type="Number">
-                                                                                        <field name="NUM">-87.7237</field>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                  </block>
-                                                                                </value>
-                                                                              </block>
-                                                                            </value>
-                                                                            <next>
-                                                                              <block type="SetVariable">
-                                                                                <value name="VALUE-0">
-                                                                                  <block type="variableReferenceBlock">
-                                                                                    <mutation isObjectVar="true"></mutation>
-                                                                                    <field name="OBJECTTYPE">TeamId</field>
-                                                                                    <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                                                    <value name="OBJECT">
-                                                                                      <block type="GetTeamId">
-                                                                                        <value name="VALUE-0">
-                                                                                          <block type="GetVariable">
-                                                                                            <value name="VALUE-0">
-                                                                                              <block type="variableReferenceBlock">
-                                                                                                <mutation isObjectVar="false"></mutation>
-                                                                                                <field name="OBJECTTYPE">Global</field>
-                                                                                                <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
-                                                                                              </block>
-                                                                                            </value>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                  </block>
-                                                                                </value>
-                                                                                <value name="VALUE-1">
-                                                                                  <block type="AppendToArray">
-                                                                                    <value name="VALUE-0">
-                                                                                      <block type="GetVariable">
-                                                                                        <value name="VALUE-0">
-                                                                                          <block type="variableReferenceBlock">
-                                                                                            <mutation isObjectVar="true"></mutation>
-                                                                                            <field name="OBJECTTYPE">TeamId</field>
-                                                                                            <field name="VAR" id="OV^haWCMp~H:LH3N@Y3h" variabletype="TeamId">SpawnPoints</field>
-                                                                                            <value name="OBJECT">
-                                                                                              <block type="GetTeamId">
-                                                                                                <value name="VALUE-0">
-                                                                                                  <block type="GetVariable">
-                                                                                                    <value name="VALUE-0">
-                                                                                                      <block type="variableReferenceBlock">
-                                                                                                        <mutation isObjectVar="false"></mutation>
-                                                                                                        <field name="OBJECTTYPE">Global</field>
-                                                                                                        <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
-                                                                                                      </block>
-                                                                                                    </value>
-                                                                                                  </block>
-                                                                                                </value>
-                                                                                              </block>
-                                                                                            </value>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                    <value name="VALUE-1">
-                                                                                      <block type="CreateVector">
-                                                                                        <value name="VALUE-0">
-                                                                                          <block type="Number">
-                                                                                            <field name="NUM">-9.562251</field>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                        <value name="VALUE-1">
-                                                                                          <block type="Number">
-                                                                                            <field name="NUM">109.30259</field>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                        <value name="VALUE-2">
-                                                                                          <block type="Number">
-                                                                                            <field name="NUM">-89.29954</field>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                  </block>
-                                                                                </value>
-                                                                                <next>
-                                                                                  <block type="SetVariable">
-                                                                                    <value name="VALUE-0">
-                                                                                      <block type="variableReferenceBlock">
-                                                                                        <mutation isObjectVar="true"></mutation>
-                                                                                        <field name="OBJECTTYPE">TeamId</field>
-                                                                                        <field name="VAR" id="^1G#;*K|ifsvH^)vp@@1" variabletype="TeamId">SpawnYaw</field>
-                                                                                        <value name="OBJECT">
-                                                                                          <block type="GetTeamId">
-                                                                                            <value name="VALUE-0">
-                                                                                              <block type="GetVariable">
-                                                                                                <value name="VALUE-0">
-                                                                                                  <block type="variableReferenceBlock">
-                                                                                                    <mutation isObjectVar="false"></mutation>
-                                                                                                    <field name="OBJECTTYPE">Global</field>
-                                                                                                    <field name="VAR" id="xnv~sj|9]o{IQnl-l3q9" variabletype="Global">Attackers</field>
-                                                                                                  </block>
-                                                                                                </value>
-                                                                                              </block>
-                                                                                            </value>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                    <value name="VALUE-1">
-                                                                                      <block type="Number">
-                                                                                        <field name="NUM">4.7</field>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                    <next>
-                                                                                      <block type="SetVariable">
-                                                                                        <value name="VALUE-0">
-                                                                                          <block type="variableReferenceBlock">
-                                                                                            <mutation isObjectVar="true"></mutation>
-                                                                                            <field name="OBJECTTYPE">TeamId</field>
-                                                                                            <field name="VAR" id="^1G#;*K|ifsvH^)vp@@1" variabletype="TeamId">SpawnYaw</field>
-                                                                                            <value name="OBJECT">
-                                                                                              <block type="GetTeamId">
-                                                                                                <value name="VALUE-0">
-                                                                                                  <block type="GetVariable">
-                                                                                                    <value name="VALUE-0">
-                                                                                                      <block type="variableReferenceBlock">
-                                                                                                        <mutation isObjectVar="false"></mutation>
-                                                                                                        <field name="OBJECTTYPE">Global</field>
-                                                                                                        <field name="VAR" id="kJ38x$/u,c3VS;.j(0cb" variabletype="Global">Defenders</field>
-                                                                                                      </block>
-                                                                                                    </value>
-                                                                                                  </block>
-                                                                                                </value>
-                                                                                              </block>
-                                                                                            </value>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                        <value name="VALUE-1">
-                                                                                          <block type="Number">
-                                                                                            <field name="NUM">1.58</field>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                      </block>
-                                                                                    </next>
-                                                                                  </block>
-                                                                                </next>
-                                                                              </block>
-                                                                            </next>
-                                                                          </block>
-                                                                        </next>
-                                                                      </block>
-                                                                    </next>
-                                                                  </block>
-                                                                </next>
-                                                              </block>
-                                                            </next>
-                                                          </block>
-                                                        </next>
-                                                      </block>
-                                                    </next>
-                                                  </block>
-                                                </next>
-                                              </block>
-                                            </next>
-                                          </block>
-                                        </next>
-                                      </block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </statement>
-      </block>
-    </statement>
   </block>
   <block type="subroutineBlock" deletable="false" x="4555" y="4132">
     <field name="SUBROUTINE_NAME">create_weapon_prices</field>
@@ -17172,7 +17172,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="1826" y="10373">
+  <block type="subroutineBlock" deletable="false" x="1862" y="10373">
     <field name="SUBROUTINE_NAME">end_of_round</field>
     <statement name="ACTIONS">
       <block type="SetVariable">
@@ -17594,83 +17594,42 @@
                       </block>
                     </statement>
                     <next>
-                      <block type="Wait">
+                      <block type="SetVariable">
                         <value name="VALUE-0">
-                          <block type="Number">
-                            <field name="NUM">3</field>
+                          <block type="variableReferenceBlock">
+                            <mutation isObjectVar="false"></mutation>
+                            <field name="OBJECTTYPE">Global</field>
+                            <field name="VAR" id="yH}Gf0m1vKpe#@UxJvQG" variabletype="Global">Round</field>
                           </block>
                         </value>
-                        <next>
-                          <block type="If">
+                        <value name="VALUE-1">
+                          <block type="Add">
                             <value name="VALUE-0">
-                              <block type="Or" inline="false">
+                              <block type="GetVariable">
                                 <value name="VALUE-0">
-                                  <block type="Equals">
-                                    <value name="VALUE-0">
-                                      <block type="GetVariable">
-                                        <value name="VALUE-0">
-                                          <block type="variableReferenceBlock">
-                                            <mutation isObjectVar="false"></mutation>
-                                            <field name="OBJECTTYPE">Global</field>
-                                            <field name="VAR" id="yH}Gf0m1vKpe#@UxJvQG" variabletype="Global">Round</field>
-                                          </block>
-                                        </value>
-                                      </block>
-                                    </value>
-                                    <value name="VALUE-1">
-                                      <block type="Number">
-                                        <field name="NUM">3</field>
-                                      </block>
-                                    </value>
-                                  </block>
-                                </value>
-                                <value name="VALUE-1">
-                                  <block type="Or" inline="false">
-                                    <value name="VALUE-0">
-                                      <block type="Equals">
-                                        <value name="VALUE-0">
-                                          <block type="GetVariable">
-                                            <value name="VALUE-0">
-                                              <block type="variableReferenceBlock">
-                                                <mutation isObjectVar="false"></mutation>
-                                                <field name="OBJECTTYPE">Global</field>
-                                                <field name="VAR" id="yH}Gf0m1vKpe#@UxJvQG" variabletype="Global">Round</field>
-                                              </block>
-                                            </value>
-                                          </block>
-                                        </value>
-                                        <value name="VALUE-1">
-                                          <block type="Number">
-                                            <field name="NUM">5</field>
-                                          </block>
-                                        </value>
-                                      </block>
-                                    </value>
-                                    <value name="VALUE-1">
-                                      <block type="Equals">
-                                        <value name="VALUE-0">
-                                          <block type="GetVariable">
-                                            <value name="VALUE-0">
-                                              <block type="variableReferenceBlock">
-                                                <mutation isObjectVar="false"></mutation>
-                                                <field name="OBJECTTYPE">Global</field>
-                                                <field name="VAR" id="yH}Gf0m1vKpe#@UxJvQG" variabletype="Global">Round</field>
-                                              </block>
-                                            </value>
-                                          </block>
-                                        </value>
-                                        <value name="VALUE-1">
-                                          <block type="Number">
-                                            <field name="NUM">7</field>
-                                          </block>
-                                        </value>
-                                      </block>
-                                    </value>
+                                  <block type="variableReferenceBlock">
+                                    <mutation isObjectVar="false"></mutation>
+                                    <field name="OBJECTTYPE">Global</field>
+                                    <field name="VAR" id="yH}Gf0m1vKpe#@UxJvQG" variabletype="Global">Round</field>
                                   </block>
                                 </value>
                               </block>
                             </value>
-                            <statement name="DO">
+                            <value name="VALUE-1">
+                              <block type="Number">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="Wait">
+                            <value name="VALUE-0">
+                              <block type="Number">
+                                <field name="NUM">3</field>
+                              </block>
+                            </value>
+                            <next>
                               <block type="If">
                                 <mutation else="1"></mutation>
                                 <value name="VALUE-0">
@@ -17783,37 +17742,6 @@
                                     </next>
                                   </block>
                                 </statement>
-                              </block>
-                            </statement>
-                            <next>
-                              <block type="SetVariable">
-                                <value name="VALUE-0">
-                                  <block type="variableReferenceBlock">
-                                    <mutation isObjectVar="false"></mutation>
-                                    <field name="OBJECTTYPE">Global</field>
-                                    <field name="VAR" id="yH}Gf0m1vKpe#@UxJvQG" variabletype="Global">Round</field>
-                                  </block>
-                                </value>
-                                <value name="VALUE-1">
-                                  <block type="Add">
-                                    <value name="VALUE-0">
-                                      <block type="GetVariable">
-                                        <value name="VALUE-0">
-                                          <block type="variableReferenceBlock">
-                                            <mutation isObjectVar="false"></mutation>
-                                            <field name="OBJECTTYPE">Global</field>
-                                            <field name="VAR" id="yH}Gf0m1vKpe#@UxJvQG" variabletype="Global">Round</field>
-                                          </block>
-                                        </value>
-                                      </block>
-                                    </value>
-                                    <value name="VALUE-1">
-                                      <block type="Number">
-                                        <field name="NUM">1</field>
-                                      </block>
-                                    </value>
-                                  </block>
-                                </value>
                                 <next>
                                   <block type="subroutineInstanceBlock">
                                     <field name="SUBROUTINE_NAME">set_spawnpoints</field>
