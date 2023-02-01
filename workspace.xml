@@ -8169,7 +8169,7 @@
                                     </value>
                                     <value name="VALUE-2">
                                       <block type="Number">
-                                        <field name="NUM">1</field>
+                                        <field name="NUM">-1</field>
                                       </block>
                                     </value>
                                     <next>
@@ -13880,30 +13880,39 @@
               <block type="Message">
                 <value name="VALUE-0">
                   <block type="Text">
-                    <field name="TEXT">{} Players Ready - time: {}</field>
+                    <field name="TEXT">You and {} other Players are Ready - time: {}</field>
                   </block>
                 </value>
                 <value name="VALUE-1">
-                  <block type="CountOf">
+                  <block type="Subtract">
                     <value name="VALUE-0">
-                      <block type="FilteredArray">
+                      <block type="CountOf">
                         <value name="VALUE-0">
-                          <block type="AllPlayers"></block>
-                        </value>
-                        <value name="VALUE-1">
-                          <block type="GetVariable">
+                          <block type="FilteredArray">
                             <value name="VALUE-0">
-                              <block type="variableReferenceBlock">
-                                <mutation isObjectVar="true"></mutation>
-                                <field name="OBJECTTYPE">Player</field>
-                                <field name="VAR" id="dkrVGrJC4LB-q=)PhpQR" variabletype="Player">Ready</field>
-                                <value name="OBJECT">
-                                  <block type="CurrentArrayElement"></block>
+                              <block type="AllPlayers"></block>
+                            </value>
+                            <value name="VALUE-1">
+                              <block type="GetVariable">
+                                <value name="VALUE-0">
+                                  <block type="variableReferenceBlock">
+                                    <mutation isObjectVar="true"></mutation>
+                                    <field name="OBJECTTYPE">Player</field>
+                                    <field name="VAR" id="dkrVGrJC4LB-q=)PhpQR" variabletype="Player">Ready</field>
+                                    <value name="OBJECT">
+                                      <block type="CurrentArrayElement"></block>
+                                    </value>
+                                  </block>
                                 </value>
                               </block>
                             </value>
                           </block>
                         </value>
+                      </block>
+                    </value>
+                    <value name="VALUE-1">
+                      <block type="Number">
+                        <field name="NUM">1</field>
                       </block>
                     </value>
                   </block>
@@ -13939,33 +13948,6 @@
             <value name="VALUE-3">
               <block type="EventPlayer"></block>
             </value>
-            <next>
-              <block type="DisplayCustomNotificationMessage">
-                <value name="VALUE-0">
-                  <block type="Message">
-                    <value name="VALUE-0">
-                      <block type="Text">
-                        <field name="TEXT">You are Ready...</field>
-                      </block>
-                    </value>
-                  </block>
-                </value>
-                <value name="VALUE-1">
-                  <block type="CustomMessagesItem">
-                    <field name="VALUE-0">CustomMessages</field>
-                    <field name="VALUE-1">MessageText1</field>
-                  </block>
-                </value>
-                <value name="VALUE-2">
-                  <block type="Number">
-                    <field name="NUM">1</field>
-                  </block>
-                </value>
-                <value name="VALUE-3">
-                  <block type="EventPlayer"></block>
-                </value>
-              </block>
-            </next>
           </block>
         </statement>
         <next>
