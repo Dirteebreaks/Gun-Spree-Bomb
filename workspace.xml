@@ -53,6 +53,12 @@
     <variable type="TeamId" id="^1G#;*K|ifsvH^)vp@@1">SpawnYaw</variable>
     <variable type="TeamId" id="n66zz)UlI7+=|oPpUPGO">Spawns</variable>
   </variables>
+  <block type="subroutineBlock" deletable="false" x="811" y="2321">
+    <field name="SUBROUTINE_NAME">buy_for_bots</field>
+    <statement name="ACTIONS">
+      <block type="If"></block>
+    </statement>
+  </block>
   <block type="subroutineBlock" deletable="false" x="-5393" y="2747">
     <field name="SUBROUTINE_NAME">set_mcoms</field>
     <statement name="ACTIONS">
@@ -11711,6 +11717,27 @@
                                                 </value>
                                               </block>
                                             </value>
+                                            <next>
+                                              <block type="conditionBlock">
+                                                <value name="CONDITION">
+                                                  <block type="Not">
+                                                    <value name="VALUE-0">
+                                                      <block type="GetSoldierState">
+                                                        <value name="VALUE-0">
+                                                          <block type="EventPlayer"></block>
+                                                        </value>
+                                                        <value name="VALUE-1">
+                                                          <block type="SoldierStateBoolItem">
+                                                            <field name="VALUE-0">SoldierStateBool</field>
+                                                            <field name="VALUE-1">IsAISoldier</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </next>
                                           </block>
                                         </next>
                                       </block>
@@ -17344,6 +17371,9 @@
       </block>
     </statement>
   </block>
+  <block type="subroutineInstanceBlock" x="5970" y="8175">
+    <field name="SUBROUTINE_NAME">buy_for_bots</field>
+  </block>
   <block type="subroutineBlock" deletable="false" x="3661" y="9041">
     <field name="SUBROUTINE_NAME">not_enough_creds</field>
     <statement name="ACTIONS">
@@ -18288,7 +18318,7 @@
       </block>
     </statement>
   </block>
-  <block type="ruleBlock" x="4139" y="25390">
+  <block type="ruleBlock" x="4051" y="24654">
     <mutation isOnGoingEvent="true"></mutation>
     <field name="NAME">Rule 14</field>
     <field name="EVENTTYPE">Ongoing</field>
