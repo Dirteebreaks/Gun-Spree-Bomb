@@ -12669,15 +12669,11 @@
                                                                           </block>
                                                                         </value>
                                                                         <statement name="DO">
-                                                                          <block type="DisplayCustomNotificationMessage">
+                                                                          <block type="If">
+                                                                            <mutation else="1"></mutation>
                                                                             <value name="VALUE-0">
-                                                                              <block type="Message">
+                                                                              <block type="Equals">
                                                                                 <value name="VALUE-0">
-                                                                                  <block type="Text">
-                                                                                    <field name="TEXT">Round {} Timer: {}</field>
-                                                                                  </block>
-                                                                                </value>
-                                                                                <value name="VALUE-1">
                                                                                   <block type="GetVariable">
                                                                                     <value name="VALUE-0">
                                                                                       <block type="variableReferenceBlock">
@@ -12688,41 +12684,20 @@
                                                                                     </value>
                                                                                   </block>
                                                                                 </value>
-                                                                                <value name="VALUE-2">
-                                                                                  <block type="RoundToInteger">
-                                                                                    <value name="VALUE-0">
-                                                                                      <block type="GetVariable">
-                                                                                        <value name="VALUE-0">
-                                                                                          <block type="variableReferenceBlock">
-                                                                                            <mutation isObjectVar="false"></mutation>
-                                                                                            <field name="OBJECTTYPE">Global</field>
-                                                                                            <field name="VAR" id="QFG/UZpt0Y*GvFgveR1f" variabletype="Global">RoundTimer</field>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                      </block>
-                                                                                    </value>
+                                                                                <value name="VALUE-1">
+                                                                                  <block type="Number">
+                                                                                    <field name="NUM">5</field>
                                                                                   </block>
                                                                                 </value>
                                                                               </block>
                                                                             </value>
-                                                                            <value name="VALUE-1">
-                                                                              <block type="CustomMessagesItem">
-                                                                                <field name="VALUE-0">CustomMessages</field>
-                                                                                <field name="VALUE-1">HeaderText</field>
-                                                                              </block>
-                                                                            </value>
-                                                                            <value name="VALUE-2">
-                                                                              <block type="Number">
-                                                                                <field name="NUM">1</field>
-                                                                              </block>
-                                                                            </value>
-                                                                            <next>
+                                                                            <statement name="DO">
                                                                               <block type="DisplayCustomNotificationMessage">
                                                                                 <value name="VALUE-0">
-                                                                                  <block type="Message">
+                                                                                  <block type="Message" inline="false">
                                                                                     <value name="VALUE-0">
                                                                                       <block type="Text">
-                                                                                        <field name="TEXT">Mcoms active {}</field>
+                                                                                        <field name="TEXT">{} VS {} Timer: {}</field>
                                                                                       </block>
                                                                                     </value>
                                                                                     <value name="VALUE-1">
@@ -12730,19 +12705,92 @@
                                                                                         <value name="VALUE-0">
                                                                                           <block type="FilteredArray">
                                                                                             <value name="VALUE-0">
-                                                                                              <block type="AllMCOMs"></block>
+                                                                                              <block type="GetVariable">
+                                                                                                <value name="VALUE-0">
+                                                                                                  <block type="variableReferenceBlock">
+                                                                                                    <mutation isObjectVar="true"></mutation>
+                                                                                                    <field name="OBJECTTYPE">TeamId</field>
+                                                                                                    <field name="VAR" id="m4?$h[5c.p[/H,.I%`up" variabletype="TeamId">Players</field>
+                                                                                                    <value name="OBJECT">
+                                                                                                      <block type="GetTeamId">
+                                                                                                        <value name="VALUE-0">
+                                                                                                          <block type="Number">
+                                                                                                            <field name="NUM">1</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
                                                                                             </value>
                                                                                             <value name="VALUE-1">
-                                                                                              <block type="GetMCOMState">
+                                                                                              <block type="GetSoldierState">
                                                                                                 <value name="VALUE-0">
                                                                                                   <block type="CurrentArrayElement"></block>
                                                                                                 </value>
                                                                                                 <value name="VALUE-1">
-                                                                                                  <block type="MCOMStateBoolItem">
-                                                                                                    <field name="VALUE-0">MCOMStateBool</field>
-                                                                                                    <field name="VALUE-1">IsActive</field>
+                                                                                                  <block type="SoldierStateBoolItem">
+                                                                                                    <field name="VALUE-0">SoldierStateBool</field>
+                                                                                                    <field name="VALUE-1">IsAlive</field>
                                                                                                   </block>
                                                                                                 </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="VALUE-2">
+                                                                                      <block type="CountOf">
+                                                                                        <value name="VALUE-0">
+                                                                                          <block type="FilteredArray">
+                                                                                            <value name="VALUE-0">
+                                                                                              <block type="GetVariable">
+                                                                                                <value name="VALUE-0">
+                                                                                                  <block type="variableReferenceBlock">
+                                                                                                    <mutation isObjectVar="true"></mutation>
+                                                                                                    <field name="OBJECTTYPE">TeamId</field>
+                                                                                                    <field name="VAR" id="m4?$h[5c.p[/H,.I%`up" variabletype="TeamId">Players</field>
+                                                                                                    <value name="OBJECT">
+                                                                                                      <block type="GetTeamId">
+                                                                                                        <value name="VALUE-0">
+                                                                                                          <block type="Number">
+                                                                                                            <field name="NUM">2</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <value name="VALUE-1">
+                                                                                              <block type="GetSoldierState">
+                                                                                                <value name="VALUE-0">
+                                                                                                  <block type="CurrentArrayElement"></block>
+                                                                                                </value>
+                                                                                                <value name="VALUE-1">
+                                                                                                  <block type="SoldierStateBoolItem">
+                                                                                                    <field name="VALUE-0">SoldierStateBool</field>
+                                                                                                    <field name="VALUE-1">IsAlive</field>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="VALUE-3">
+                                                                                      <block type="RoundToInteger">
+                                                                                        <value name="VALUE-0">
+                                                                                          <block type="GetVariable">
+                                                                                            <value name="VALUE-0">
+                                                                                              <block type="variableReferenceBlock">
+                                                                                                <mutation isObjectVar="false"></mutation>
+                                                                                                <field name="OBJECTTYPE">Global</field>
+                                                                                                <field name="VAR" id="QFG/UZpt0Y*GvFgveR1f" variabletype="Global">RoundTimer</field>
                                                                                               </block>
                                                                                             </value>
                                                                                           </block>
@@ -12754,7 +12802,7 @@
                                                                                 <value name="VALUE-1">
                                                                                   <block type="CustomMessagesItem">
                                                                                     <field name="VALUE-0">CustomMessages</field>
-                                                                                    <field name="VALUE-1">MessageText3</field>
+                                                                                    <field name="VALUE-1">HeaderText</field>
                                                                                   </block>
                                                                                 </value>
                                                                                 <value name="VALUE-2">
@@ -12762,15 +12810,65 @@
                                                                                     <field name="NUM">1</field>
                                                                                   </block>
                                                                                 </value>
-                                                                                <next>
-                                                                                  <block type="Wait">
+                                                                              </block>
+                                                                            </statement>
+                                                                            <statement name="ELSE">
+                                                                              <block type="DisplayCustomNotificationMessage">
+                                                                                <value name="VALUE-0">
+                                                                                  <block type="Message">
                                                                                     <value name="VALUE-0">
-                                                                                      <block type="Number">
-                                                                                        <field name="NUM">0.5</field>
+                                                                                      <block type="Text">
+                                                                                        <field name="TEXT">Round {} Timer: {}</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="VALUE-1">
+                                                                                      <block type="GetVariable">
+                                                                                        <value name="VALUE-0">
+                                                                                          <block type="variableReferenceBlock">
+                                                                                            <mutation isObjectVar="false"></mutation>
+                                                                                            <field name="OBJECTTYPE">Global</field>
+                                                                                            <field name="VAR" id="yH}Gf0m1vKpe#@UxJvQG" variabletype="Global">Round</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="VALUE-2">
+                                                                                      <block type="RoundToInteger">
+                                                                                        <value name="VALUE-0">
+                                                                                          <block type="GetVariable">
+                                                                                            <value name="VALUE-0">
+                                                                                              <block type="variableReferenceBlock">
+                                                                                                <mutation isObjectVar="false"></mutation>
+                                                                                                <field name="OBJECTTYPE">Global</field>
+                                                                                                <field name="VAR" id="QFG/UZpt0Y*GvFgveR1f" variabletype="Global">RoundTimer</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                          </block>
+                                                                                        </value>
                                                                                       </block>
                                                                                     </value>
                                                                                   </block>
-                                                                                </next>
+                                                                                </value>
+                                                                                <value name="VALUE-1">
+                                                                                  <block type="CustomMessagesItem">
+                                                                                    <field name="VALUE-0">CustomMessages</field>
+                                                                                    <field name="VALUE-1">HeaderText</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="VALUE-2">
+                                                                                  <block type="Number">
+                                                                                    <field name="NUM">1</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </statement>
+                                                                            <next>
+                                                                              <block type="Wait">
+                                                                                <value name="VALUE-0">
+                                                                                  <block type="Number">
+                                                                                    <field name="NUM">0.1</field>
+                                                                                  </block>
+                                                                                </value>
                                                                               </block>
                                                                             </next>
                                                                           </block>
@@ -19218,6 +19316,52 @@
         </next>
       </block>
     </statement>
+  </block>
+  <block type="DisplayCustomNotificationMessage" x="9337" y="20664">
+    <value name="VALUE-0">
+      <block type="Message">
+        <value name="VALUE-0">
+          <block type="Text">
+            <field name="TEXT">Mcoms active {}</field>
+          </block>
+        </value>
+        <value name="VALUE-1">
+          <block type="CountOf">
+            <value name="VALUE-0">
+              <block type="FilteredArray">
+                <value name="VALUE-0">
+                  <block type="AllMCOMs"></block>
+                </value>
+                <value name="VALUE-1">
+                  <block type="GetMCOMState">
+                    <value name="VALUE-0">
+                      <block type="CurrentArrayElement"></block>
+                    </value>
+                    <value name="VALUE-1">
+                      <block type="MCOMStateBoolItem">
+                        <field name="VALUE-0">MCOMStateBool</field>
+                        <field name="VALUE-1">IsActive</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <value name="VALUE-1">
+      <block type="CustomMessagesItem">
+        <field name="VALUE-0">CustomMessages</field>
+        <field name="VALUE-1">MessageText3</field>
+      </block>
+    </value>
+    <value name="VALUE-2">
+      <block type="Number">
+        <field name="NUM">1</field>
+      </block>
+    </value>
   </block>
   <block type="ruleBlock" x="4051" y="24654">
     <mutation isOnGoingEvent="true"></mutation>
