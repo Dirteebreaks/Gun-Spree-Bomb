@@ -54,7 +54,7 @@
     <variable type="Global" id="L3Y?V4R%hk;rE*7,nlXy">ArmedMcomB</variable>
     <variable type="Global" id="T.mkY!BB}(uY|6pveHR5">PrimaryWeapons</variable>
   </variables>
-  <block type="subroutineBlock" deletable="false" x="2060" y="994">
+  <block type="subroutineBlock" deletable="false" x="891" y="794">
     <field name="SUBROUTINE_NAME">create_weapons_list</field>
     <statement name="ACTIONS">
       <block type="SetVariableAtIndex">
