@@ -243,7 +243,7 @@
                                             </value>
                                             <value name="VALUE-2">
                                               <block type="Number">
-                                                <field name="NUM">12</field>
+                                                <field name="NUM">10</field>
                                               </block>
                                             </value>
                                             <next>
@@ -2384,7 +2384,7 @@
                                             </value>
                                             <value name="VALUE-2">
                                               <block type="Number">
-                                                <field name="NUM">12</field>
+                                                <field name="NUM">10</field>
                                               </block>
                                             </value>
                                             <next>
@@ -4525,7 +4525,7 @@
                                             </value>
                                             <value name="VALUE-2">
                                               <block type="Number">
-                                                <field name="NUM">12</field>
+                                                <field name="NUM">10</field>
                                               </block>
                                             </value>
                                             <next>
@@ -9693,7 +9693,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="6780" y="2452">
+  <block type="subroutineBlock" deletable="false" x="5600" y="1416">
     <field name="SUBROUTINE_NAME">assign_teams</field>
     <statement name="ACTIONS">
       <block type="SetVariable" inline="false">
@@ -9861,344 +9861,7 @@
       </block>
     </statement>
   </block>
-  <block type="SetVariableAtIndex" x="5133" y="3238">
-    <value name="VALUE-0">
-      <block type="variableReferenceBlock">
-        <mutation isObjectVar="false"></mutation>
-        <field name="OBJECTTYPE">Global</field>
-        <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
-      </block>
-    </value>
-    <value name="VALUE-1">
-      <block type="Number">
-        <field name="NUM">0</field>
-      </block>
-    </value>
-    <value name="VALUE-2">
-      <block type="Text">
-        <field name="TEXT">Secondaries</field>
-      </block>
-    </value>
-    <next>
-      <block type="SetVariableAtIndex">
-        <value name="VALUE-0">
-          <block type="variableReferenceBlock">
-            <mutation isObjectVar="false"></mutation>
-            <field name="OBJECTTYPE">Global</field>
-            <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
-          </block>
-        </value>
-        <value name="VALUE-1">
-          <block type="Number">
-            <field name="NUM">1</field>
-          </block>
-        </value>
-        <value name="VALUE-2">
-          <block type="Text">
-            <field name="TEXT">AR</field>
-          </block>
-        </value>
-        <next>
-          <block type="SetVariableAtIndex">
-            <value name="VALUE-0">
-              <block type="variableReferenceBlock">
-                <mutation isObjectVar="false"></mutation>
-                <field name="OBJECTTYPE">Global</field>
-                <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
-              </block>
-            </value>
-            <value name="VALUE-1">
-              <block type="Number">
-                <field name="NUM">2</field>
-              </block>
-            </value>
-            <value name="VALUE-2">
-              <block type="Text">
-                <field name="TEXT">SMG</field>
-              </block>
-            </value>
-            <next>
-              <block type="SetVariableAtIndex">
-                <value name="VALUE-0">
-                  <block type="variableReferenceBlock">
-                    <mutation isObjectVar="false"></mutation>
-                    <field name="OBJECTTYPE">Global</field>
-                    <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
-                  </block>
-                </value>
-                <value name="VALUE-1">
-                  <block type="Number">
-                    <field name="NUM">3</field>
-                  </block>
-                </value>
-                <value name="VALUE-2">
-                  <block type="Text">
-                    <field name="TEXT">Shotgun</field>
-                  </block>
-                </value>
-                <next>
-                  <block type="SetVariableAtIndex">
-                    <value name="VALUE-0">
-                      <block type="variableReferenceBlock">
-                        <mutation isObjectVar="false"></mutation>
-                        <field name="OBJECTTYPE">Global</field>
-                        <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
-                      </block>
-                    </value>
-                    <value name="VALUE-1">
-                      <block type="Number">
-                        <field name="NUM">4</field>
-                      </block>
-                    </value>
-                    <value name="VALUE-2">
-                      <block type="Text">
-                        <field name="TEXT">LMG</field>
-                      </block>
-                    </value>
-                    <next>
-                      <block type="SetVariableAtIndex">
-                        <value name="VALUE-0">
-                          <block type="variableReferenceBlock">
-                            <mutation isObjectVar="false"></mutation>
-                            <field name="OBJECTTYPE">Global</field>
-                            <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
-                          </block>
-                        </value>
-                        <value name="VALUE-1">
-                          <block type="Number">
-                            <field name="NUM">5</field>
-                          </block>
-                        </value>
-                        <value name="VALUE-2">
-                          <block type="Text">
-                            <field name="TEXT">DMR</field>
-                          </block>
-                        </value>
-                        <next>
-                          <block type="SetVariableAtIndex">
-                            <value name="VALUE-0">
-                              <block type="variableReferenceBlock">
-                                <mutation isObjectVar="false"></mutation>
-                                <field name="OBJECTTYPE">Global</field>
-                                <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
-                              </block>
-                            </value>
-                            <value name="VALUE-1">
-                              <block type="Number">
-                                <field name="NUM">6</field>
-                              </block>
-                            </value>
-                            <value name="VALUE-2">
-                              <block type="Text">
-                                <field name="TEXT">Sniper</field>
-                              </block>
-                            </value>
-                            <next>
-                              <block type="SetVariableAtIndex">
-                                <value name="VALUE-0">
-                                  <block type="variableReferenceBlock">
-                                    <mutation isObjectVar="false"></mutation>
-                                    <field name="OBJECTTYPE">Global</field>
-                                    <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
-                                  </block>
-                                </value>
-                                <value name="VALUE-1">
-                                  <block type="Number">
-                                    <field name="NUM">7</field>
-                                  </block>
-                                </value>
-                                <value name="VALUE-2">
-                                  <block type="Text">
-                                    <field name="TEXT">Throwables</field>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="SetVariableAtIndex">
-                                    <value name="VALUE-0">
-                                      <block type="variableReferenceBlock">
-                                        <mutation isObjectVar="false"></mutation>
-                                        <field name="OBJECTTYPE">Global</field>
-                                        <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
-                                      </block>
-                                    </value>
-                                    <value name="VALUE-1">
-                                      <block type="Number">
-                                        <field name="NUM">8</field>
-                                      </block>
-                                    </value>
-                                    <value name="VALUE-2">
-                                      <block type="Text">
-                                        <field name="TEXT">Gadgets</field>
-                                      </block>
-                                    </value>
-                                    <next>
-                                      <block type="If">
-                                        <mutation elseif="2" else="1"></mutation>
-                                        <value name="VALUE-0">
-                                          <block type="Or">
-                                            <value name="VALUE-0">
-                                              <block type="IsCurrentMap">
-                                                <value name="VALUE-0">
-                                                  <block type="MapsItem">
-                                                    <field name="VALUE-0">Maps</field>
-                                                    <field name="VALUE-1">Frost</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                            <value name="VALUE-1">
-                                              <block type="IsCurrentMap">
-                                                <value name="VALUE-0">
-                                                  <block type="MapsItem">
-                                                    <field name="VALUE-0">Maps</field>
-                                                    <field name="VALUE-1">Oasis</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                          </block>
-                                        </value>
-                                        <statement name="DO">
-                                          <block type="subroutineInstanceBlock">
-                                            <field name="SUBROUTINE_NAME">1942_weapons_list</field>
-                                          </block>
-                                        </statement>
-                                        <value name="IF1">
-                                          <block type="Or">
-                                            <value name="VALUE-0">
-                                              <block type="IsCurrentMap">
-                                                <value name="VALUE-0">
-                                                  <block type="MapsItem">
-                                                    <field name="VALUE-0">Maps</field>
-                                                    <field name="VALUE-1">Harbor</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                            <value name="VALUE-1">
-                                              <block type="IsCurrentMap">
-                                                <value name="VALUE-0">
-                                                  <block type="MapsItem">
-                                                    <field name="VALUE-0">Maps</field>
-                                                    <field name="VALUE-1">Lighthouse</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                          </block>
-                                        </value>
-                                        <statement name="DO1">
-                                          <block type="subroutineInstanceBlock">
-                                            <field name="SUBROUTINE_NAME">bc2_weapons_list</field>
-                                          </block>
-                                        </statement>
-                                        <value name="IF2">
-                                          <block type="Or">
-                                            <value name="VALUE-0">
-                                              <block type="IsCurrentMap">
-                                                <value name="VALUE-0">
-                                                  <block type="MapsItem">
-                                                    <field name="VALUE-0">Maps</field>
-                                                    <field name="VALUE-1">Port</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                            <value name="VALUE-1">
-                                              <block type="IsCurrentMap">
-                                                <value name="VALUE-0">
-                                                  <block type="MapsItem">
-                                                    <field name="VALUE-0">Maps</field>
-                                                    <field name="VALUE-1">Rural</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                          </block>
-                                        </value>
-                                        <statement name="DO2">
-                                          <block type="subroutineInstanceBlock">
-                                            <field name="SUBROUTINE_NAME">bf3_weapons_list</field>
-                                          </block>
-                                        </statement>
-                                        <statement name="ELSE">
-                                          <block type="subroutineInstanceBlock">
-                                            <field name="SUBROUTINE_NAME">2042_weapons_list</field>
-                                          </block>
-                                        </statement>
-                                      </block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </next>
-  </block>
-  <block type="DisplayCustomNotificationMessage" x="10826" y="3097">
-    <value name="VALUE-0">
-      <block type="Message">
-        <value name="VALUE-0">
-          <block type="Text">
-            <field name="TEXT">MenuPage {} - menuSelection {}</field>
-          </block>
-        </value>
-        <value name="VALUE-1">
-          <block type="GetVariable">
-            <value name="VALUE-0">
-              <block type="variableReferenceBlock">
-                <mutation isObjectVar="true"></mutation>
-                <field name="OBJECTTYPE">Player</field>
-                <field name="VAR" id="KH0v})@8(3TAT~@#l((k" variabletype="Player">MenuPage</field>
-                <value name="OBJECT">
-                  <block type="EventPlayer"></block>
-                </value>
-              </block>
-            </value>
-          </block>
-        </value>
-        <value name="VALUE-2">
-          <block type="GetVariable">
-            <value name="VALUE-0">
-              <block type="variableReferenceBlock">
-                <mutation isObjectVar="true"></mutation>
-                <field name="OBJECTTYPE">Player</field>
-                <field name="VAR" id="ZN8TFN%Y!m(EP4/]g%Fl" variabletype="Player">MenuSelection</field>
-                <value name="OBJECT">
-                  <block type="EventPlayer"></block>
-                </value>
-              </block>
-            </value>
-          </block>
-        </value>
-      </block>
-    </value>
-    <value name="VALUE-1">
-      <block type="CustomMessagesItem">
-        <field name="VALUE-0">CustomMessages</field>
-        <field name="VALUE-1">MessageText4</field>
-      </block>
-    </value>
-    <value name="VALUE-2">
-      <block type="Number">
-        <field name="NUM">1</field>
-      </block>
-    </value>
-    <value name="VALUE-3">
-      <block type="EventPlayer"></block>
-    </value>
-  </block>
-  <block type="subroutineBlock" deletable="false" x="6811" y="3620">
+  <block type="subroutineBlock" deletable="false" x="5811" y="2492">
     <field name="SUBROUTINE_NAME">create_weapon_prices</field>
     <statement name="ACTIONS">
       <block type="SetVariableAtIndex">
@@ -11397,6 +11060,59 @@
         </next>
       </block>
     </statement>
+  </block>
+  <block type="DisplayCustomNotificationMessage" x="10826" y="3097">
+    <value name="VALUE-0">
+      <block type="Message">
+        <value name="VALUE-0">
+          <block type="Text">
+            <field name="TEXT">MenuPage {} - menuSelection {}</field>
+          </block>
+        </value>
+        <value name="VALUE-1">
+          <block type="GetVariable">
+            <value name="VALUE-0">
+              <block type="variableReferenceBlock">
+                <mutation isObjectVar="true"></mutation>
+                <field name="OBJECTTYPE">Player</field>
+                <field name="VAR" id="KH0v})@8(3TAT~@#l((k" variabletype="Player">MenuPage</field>
+                <value name="OBJECT">
+                  <block type="EventPlayer"></block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="VALUE-2">
+          <block type="GetVariable">
+            <value name="VALUE-0">
+              <block type="variableReferenceBlock">
+                <mutation isObjectVar="true"></mutation>
+                <field name="OBJECTTYPE">Player</field>
+                <field name="VAR" id="ZN8TFN%Y!m(EP4/]g%Fl" variabletype="Player">MenuSelection</field>
+                <value name="OBJECT">
+                  <block type="EventPlayer"></block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <value name="VALUE-1">
+      <block type="CustomMessagesItem">
+        <field name="VALUE-0">CustomMessages</field>
+        <field name="VALUE-1">MessageText4</field>
+      </block>
+    </value>
+    <value name="VALUE-2">
+      <block type="Number">
+        <field name="NUM">1</field>
+      </block>
+    </value>
+    <value name="VALUE-3">
+      <block type="EventPlayer"></block>
+    </value>
   </block>
   <block type="subroutineBlock" deletable="false" x="-4392" y="4845">
     <field name="SUBROUTINE_NAME">set_mcoms</field>
@@ -15218,19 +14934,73 @@
       </block>
     </statement>
   </block>
-  <block type="Wait" x="6075" y="5971">
-    <value name="VALUE-0">
-      <block type="Number">
-        <field name="NUM">1</field>
+  <block type="subroutineBlock" deletable="false" x="3677" y="7145">
+    <field name="SUBROUTINE_NAME">not_enough_creds</field>
+    <statement name="ACTIONS">
+      <block type="DisplayCustomNotificationMessage">
+        <value name="VALUE-0">
+          <block type="Message">
+            <value name="VALUE-0">
+              <block type="Text">
+                <field name="TEXT">NOT ENOUGH CREDS!</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="VALUE-1">
+          <block type="CustomMessagesItem">
+            <field name="VALUE-0">CustomMessages</field>
+            <field name="VALUE-1">MessageText1</field>
+          </block>
+        </value>
+        <value name="VALUE-2">
+          <block type="Number">
+            <field name="NUM">2</field>
+          </block>
+        </value>
+        <value name="VALUE-3">
+          <block type="EventPlayer"></block>
+        </value>
+        <next>
+          <block type="Wait">
+            <value name="VALUE-0">
+              <block type="Number">
+                <field name="NUM">2</field>
+              </block>
+            </value>
+            <next>
+              <block type="DisplayCustomNotificationMessage">
+                <value name="VALUE-0">
+                  <block type="Message">
+                    <value name="VALUE-0">
+                      <block type="Text">
+                        <field name="TEXT">Down_=_Zoom_|_Up_=_Fire_|_Select_=_Interact    Back_=_Jump_|_Ready_Up_=_Crouch</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="VALUE-1">
+                  <block type="CustomMessagesItem">
+                    <field name="VALUE-0">CustomMessages</field>
+                    <field name="VALUE-1">MessageText1</field>
+                  </block>
+                </value>
+                <value name="VALUE-2">
+                  <block type="Number">
+                    <field name="NUM">-1</field>
+                  </block>
+                </value>
+                <value name="VALUE-3">
+                  <block type="EventPlayer"></block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
       </block>
-    </value>
+    </statement>
   </block>
-  <block type="SpawnPlayer" x="6856" y="6181">
-    <value name="VALUE-0">
-      <block type="EventPlayer"></block>
-    </value>
-  </block>
-  <block type="modBlock" deletable="false" x="6536" y="7713">
+  <block type="modBlock" deletable="false" x="6556" y="7193">
     <statement name="RULES">
       <block type="ruleBlock">
         <mutation isOnGoingEvent="true"></mutation>
@@ -15337,16 +15107,297 @@
                                         </value>
                                         <next>
                                           <block type="subroutineInstanceBlock">
-                                            <field name="SUBROUTINE_NAME">1942_weapons_list</field>
+                                            <field name="SUBROUTINE_NAME">create_weapon_prices</field>
                                             <next>
                                               <block type="subroutineInstanceBlock">
-                                                <field name="SUBROUTINE_NAME">create_weapon_prices</field>
+                                                <field name="SUBROUTINE_NAME">set_spawnpoints</field>
                                                 <next>
                                                   <block type="subroutineInstanceBlock">
-                                                    <field name="SUBROUTINE_NAME">set_spawnpoints</field>
+                                                    <field name="SUBROUTINE_NAME">set_mcoms</field>
                                                     <next>
-                                                      <block type="subroutineInstanceBlock">
-                                                        <field name="SUBROUTINE_NAME">set_mcoms</field>
+                                                      <block type="SetVariableAtIndex">
+                                                        <value name="VALUE-0">
+                                                          <block type="variableReferenceBlock">
+                                                            <mutation isObjectVar="false"></mutation>
+                                                            <field name="OBJECTTYPE">Global</field>
+                                                            <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="VALUE-1">
+                                                          <block type="Number">
+                                                            <field name="NUM">0</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="VALUE-2">
+                                                          <block type="Text">
+                                                            <field name="TEXT">Secondaries</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="SetVariableAtIndex">
+                                                            <value name="VALUE-0">
+                                                              <block type="variableReferenceBlock">
+                                                                <mutation isObjectVar="false"></mutation>
+                                                                <field name="OBJECTTYPE">Global</field>
+                                                                <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="VALUE-1">
+                                                              <block type="Number">
+                                                                <field name="NUM">1</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="VALUE-2">
+                                                              <block type="Text">
+                                                                <field name="TEXT">AR</field>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="SetVariableAtIndex">
+                                                                <value name="VALUE-0">
+                                                                  <block type="variableReferenceBlock">
+                                                                    <mutation isObjectVar="false"></mutation>
+                                                                    <field name="OBJECTTYPE">Global</field>
+                                                                    <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="VALUE-1">
+                                                                  <block type="Number">
+                                                                    <field name="NUM">2</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="VALUE-2">
+                                                                  <block type="Text">
+                                                                    <field name="TEXT">SMG</field>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="SetVariableAtIndex">
+                                                                    <value name="VALUE-0">
+                                                                      <block type="variableReferenceBlock">
+                                                                        <mutation isObjectVar="false"></mutation>
+                                                                        <field name="OBJECTTYPE">Global</field>
+                                                                        <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="VALUE-1">
+                                                                      <block type="Number">
+                                                                        <field name="NUM">3</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="VALUE-2">
+                                                                      <block type="Text">
+                                                                        <field name="TEXT">Shotgun</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="SetVariableAtIndex">
+                                                                        <value name="VALUE-0">
+                                                                          <block type="variableReferenceBlock">
+                                                                            <mutation isObjectVar="false"></mutation>
+                                                                            <field name="OBJECTTYPE">Global</field>
+                                                                            <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="VALUE-1">
+                                                                          <block type="Number">
+                                                                            <field name="NUM">4</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="VALUE-2">
+                                                                          <block type="Text">
+                                                                            <field name="TEXT">LMG</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="SetVariableAtIndex">
+                                                                            <value name="VALUE-0">
+                                                                              <block type="variableReferenceBlock">
+                                                                                <mutation isObjectVar="false"></mutation>
+                                                                                <field name="OBJECTTYPE">Global</field>
+                                                                                <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="VALUE-1">
+                                                                              <block type="Number">
+                                                                                <field name="NUM">5</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="VALUE-2">
+                                                                              <block type="Text">
+                                                                                <field name="TEXT">DMR</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="SetVariableAtIndex">
+                                                                                <value name="VALUE-0">
+                                                                                  <block type="variableReferenceBlock">
+                                                                                    <mutation isObjectVar="false"></mutation>
+                                                                                    <field name="OBJECTTYPE">Global</field>
+                                                                                    <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="VALUE-1">
+                                                                                  <block type="Number">
+                                                                                    <field name="NUM">6</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="VALUE-2">
+                                                                                  <block type="Text">
+                                                                                    <field name="TEXT">Sniper</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <next>
+                                                                                  <block type="SetVariableAtIndex">
+                                                                                    <value name="VALUE-0">
+                                                                                      <block type="variableReferenceBlock">
+                                                                                        <mutation isObjectVar="false"></mutation>
+                                                                                        <field name="OBJECTTYPE">Global</field>
+                                                                                        <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="VALUE-1">
+                                                                                      <block type="Number">
+                                                                                        <field name="NUM">7</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="VALUE-2">
+                                                                                      <block type="Text">
+                                                                                        <field name="TEXT">Throwables</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="SetVariableAtIndex">
+                                                                                        <value name="VALUE-0">
+                                                                                          <block type="variableReferenceBlock">
+                                                                                            <mutation isObjectVar="false"></mutation>
+                                                                                            <field name="OBJECTTYPE">Global</field>
+                                                                                            <field name="VAR" id="/pZpJyhAR@OW3}T^@Z-_" variabletype="Global">MainMenu</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="VALUE-1">
+                                                                                          <block type="Number">
+                                                                                            <field name="NUM">8</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="VALUE-2">
+                                                                                          <block type="Text">
+                                                                                            <field name="TEXT">Gadgets</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                          <block type="If">
+                                                                                            <mutation elseif="2" else="1"></mutation>
+                                                                                            <value name="VALUE-0">
+                                                                                              <block type="Or">
+                                                                                                <value name="VALUE-0">
+                                                                                                  <block type="IsCurrentMap">
+                                                                                                    <value name="VALUE-0">
+                                                                                                      <block type="MapsItem">
+                                                                                                        <field name="VALUE-0">Maps</field>
+                                                                                                        <field name="VALUE-1">Frost</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <value name="VALUE-1">
+                                                                                                  <block type="IsCurrentMap">
+                                                                                                    <value name="VALUE-0">
+                                                                                                      <block type="MapsItem">
+                                                                                                        <field name="VALUE-0">Maps</field>
+                                                                                                        <field name="VALUE-1">Oasis</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <statement name="DO">
+                                                                                              <block type="subroutineInstanceBlock">
+                                                                                                <field name="SUBROUTINE_NAME">1942_weapons_list</field>
+                                                                                              </block>
+                                                                                            </statement>
+                                                                                            <value name="IF1">
+                                                                                              <block type="Or">
+                                                                                                <value name="VALUE-0">
+                                                                                                  <block type="IsCurrentMap">
+                                                                                                    <value name="VALUE-0">
+                                                                                                      <block type="MapsItem">
+                                                                                                        <field name="VALUE-0">Maps</field>
+                                                                                                        <field name="VALUE-1">Harbor</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <value name="VALUE-1">
+                                                                                                  <block type="IsCurrentMap">
+                                                                                                    <value name="VALUE-0">
+                                                                                                      <block type="MapsItem">
+                                                                                                        <field name="VALUE-0">Maps</field>
+                                                                                                        <field name="VALUE-1">Lighthouse</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <statement name="DO1">
+                                                                                              <block type="subroutineInstanceBlock">
+                                                                                                <field name="SUBROUTINE_NAME">bc2_weapons_list</field>
+                                                                                              </block>
+                                                                                            </statement>
+                                                                                            <value name="IF2">
+                                                                                              <block type="Or">
+                                                                                                <value name="VALUE-0">
+                                                                                                  <block type="IsCurrentMap">
+                                                                                                    <value name="VALUE-0">
+                                                                                                      <block type="MapsItem">
+                                                                                                        <field name="VALUE-0">Maps</field>
+                                                                                                        <field name="VALUE-1">Port</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                                <value name="VALUE-1">
+                                                                                                  <block type="IsCurrentMap">
+                                                                                                    <value name="VALUE-0">
+                                                                                                      <block type="MapsItem">
+                                                                                                        <field name="VALUE-0">Maps</field>
+                                                                                                        <field name="VALUE-1">Rural</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                  </block>
+                                                                                                </value>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <statement name="DO2">
+                                                                                              <block type="subroutineInstanceBlock">
+                                                                                                <field name="SUBROUTINE_NAME">bf3_weapons_list</field>
+                                                                                              </block>
+                                                                                            </statement>
+                                                                                            <statement name="ELSE">
+                                                                                              <block type="subroutineInstanceBlock">
+                                                                                                <field name="SUBROUTINE_NAME">2042_weapons_list</field>
+                                                                                              </block>
+                                                                                            </statement>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
                                                       </block>
                                                     </next>
                                                   </block>
@@ -23359,72 +23410,6 @@
                     </next>
                   </block>
                 </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </statement>
-  </block>
-  <block type="subroutineBlock" deletable="false" x="3997" y="8837">
-    <field name="SUBROUTINE_NAME">not_enough_creds</field>
-    <statement name="ACTIONS">
-      <block type="DisplayCustomNotificationMessage">
-        <value name="VALUE-0">
-          <block type="Message">
-            <value name="VALUE-0">
-              <block type="Text">
-                <field name="TEXT">NOT ENOUGH CREDS!</field>
-              </block>
-            </value>
-          </block>
-        </value>
-        <value name="VALUE-1">
-          <block type="CustomMessagesItem">
-            <field name="VALUE-0">CustomMessages</field>
-            <field name="VALUE-1">MessageText1</field>
-          </block>
-        </value>
-        <value name="VALUE-2">
-          <block type="Number">
-            <field name="NUM">2</field>
-          </block>
-        </value>
-        <value name="VALUE-3">
-          <block type="EventPlayer"></block>
-        </value>
-        <next>
-          <block type="Wait">
-            <value name="VALUE-0">
-              <block type="Number">
-                <field name="NUM">2</field>
-              </block>
-            </value>
-            <next>
-              <block type="DisplayCustomNotificationMessage">
-                <value name="VALUE-0">
-                  <block type="Message">
-                    <value name="VALUE-0">
-                      <block type="Text">
-                        <field name="TEXT">Down_=_Zoom_|_Up_=_Fire_|_Select_=_Interact    Back_=_Jump_|_Ready_Up_=_Crouch</field>
-                      </block>
-                    </value>
-                  </block>
-                </value>
-                <value name="VALUE-1">
-                  <block type="CustomMessagesItem">
-                    <field name="VALUE-0">CustomMessages</field>
-                    <field name="VALUE-1">MessageText1</field>
-                  </block>
-                </value>
-                <value name="VALUE-2">
-                  <block type="Number">
-                    <field name="NUM">-1</field>
-                  </block>
-                </value>
-                <value name="VALUE-3">
-                  <block type="EventPlayer"></block>
-                </value>
               </block>
             </next>
           </block>
