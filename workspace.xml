@@ -59,15 +59,15 @@
       <parameter types="Enum_SecondaryWeapons">Secondary1</parameter>
       <parameter types="Enum_SecondaryWeapons">Secondary2</parameter>
       <parameter types="Enum_SecondaryWeapons">Secondary3</parameter>
-      <parameter types="String">SecondaryName1</parameter>
-      <parameter types="String">SecondaryName2</parameter>
-      <parameter types="String">SecondaryName3</parameter>
+      <parameter types="String">MenuSecondary1</parameter>
+      <parameter types="String">MenuSecondary2</parameter>
+      <parameter types="String">MenuSecondary3</parameter>
       <parameter types="Enum_PrimaryWeapons">AR1</parameter>
       <parameter types="Enum_PrimaryWeapons">AR2</parameter>
       <parameter types="Enum_PrimaryWeapons">AR3</parameter>
-      <parameter types="String">ARName1</parameter>
-      <parameter types="String">ARName2</parameter>
-      <parameter types="String">ARName3</parameter>
+      <parameter types="String">MenuAR1</parameter>
+      <parameter types="String">MenuAR2</parameter>
+      <parameter types="String">MenuAR3</parameter>
     </mutation>
     <field name="SUBROUTINE_NAME">Weapon_lists</field>
     <statement name="ACTIONS">
@@ -261,9 +261,8 @@
                                               </block>
                                             </value>
                                             <value name="VALUE-1">
-                                              <block type="PrimaryWeaponsItem">
-                                                <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-                                                <field name="VALUE-1">M2_Carbine</field>
+                                              <block type="subroutineArgumentBlock">
+                                                <field name="ARGUMENT_INDEX">6</field>
                                               </block>
                                             </value>
                                           </block>
@@ -291,9 +290,8 @@
                                                   </block>
                                                 </value>
                                                 <value name="VALUE-1">
-                                                  <block type="PrimaryWeaponsItem">
-                                                    <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-                                                    <field name="VALUE-1">BAR1918</field>
+                                                  <block type="subroutineArgumentBlock">
+                                                    <field name="ARGUMENT_INDEX">7</field>
                                                   </block>
                                                 </value>
                                               </block>
@@ -321,9 +319,8 @@
                                                       </block>
                                                     </value>
                                                     <value name="VALUE-1">
-                                                      <block type="PrimaryWeaponsItem">
-                                                        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-                                                        <field name="VALUE-1">STG44</field>
+                                                      <block type="subroutineArgumentBlock">
+                                                        <field name="ARGUMENT_INDEX">7</field>
                                                       </block>
                                                     </value>
                                                   </block>
@@ -343,8 +340,8 @@
                                                       </block>
                                                     </value>
                                                     <value name="VALUE-2">
-                                                      <block type="Text">
-                                                        <field name="TEXT">M2 Carbine</field>
+                                                      <block type="subroutineArgumentBlock">
+                                                        <field name="ARGUMENT_INDEX">9</field>
                                                       </block>
                                                     </value>
                                                     <next>
@@ -362,8 +359,8 @@
                                                           </block>
                                                         </value>
                                                         <value name="VALUE-2">
-                                                          <block type="Text">
-                                                            <field name="TEXT">BAR 1918</field>
+                                                          <block type="subroutineArgumentBlock">
+                                                            <field name="ARGUMENT_INDEX">10</field>
                                                           </block>
                                                         </value>
                                                         <next>
@@ -381,8 +378,8 @@
                                                               </block>
                                                             </value>
                                                             <value name="VALUE-2">
-                                                              <block type="Text">
-                                                                <field name="TEXT">StG 44</field>
+                                                              <block type="subroutineArgumentBlock">
+                                                                <field name="ARGUMENT_INDEX">11</field>
                                                               </block>
                                                             </value>
                                                             <next>
@@ -1580,15 +1577,15 @@
           <parameter types="Enum_SecondaryWeapons">Secondary1</parameter>
           <parameter types="Enum_SecondaryWeapons">Secondary2</parameter>
           <parameter types="Enum_SecondaryWeapons">Secondary3</parameter>
-          <parameter types="String">SecondaryName1</parameter>
-          <parameter types="String">SecondaryName2</parameter>
-          <parameter types="String">SecondaryName3</parameter>
+          <parameter types="String">MenuSecondary1</parameter>
+          <parameter types="String">MenuSecondary2</parameter>
+          <parameter types="String">MenuSecondary3</parameter>
           <parameter types="Enum_PrimaryWeapons">AR1</parameter>
           <parameter types="Enum_PrimaryWeapons">AR2</parameter>
           <parameter types="Enum_PrimaryWeapons">AR3</parameter>
-          <parameter types="String">ARName1</parameter>
-          <parameter types="String">ARName2</parameter>
-          <parameter types="String">ARName3</parameter>
+          <parameter types="String">MenuAR1</parameter>
+          <parameter types="String">MenuAR2</parameter>
+          <parameter types="String">MenuAR3</parameter>
         </mutation>
         <field name="SUBROUTINE_NAME">Weapon_lists</field>
         <value name="PARAM-0">
@@ -1622,6 +1619,39 @@
         <value name="PARAM-5">
           <block type="Text">
             <field name="TEXT">M1911</field>
+          </block>
+        </value>
+        <value name="PARAM-6">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+            <field name="VALUE-1">M2_Carbine</field>
+          </block>
+        </value>
+        <value name="PARAM-7">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+            <field name="VALUE-1">BAR1918</field>
+          </block>
+        </value>
+        <value name="PARAM-8">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+            <field name="VALUE-1">STG44</field>
+          </block>
+        </value>
+        <value name="PARAM-9">
+          <block type="Text">
+            <field name="TEXT">M2 Carbine</field>
+          </block>
+        </value>
+        <value name="PARAM-10">
+          <block type="Text">
+            <field name="TEXT">BAR 1918</field>
+          </block>
+        </value>
+        <value name="PARAM-11">
+          <block type="Text">
+            <field name="TEXT">StG 44</field>
           </block>
         </value>
       </block>
