@@ -54,7 +54,7 @@
     <variable type="Global" id="2U95Ty3WixnG;ycvzYEd">ArmedMcomA</variable>
     <variable type="Global" id="wD?f?C|}GOD@y71~d[Fy">ArmedMcomB</variable>
   </variables>
-  <block type="subroutineBlock" deletable="false" x="17085" y="-4630">
+  <block type="subroutineBlock" deletable="false" x="16437" y="-4372">
     <field name="SUBROUTINE_NAME">bc2_weapons_list</field>
     <statement name="ACTIONS">
       <block type="subroutineInstanceBlock" inline="false">
@@ -728,7 +728,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="18920" y="-4607">
+  <block type="subroutineBlock" deletable="false" x="20715" y="-4541">
     <field name="SUBROUTINE_NAME">2042_weapons_list</field>
     <statement name="ACTIONS">
       <block type="subroutineInstanceBlock" inline="false">
@@ -2974,7 +2974,7 @@
     </mutation>
     <field name="SUBROUTINE_NAME">Main_Weapon_lists</field>
   </block>
-  <block type="subroutineInstanceBlock" inline="false" x="16115" y="-1518">
+  <block type="subroutineInstanceBlock" inline="false" x="15424" y="-1777">
     <mutation>
       <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
       <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
@@ -3054,6 +3054,172 @@
     <value name="PARAM-11">
       <block type="Text">
         <field name="TEXT">M67 grenade</field>
+      </block>
+    </value>
+  </block>
+  <block type="subroutineInstanceBlock" inline="false" x="18040" y="-1905">
+    <mutation>
+      <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
+      <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
+      <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
+      <parameter types="String">MenuSniper1</parameter>
+      <parameter types="String">MenuSniper2</parameter>
+      <parameter types="String">MenuSniper3</parameter>
+      <parameter types="Enum_Throwables">Throwables1</parameter>
+      <parameter types="Enum_Throwables">Throwables2</parameter>
+      <parameter types="Enum_Throwables">Throwables3</parameter>
+      <parameter types="String">MenuThrowables1</parameter>
+      <parameter types="String">MenuThrowables2</parameter>
+      <parameter types="String">MenuThrowables3</parameter>
+    </mutation>
+    <field name="SUBROUTINE_NAME">Weapons_Snipers_Throwables</field>
+    <value name="PARAM-0">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsRumney</field>
+        <field name="VALUE-1">GOL</field>
+      </block>
+    </value>
+    <value name="PARAM-1">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsRumney</field>
+        <field name="VALUE-1">M24</field>
+      </block>
+    </value>
+    <value name="PARAM-2">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsRumney</field>
+        <field name="VALUE-1">M95</field>
+      </block>
+    </value>
+    <value name="PARAM-3">
+      <block type="Text">
+        <field name="TEXT">Gol Magnum</field>
+      </block>
+    </value>
+    <value name="PARAM-4">
+      <block type="Text">
+        <field name="TEXT">M24 Sniper</field>
+      </block>
+    </value>
+    <value name="PARAM-5">
+      <block type="Text">
+        <field name="TEXT">M95 Sniper</field>
+      </block>
+    </value>
+    <value name="PARAM-6">
+      <block type="ThrowablesItem">
+        <field name="VALUE-0">ThrowablesRumney</field>
+        <field name="VALUE-1">M18_Smoke_RUM</field>
+      </block>
+    </value>
+    <value name="PARAM-7">
+      <block type="ThrowablesItem">
+        <field name="VALUE-0">ThrowablesRumney</field>
+        <field name="VALUE-1">FragGrenade_RUM</field>
+      </block>
+    </value>
+    <value name="PARAM-8">
+      <block type="ThrowablesItem">
+        <field name="VALUE-0">ThrowablesAlexandria</field>
+        <field name="VALUE-1">M67</field>
+      </block>
+    </value>
+    <value name="PARAM-9">
+      <block type="Text">
+        <field name="TEXT">Smoke grenade</field>
+      </block>
+    </value>
+    <value name="PARAM-10">
+      <block type="Text">
+        <field name="TEXT">Frag grenade</field>
+      </block>
+    </value>
+    <value name="PARAM-11">
+      <block type="Text">
+        <field name="TEXT">M67 grenade</field>
+      </block>
+    </value>
+  </block>
+  <block type="subroutineInstanceBlock" inline="false" x="19694" y="-1822">
+    <mutation>
+      <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
+      <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
+      <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
+      <parameter types="String">MenuSniper1</parameter>
+      <parameter types="String">MenuSniper2</parameter>
+      <parameter types="String">MenuSniper3</parameter>
+      <parameter types="Enum_Throwables">Throwables1</parameter>
+      <parameter types="Enum_Throwables">Throwables2</parameter>
+      <parameter types="Enum_Throwables">Throwables3</parameter>
+      <parameter types="String">MenuThrowables1</parameter>
+      <parameter types="String">MenuThrowables2</parameter>
+      <parameter types="String">MenuThrowables3</parameter>
+    </mutation>
+    <field name="SUBROUTINE_NAME">Weapons_Snipers_Throwables</field>
+    <value name="PARAM-0">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsKingston</field>
+        <field name="VALUE-1">Marlin</field>
+      </block>
+    </value>
+    <value name="PARAM-1">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsKingston</field>
+        <field name="VALUE-1">TRGM10</field>
+      </block>
+    </value>
+    <value name="PARAM-2">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsKingston</field>
+        <field name="VALUE-1">DSR1</field>
+      </block>
+    </value>
+    <value name="PARAM-3">
+      <block type="Text">
+        <field name="TEXT">GVT 45-70</field>
+      </block>
+    </value>
+    <value name="PARAM-4">
+      <block type="Text">
+        <field name="TEXT">SWS-10</field>
+      </block>
+    </value>
+    <value name="PARAM-5">
+      <block type="Text">
+        <field name="TEXT">DXR-1</field>
+      </block>
+    </value>
+    <value name="PARAM-6">
+      <block type="ThrowablesItem">
+        <field name="VALUE-0">ThrowablesKingston</field>
+        <field name="VALUE-1">SmokeGrenade</field>
+      </block>
+    </value>
+    <value name="PARAM-7">
+      <block type="ThrowablesItem">
+        <field name="VALUE-0">ThrowablesKingston</field>
+        <field name="VALUE-1">FragGrenade</field>
+      </block>
+    </value>
+    <value name="PARAM-8">
+      <block type="ThrowablesItem">
+        <field name="VALUE-0">ThrowablesKingston</field>
+        <field name="VALUE-1">IncendiaryGrenade</field>
+      </block>
+    </value>
+    <value name="PARAM-9">
+      <block type="Text">
+        <field name="TEXT">Smoke grenade</field>
+      </block>
+    </value>
+    <value name="PARAM-10">
+      <block type="Text">
+        <field name="TEXT">Frag grenade</field>
+      </block>
+    </value>
+    <value name="PARAM-11">
+      <block type="Text">
+        <field name="TEXT">Incendiary grenade</field>
       </block>
     </value>
   </block>
@@ -3408,90 +3574,6 @@
         </next>
       </block>
     </statement>
-  </block>
-  <block type="Text" x="17219" y="-943">
-    <field name="TEXT">M67 grenade</field>
-  </block>
-  <block type="Text" x="17269" y="-850">
-    <field name="TEXT">M24 Sniper</field>
-  </block>
-  <block type="ThrowablesItem" x="17271" y="-848">
-    <field name="VALUE-0">ThrowablesAlexandria</field>
-    <field name="VALUE-1">M67</field>
-  </block>
-  <block type="Text" x="17274" y="-848">
-    <field name="TEXT">Gol Magnum</field>
-  </block>
-  <block type="PrimaryWeaponsItem" x="17273" y="-847">
-    <field name="VALUE-0">PrimaryWeaponsRumney</field>
-    <field name="VALUE-1">GOL</field>
-  </block>
-  <block type="ThrowablesItem" x="17274" y="-847">
-    <field name="VALUE-0">ThrowablesRumney</field>
-    <field name="VALUE-1">FragGrenade_RUM</field>
-  </block>
-  <block type="Text" x="17268" y="-846">
-    <field name="TEXT">Frag grenade</field>
-  </block>
-  <block type="PrimaryWeaponsItem" x="17273" y="-846">
-    <field name="VALUE-0">PrimaryWeaponsRumney</field>
-    <field name="VALUE-1">M24</field>
-  </block>
-  <block type="ThrowablesItem" x="17273" y="-845">
-    <field name="VALUE-0">ThrowablesRumney</field>
-    <field name="VALUE-1">M18_Smoke_RUM</field>
-  </block>
-  <block type="PrimaryWeaponsItem" x="17275" y="-845">
-    <field name="VALUE-0">PrimaryWeaponsRumney</field>
-    <field name="VALUE-1">M95</field>
-  </block>
-  <block type="Text" x="17275" y="-845">
-    <field name="TEXT">Smoke grenade</field>
-  </block>
-  <block type="Text" x="17268" y="-844">
-    <field name="TEXT">M95 Sniper</field>
-  </block>
-  <block type="Text" x="19054" y="-920">
-    <field name="TEXT">Incendiary grenade</field>
-  </block>
-  <block type="ThrowablesItem" x="19105" y="-826">
-    <field name="VALUE-0">ThrowablesKingston</field>
-    <field name="VALUE-1">FragGrenade</field>
-  </block>
-  <block type="PrimaryWeaponsItem" x="19109" y="-826">
-    <field name="VALUE-0">PrimaryWeaponsKingston</field>
-    <field name="VALUE-1">DSR1</field>
-  </block>
-  <block type="PrimaryWeaponsItem" x="19111" y="-826">
-    <field name="VALUE-0">PrimaryWeaponsKingston</field>
-    <field name="VALUE-1">Marlin</field>
-  </block>
-  <block type="PrimaryWeaponsItem" x="19111" y="-826">
-    <field name="VALUE-0">PrimaryWeaponsKingston</field>
-    <field name="VALUE-1">TRGM10</field>
-  </block>
-  <block type="ThrowablesItem" x="19106" y="-822">
-    <field name="VALUE-0">ThrowablesKingston</field>
-    <field name="VALUE-1">IncendiaryGrenade</field>
-  </block>
-  <block type="Text" x="19106" y="-821">
-    <field name="TEXT">Frag grenade</field>
-  </block>
-  <block type="Text" x="19110" y="-821">
-    <field name="TEXT">Smoke grenade</field>
-  </block>
-  <block type="Text" x="19102" y="-820">
-    <field name="TEXT">GVT 45-70</field>
-  </block>
-  <block type="Text" x="19102" y="-820">
-    <field name="TEXT">DXR-1</field>
-  </block>
-  <block type="Text" x="19104" y="-819">
-    <field name="TEXT">SWS-10</field>
-  </block>
-  <block type="ThrowablesItem" x="19110" y="-819">
-    <field name="VALUE-0">ThrowablesKingston</field>
-    <field name="VALUE-1">SmokeGrenade</field>
   </block>
   <block type="subroutineBlock" deletable="false" x="6227" y="-82">
     <mutation>
