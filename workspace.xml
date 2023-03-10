@@ -92,6 +92,12 @@
       <parameter types="String">MenuDMR1</parameter>
       <parameter types="String">MenuDMR2</parameter>
       <parameter types="String">MenuDMR3</parameter>
+      <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
+      <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
+      <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
+      <parameter types="String">MenuSniper1</parameter>
+      <parameter types="String">MenuSniper2</parameter>
+      <parameter types="String">MenuSniper3</parameter>
     </mutation>
     <field name="SUBROUTINE_NAME">Weapon_lists</field>
     <statement name="ACTIONS">
@@ -1634,6 +1640,12 @@
           <parameter types="String">MenuDMR1</parameter>
           <parameter types="String">MenuDMR2</parameter>
           <parameter types="String">MenuDMR3</parameter>
+          <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
+          <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
+          <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
+          <parameter types="String">MenuSniper1</parameter>
+          <parameter types="String">MenuSniper2</parameter>
+          <parameter types="String">MenuSniper3</parameter>
         </mutation>
         <field name="SUBROUTINE_NAME">Weapon_lists</field>
         <value name="PARAM-0">
