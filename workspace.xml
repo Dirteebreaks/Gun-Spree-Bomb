@@ -54,7 +54,759 @@
     <variable type="Global" id="2U95Ty3WixnG;ycvzYEd">ArmedMcomA</variable>
     <variable type="Global" id="wD?f?C|}GOD@y71~d[Fy">ArmedMcomB</variable>
   </variables>
-  <block type="subroutineBlock" deletable="false" x="6123" y="-4908">
+  <block type="subroutineBlock" deletable="false" x="17085" y="-4630">
+    <field name="SUBROUTINE_NAME">bc2_weapons_list</field>
+    <statement name="ACTIONS">
+      <block type="subroutineInstanceBlock" inline="false">
+        <mutation>
+          <parameter types="Enum_SecondaryWeapons">Secondary1</parameter>
+          <parameter types="Enum_SecondaryWeapons">Secondary2</parameter>
+          <parameter types="Enum_SecondaryWeapons">Secondary3</parameter>
+          <parameter types="String">MenuSecondary1</parameter>
+          <parameter types="String">MenuSecondary2</parameter>
+          <parameter types="String">MenuSecondary3</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR1</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR2</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR3</parameter>
+          <parameter types="String">MenuAR1</parameter>
+          <parameter types="String">MenuAR2</parameter>
+          <parameter types="String">MenuAR3</parameter>
+          <parameter types="Enum_PrimaryWeapons">SMG1</parameter>
+          <parameter types="Enum_PrimaryWeapons">SMG2</parameter>
+          <parameter types="Enum_PrimaryWeapons">SMG3</parameter>
+          <parameter types="String">MenuSMG1</parameter>
+          <parameter types="String">MenuSMG2</parameter>
+          <parameter types="String">MenuSMG3</parameter>
+          <parameter types="Enum_PrimaryWeapons">Shotguns1</parameter>
+          <parameter types="Enum_PrimaryWeapons">Shotguns2</parameter>
+          <parameter types="Enum_PrimaryWeapons">Shotguns3</parameter>
+          <parameter types="String">MenuShotguns1</parameter>
+          <parameter types="String">MenuShotguns2</parameter>
+          <parameter types="String">MenuShotguns3</parameter>
+          <parameter types="Enum_PrimaryWeapons">LMG1</parameter>
+          <parameter types="Enum_PrimaryWeapons">LMG2</parameter>
+          <parameter types="Enum_PrimaryWeapons">LMG3</parameter>
+          <parameter types="String">MenuLMG1</parameter>
+          <parameter types="String">MenuLMG2</parameter>
+          <parameter types="String">MenuLMG3</parameter>
+          <parameter types="Enum_PrimaryWeapons">DMR1</parameter>
+          <parameter types="Enum_PrimaryWeapons">DMR2</parameter>
+          <parameter types="Enum_PrimaryWeapons">DMR3</parameter>
+          <parameter types="String">MenuDMR1</parameter>
+          <parameter types="String">MenuDMR2</parameter>
+          <parameter types="String">MenuDMR3</parameter>
+          <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
+          <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
+          <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
+          <parameter types="String">MenuSniper1</parameter>
+          <parameter types="String">MenuSniper2</parameter>
+          <parameter types="String">MenuSniper3</parameter>
+          <parameter types="Enum_Throwables">Throwables1</parameter>
+          <parameter types="Enum_Throwables">Throwables2</parameter>
+          <parameter types="Enum_Throwables">Throwables3</parameter>
+          <parameter types="String">MenuThrowables1</parameter>
+          <parameter types="String">MenuThrowables2</parameter>
+          <parameter types="String">MenuThrowables3</parameter>
+        </mutation>
+        <field name="SUBROUTINE_NAME">Main_Weapon_lists</field>
+        <value name="PARAM-0">
+          <block type="SecondaryWeaponsItem">
+            <field name="VALUE-0">SecondaryWeaponsRumney</field>
+            <field name="VALUE-1">M93R_RUM</field>
+          </block>
+        </value>
+        <value name="PARAM-1">
+          <block type="SecondaryWeaponsItem">
+            <field name="VALUE-0">SecondaryWeaponsRumney</field>
+            <field name="VALUE-1">MP412REX_RUM</field>
+          </block>
+        </value>
+        <value name="PARAM-2">
+          <block type="SecondaryWeaponsItem">
+            <field name="VALUE-0">SecondaryWeaponsRumney</field>
+            <field name="VALUE-1">MP443_RUM</field>
+          </block>
+        </value>
+        <value name="PARAM-3">
+          <block type="Text">
+            <field name="TEXT">M93R</field>
+          </block>
+        </value>
+        <value name="PARAM-4">
+          <block type="Text">
+            <field name="TEXT">MP412 REX</field>
+          </block>
+        </value>
+        <value name="PARAM-5">
+          <block type="Text">
+            <field name="TEXT">MP443</field>
+          </block>
+        </value>
+        <value name="PARAM-6">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsRumney</field>
+            <field name="VALUE-1">G3</field>
+          </block>
+        </value>
+        <value name="PARAM-7">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsRumney</field>
+            <field name="VALUE-1">M416_RUM</field>
+          </block>
+        </value>
+        <value name="PARAM-8">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsRumney</field>
+            <field name="VALUE-1">AEK-971_RUM</field>
+          </block>
+        </value>
+        <value name="PARAM-9">
+          <block type="Text">
+            <field name="TEXT">G3</field>
+          </block>
+        </value>
+        <value name="PARAM-10">
+          <block type="Text">
+            <field name="TEXT">M416</field>
+          </block>
+        </value>
+        <value name="PARAM-11">
+          <block type="Text">
+            <field name="TEXT">AEK-971</field>
+          </block>
+        </value>
+        <value name="PARAM-12">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsRumney</field>
+            <field name="VALUE-1">AKS-74u_RUM</field>
+          </block>
+        </value>
+        <value name="PARAM-13">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsRumney</field>
+            <field name="VALUE-1">PP2000_RUM</field>
+          </block>
+        </value>
+        <value name="PARAM-14">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsRumney</field>
+            <field name="VALUE-1">XM8C</field>
+          </block>
+        </value>
+        <value name="PARAM-15">
+          <block type="Text">
+            <field name="TEXT">AKS-74u</field>
+          </block>
+        </value>
+        <value name="PARAM-16">
+          <block type="Text">
+            <field name="TEXT">PP-2000</field>
+          </block>
+        </value>
+        <value name="PARAM-17">
+          <block type="Text">
+            <field name="TEXT">XM8 Compact</field>
+          </block>
+        </value>
+        <value name="PARAM-18">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsAlexandria</field>
+            <field name="VALUE-1">DAO-12</field>
+          </block>
+        </value>
+        <value name="PARAM-19">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsRumney</field>
+            <field name="VALUE-1">SPAS12_RUM</field>
+          </block>
+        </value>
+        <value name="PARAM-20">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsKingston</field>
+            <field name="VALUE-1">Remington870</field>
+          </block>
+        </value>
+        <value name="PARAM-21">
+          <block type="Text">
+            <field name="TEXT">DAO-12</field>
+          </block>
+        </value>
+        <value name="PARAM-22">
+          <block type="Text">
+            <field name="TEXT">SPAS-12</field>
+          </block>
+        </value>
+        <value name="PARAM-23">
+          <block type="Text">
+            <field name="TEXT">MCS-880</field>
+          </block>
+        </value>
+        <value name="PARAM-24">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsRumney</field>
+            <field name="VALUE-1">M249_RUM</field>
+          </block>
+        </value>
+        <value name="PARAM-25">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsRumney</field>
+            <field name="VALUE-1">XM8L</field>
+          </block>
+        </value>
+        <value name="PARAM-26">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsRumney</field>
+            <field name="VALUE-1">M60</field>
+          </block>
+        </value>
+        <value name="PARAM-27">
+          <block type="Text">
+            <field name="TEXT">M249 SAW</field>
+          </block>
+        </value>
+        <value name="PARAM-28">
+          <block type="Text">
+            <field name="TEXT">XM8 LMG</field>
+          </block>
+        </value>
+        <value name="PARAM-29">
+          <block type="Text">
+            <field name="TEXT">M60</field>
+          </block>
+        </value>
+        <value name="PARAM-30">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsRumney</field>
+            <field name="VALUE-1">M1_RUM</field>
+          </block>
+        </value>
+        <value name="PARAM-31">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsAlexandria</field>
+            <field name="VALUE-1">M39EMR</field>
+          </block>
+        </value>
+        <value name="PARAM-32">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsAlexandria</field>
+            <field name="VALUE-1">SVD</field>
+          </block>
+        </value>
+        <value name="PARAM-33">
+          <block type="Text">
+            <field name="TEXT">M1</field>
+          </block>
+        </value>
+        <value name="PARAM-34">
+          <block type="Text">
+            <field name="TEXT">M39 EMR</field>
+          </block>
+        </value>
+        <value name="PARAM-35">
+          <block type="Text">
+            <field name="TEXT">SVD</field>
+          </block>
+        </value>
+        <value name="PARAM-36">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsRumney</field>
+            <field name="VALUE-1">GOL</field>
+          </block>
+        </value>
+        <value name="PARAM-37">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsRumney</field>
+            <field name="VALUE-1">M24</field>
+          </block>
+        </value>
+        <value name="PARAM-38">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsRumney</field>
+            <field name="VALUE-1">M95</field>
+          </block>
+        </value>
+        <value name="PARAM-39">
+          <block type="Text">
+            <field name="TEXT">Gol Magnum</field>
+          </block>
+        </value>
+        <value name="PARAM-40">
+          <block type="Text">
+            <field name="TEXT">M24 Sniper</field>
+          </block>
+        </value>
+        <value name="PARAM-41">
+          <block type="Text">
+            <field name="TEXT">M95 Sniper</field>
+          </block>
+        </value>
+        <value name="PARAM-42">
+          <block type="ThrowablesItem">
+            <field name="VALUE-0">ThrowablesRumney</field>
+            <field name="VALUE-1">M18_Smoke_RUM</field>
+          </block>
+        </value>
+        <value name="PARAM-43">
+          <block type="ThrowablesItem">
+            <field name="VALUE-0">ThrowablesRumney</field>
+            <field name="VALUE-1">FragGrenade_RUM</field>
+          </block>
+        </value>
+        <value name="PARAM-44">
+          <block type="ThrowablesItem">
+            <field name="VALUE-0">ThrowablesAlexandria</field>
+            <field name="VALUE-1">M67</field>
+          </block>
+        </value>
+        <value name="PARAM-45">
+          <block type="Text">
+            <field name="TEXT">Smoke grenade</field>
+          </block>
+        </value>
+        <value name="PARAM-46">
+          <block type="Text">
+            <field name="TEXT">Frag grenade</field>
+          </block>
+        </value>
+        <value name="PARAM-47">
+          <block type="Text">
+            <field name="TEXT">M67 grenade</field>
+          </block>
+        </value>
+        <next>
+          <block type="SetVariableAtIndex">
+            <value name="VALUE-0">
+              <block type="variableReferenceBlock">
+                <mutation isObjectVar="false"></mutation>
+                <field name="OBJECTTYPE">Global</field>
+                <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
+              </block>
+            </value>
+            <value name="VALUE-1">
+              <block type="Number">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+            <value name="VALUE-2">
+              <block type="CharacterGadgetsItem">
+                <field name="VALUE-0">CharacterGadgetsRumney</field>
+                <field name="VALUE-1">AmmoBox_RUM</field>
+              </block>
+            </value>
+            <next>
+              <block type="SetVariableAtIndex">
+                <value name="VALUE-0">
+                  <block type="variableReferenceBlock">
+                    <mutation isObjectVar="false"></mutation>
+                    <field name="OBJECTTYPE">Global</field>
+                    <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
+                  </block>
+                </value>
+                <value name="VALUE-1">
+                  <block type="Number">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+                <value name="VALUE-2">
+                  <block type="CharacterGadgetsItem">
+                    <field name="VALUE-0">CharacterGadgetsRumney</field>
+                    <field name="VALUE-1">MedKit</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="SetVariableAtIndex">
+                    <value name="VALUE-0">
+                      <block type="variableReferenceBlock">
+                        <mutation isObjectVar="false"></mutation>
+                        <field name="OBJECTTYPE">Global</field>
+                        <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
+                      </block>
+                    </value>
+                    <value name="VALUE-1">
+                      <block type="Number">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                    <value name="VALUE-2">
+                      <block type="ClassGadgetsItem">
+                        <field name="VALUE-0">ClassGadgetsKingston</field>
+                        <field name="VALUE-1">Med Pen</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="SetVariableAtIndex">
+                        <value name="VALUE-0">
+                          <block type="variableReferenceBlock">
+                            <mutation isObjectVar="false"></mutation>
+                            <field name="OBJECTTYPE">Global</field>
+                            <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
+                          </block>
+                        </value>
+                        <value name="VALUE-1">
+                          <block type="Number">
+                            <field name="NUM">3</field>
+                          </block>
+                        </value>
+                        <value name="VALUE-2">
+                          <block type="CharacterGadgetsItem">
+                            <field name="VALUE-0">CharacterGadgetsRumney</field>
+                            <field name="VALUE-1">MotionSensor</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="SetVariableAtIndex">
+                            <value name="VALUE-0">
+                              <block type="variableReferenceBlock">
+                                <mutation isObjectVar="false"></mutation>
+                                <field name="OBJECTTYPE">Global</field>
+                                <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
+                              </block>
+                            </value>
+                            <value name="VALUE-1">
+                              <block type="Number">
+                                <field name="NUM">4</field>
+                              </block>
+                            </value>
+                            <value name="VALUE-2">
+                              <block type="ClassGadgetsItem">
+                                <field name="VALUE-0">ClassGadgetsKingston</field>
+                                <field name="VALUE-1">SpawnBeacon</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="SetVariableAtIndex">
+                                <value name="VALUE-0">
+                                  <block type="variableReferenceBlock">
+                                    <mutation isObjectVar="false"></mutation>
+                                    <field name="OBJECTTYPE">Global</field>
+                                    <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
+                                  </block>
+                                </value>
+                                <value name="VALUE-1">
+                                  <block type="Number">
+                                    <field name="NUM">5</field>
+                                  </block>
+                                </value>
+                                <value name="VALUE-2">
+                                  <block type="OpenGadgetsItem">
+                                    <field name="VALUE-0">OpenGadgetsAlexandria</field>
+                                    <field name="VALUE-1">MAV_ALX</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="SetVariableAtIndex">
+                                    <value name="VALUE-0">
+                                      <block type="variableReferenceBlock">
+                                        <mutation isObjectVar="false"></mutation>
+                                        <field name="OBJECTTYPE">Global</field>
+                                        <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
+                                      </block>
+                                    </value>
+                                    <value name="VALUE-1">
+                                      <block type="Number">
+                                        <field name="NUM">6</field>
+                                      </block>
+                                    </value>
+                                    <value name="VALUE-2">
+                                      <block type="OpenGadgetsItem">
+                                        <field name="VALUE-0">OpenGadgetsRumney</field>
+                                        <field name="VALUE-1">MortarStrike</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="SetVariableAtIndex">
+                                        <value name="VALUE-0">
+                                          <block type="variableReferenceBlock">
+                                            <mutation isObjectVar="false"></mutation>
+                                            <field name="OBJECTTYPE">Global</field>
+                                            <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
+                                          </block>
+                                        </value>
+                                        <value name="VALUE-1">
+                                          <block type="Number">
+                                            <field name="NUM">7</field>
+                                          </block>
+                                        </value>
+                                        <value name="VALUE-2">
+                                          <block type="OpenGadgetsItem">
+                                            <field name="VALUE-0">OpenGadgetsRumney</field>
+                                            <field name="VALUE-1">C4_RUM</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="SetVariableAtIndex">
+                                            <value name="VALUE-0">
+                                              <block type="variableReferenceBlock">
+                                                <mutation isObjectVar="false"></mutation>
+                                                <field name="OBJECTTYPE">Global</field>
+                                                <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
+                                              </block>
+                                            </value>
+                                            <value name="VALUE-1">
+                                              <block type="Number">
+                                                <field name="NUM">8</field>
+                                              </block>
+                                            </value>
+                                            <value name="VALUE-2">
+                                              <block type="OpenGadgetsItem">
+                                                <field name="VALUE-0">OpenGadgetsRumney</field>
+                                                <field name="VALUE-1">RPG7_RUM</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="SetVariableAtIndex">
+                                                <value name="VALUE-0">
+                                                  <block type="variableReferenceBlock">
+                                                    <mutation isObjectVar="false"></mutation>
+                                                    <field name="OBJECTTYPE">Global</field>
+                                                    <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
+                                                  </block>
+                                                </value>
+                                                <value name="VALUE-1">
+                                                  <block type="Number">
+                                                    <field name="NUM">9</field>
+                                                  </block>
+                                                </value>
+                                                <value name="VALUE-2">
+                                                  <block type="OpenGadgetsItem">
+                                                    <field name="VALUE-0">OpenGadgetsRumney</field>
+                                                    <field name="VALUE-1">M136AT4</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="SetVariableAtIndex">
+                                                    <value name="VALUE-0">
+                                                      <block type="variableReferenceBlock">
+                                                        <mutation isObjectVar="false"></mutation>
+                                                        <field name="OBJECTTYPE">Global</field>
+                                                        <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="VALUE-1">
+                                                      <block type="Number">
+                                                        <field name="NUM">0</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="VALUE-2">
+                                                      <block type="Text">
+                                                        <field name="TEXT">Ammo Crate</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="SetVariableAtIndex">
+                                                        <value name="VALUE-0">
+                                                          <block type="variableReferenceBlock">
+                                                            <mutation isObjectVar="false"></mutation>
+                                                            <field name="OBJECTTYPE">Global</field>
+                                                            <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="VALUE-1">
+                                                          <block type="Number">
+                                                            <field name="NUM">1</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="VALUE-2">
+                                                          <block type="Text">
+                                                            <field name="TEXT">MedKit</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="SetVariableAtIndex">
+                                                            <value name="VALUE-0">
+                                                              <block type="variableReferenceBlock">
+                                                                <mutation isObjectVar="false"></mutation>
+                                                                <field name="OBJECTTYPE">Global</field>
+                                                                <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="VALUE-1">
+                                                              <block type="Number">
+                                                                <field name="NUM">2</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="VALUE-2">
+                                                              <block type="Text">
+                                                                <field name="TEXT">Med-Pen</field>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="SetVariableAtIndex">
+                                                                <value name="VALUE-0">
+                                                                  <block type="variableReferenceBlock">
+                                                                    <mutation isObjectVar="false"></mutation>
+                                                                    <field name="OBJECTTYPE">Global</field>
+                                                                    <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="VALUE-1">
+                                                                  <block type="Number">
+                                                                    <field name="NUM">3</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="VALUE-2">
+                                                                  <block type="Text">
+                                                                    <field name="TEXT">Motion sensor</field>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="SetVariableAtIndex">
+                                                                    <value name="VALUE-0">
+                                                                      <block type="variableReferenceBlock">
+                                                                        <mutation isObjectVar="false"></mutation>
+                                                                        <field name="OBJECTTYPE">Global</field>
+                                                                        <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="VALUE-1">
+                                                                      <block type="Number">
+                                                                        <field name="NUM">4</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="VALUE-2">
+                                                                      <block type="Text">
+                                                                        <field name="TEXT">Insertion Beacon</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="SetVariableAtIndex">
+                                                                        <value name="VALUE-0">
+                                                                          <block type="variableReferenceBlock">
+                                                                            <mutation isObjectVar="false"></mutation>
+                                                                            <field name="OBJECTTYPE">Global</field>
+                                                                            <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="VALUE-1">
+                                                                          <block type="Number">
+                                                                            <field name="NUM">5</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="VALUE-2">
+                                                                          <block type="Text">
+                                                                            <field name="TEXT">MAV Drone</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="SetVariableAtIndex">
+                                                                            <value name="VALUE-0">
+                                                                              <block type="variableReferenceBlock">
+                                                                                <mutation isObjectVar="false"></mutation>
+                                                                                <field name="OBJECTTYPE">Global</field>
+                                                                                <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="VALUE-1">
+                                                                              <block type="Number">
+                                                                                <field name="NUM">6</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="VALUE-2">
+                                                                              <block type="Text">
+                                                                                <field name="TEXT">Mortar Strike</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="SetVariableAtIndex">
+                                                                                <value name="VALUE-0">
+                                                                                  <block type="variableReferenceBlock">
+                                                                                    <mutation isObjectVar="false"></mutation>
+                                                                                    <field name="OBJECTTYPE">Global</field>
+                                                                                    <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="VALUE-1">
+                                                                                  <block type="Number">
+                                                                                    <field name="NUM">7</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="VALUE-2">
+                                                                                  <block type="Text">
+                                                                                    <field name="TEXT">C4</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <next>
+                                                                                  <block type="SetVariableAtIndex">
+                                                                                    <value name="VALUE-0">
+                                                                                      <block type="variableReferenceBlock">
+                                                                                        <mutation isObjectVar="false"></mutation>
+                                                                                        <field name="OBJECTTYPE">Global</field>
+                                                                                        <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="VALUE-1">
+                                                                                      <block type="Number">
+                                                                                        <field name="NUM">8</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="VALUE-2">
+                                                                                      <block type="Text">
+                                                                                        <field name="TEXT">RPG-7</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="SetVariableAtIndex">
+                                                                                        <value name="VALUE-0">
+                                                                                          <block type="variableReferenceBlock">
+                                                                                            <mutation isObjectVar="false"></mutation>
+                                                                                            <field name="OBJECTTYPE">Global</field>
+                                                                                            <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="VALUE-1">
+                                                                                          <block type="Number">
+                                                                                            <field name="NUM">9</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="VALUE-2">
+                                                                                          <block type="Text">
+                                                                                            <field name="TEXT">M136 AT4</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="subroutineBlock" deletable="false" x="18920" y="-4607">
     <field name="SUBROUTINE_NAME">2042_weapons_list</field>
     <statement name="ACTIONS">
       <block type="subroutineInstanceBlock" inline="false">
@@ -892,7 +1644,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="3465" y="-4750">
+  <block type="subroutineBlock" deletable="false" x="15477" y="-4193">
     <field name="SUBROUTINE_NAME">bf3_weapons_list</field>
     <statement name="ACTIONS">
       <block type="subroutineInstanceBlock" inline="false">
@@ -1644,759 +2396,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="4806" y="-4755">
-    <field name="SUBROUTINE_NAME">bc2_weapons_list</field>
-    <statement name="ACTIONS">
-      <block type="subroutineInstanceBlock" inline="false">
-        <mutation>
-          <parameter types="Enum_SecondaryWeapons">Secondary1</parameter>
-          <parameter types="Enum_SecondaryWeapons">Secondary2</parameter>
-          <parameter types="Enum_SecondaryWeapons">Secondary3</parameter>
-          <parameter types="String">MenuSecondary1</parameter>
-          <parameter types="String">MenuSecondary2</parameter>
-          <parameter types="String">MenuSecondary3</parameter>
-          <parameter types="Enum_PrimaryWeapons">AR1</parameter>
-          <parameter types="Enum_PrimaryWeapons">AR2</parameter>
-          <parameter types="Enum_PrimaryWeapons">AR3</parameter>
-          <parameter types="String">MenuAR1</parameter>
-          <parameter types="String">MenuAR2</parameter>
-          <parameter types="String">MenuAR3</parameter>
-          <parameter types="Enum_PrimaryWeapons">SMG1</parameter>
-          <parameter types="Enum_PrimaryWeapons">SMG2</parameter>
-          <parameter types="Enum_PrimaryWeapons">SMG3</parameter>
-          <parameter types="String">MenuSMG1</parameter>
-          <parameter types="String">MenuSMG2</parameter>
-          <parameter types="String">MenuSMG3</parameter>
-          <parameter types="Enum_PrimaryWeapons">Shotguns1</parameter>
-          <parameter types="Enum_PrimaryWeapons">Shotguns2</parameter>
-          <parameter types="Enum_PrimaryWeapons">Shotguns3</parameter>
-          <parameter types="String">MenuShotguns1</parameter>
-          <parameter types="String">MenuShotguns2</parameter>
-          <parameter types="String">MenuShotguns3</parameter>
-          <parameter types="Enum_PrimaryWeapons">LMG1</parameter>
-          <parameter types="Enum_PrimaryWeapons">LMG2</parameter>
-          <parameter types="Enum_PrimaryWeapons">LMG3</parameter>
-          <parameter types="String">MenuLMG1</parameter>
-          <parameter types="String">MenuLMG2</parameter>
-          <parameter types="String">MenuLMG3</parameter>
-          <parameter types="Enum_PrimaryWeapons">DMR1</parameter>
-          <parameter types="Enum_PrimaryWeapons">DMR2</parameter>
-          <parameter types="Enum_PrimaryWeapons">DMR3</parameter>
-          <parameter types="String">MenuDMR1</parameter>
-          <parameter types="String">MenuDMR2</parameter>
-          <parameter types="String">MenuDMR3</parameter>
-          <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
-          <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
-          <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
-          <parameter types="String">MenuSniper1</parameter>
-          <parameter types="String">MenuSniper2</parameter>
-          <parameter types="String">MenuSniper3</parameter>
-          <parameter types="Enum_Throwables">Throwables1</parameter>
-          <parameter types="Enum_Throwables">Throwables2</parameter>
-          <parameter types="Enum_Throwables">Throwables3</parameter>
-          <parameter types="String">MenuThrowables1</parameter>
-          <parameter types="String">MenuThrowables2</parameter>
-          <parameter types="String">MenuThrowables3</parameter>
-        </mutation>
-        <field name="SUBROUTINE_NAME">Main_Weapon_lists</field>
-        <value name="PARAM-0">
-          <block type="SecondaryWeaponsItem">
-            <field name="VALUE-0">SecondaryWeaponsRumney</field>
-            <field name="VALUE-1">M93R_RUM</field>
-          </block>
-        </value>
-        <value name="PARAM-1">
-          <block type="SecondaryWeaponsItem">
-            <field name="VALUE-0">SecondaryWeaponsRumney</field>
-            <field name="VALUE-1">MP412REX_RUM</field>
-          </block>
-        </value>
-        <value name="PARAM-2">
-          <block type="SecondaryWeaponsItem">
-            <field name="VALUE-0">SecondaryWeaponsRumney</field>
-            <field name="VALUE-1">MP443_RUM</field>
-          </block>
-        </value>
-        <value name="PARAM-3">
-          <block type="Text">
-            <field name="TEXT">M93R</field>
-          </block>
-        </value>
-        <value name="PARAM-4">
-          <block type="Text">
-            <field name="TEXT">MP412 REX</field>
-          </block>
-        </value>
-        <value name="PARAM-5">
-          <block type="Text">
-            <field name="TEXT">MP443</field>
-          </block>
-        </value>
-        <value name="PARAM-6">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsRumney</field>
-            <field name="VALUE-1">G3</field>
-          </block>
-        </value>
-        <value name="PARAM-7">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsRumney</field>
-            <field name="VALUE-1">M416_RUM</field>
-          </block>
-        </value>
-        <value name="PARAM-8">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsRumney</field>
-            <field name="VALUE-1">AEK-971_RUM</field>
-          </block>
-        </value>
-        <value name="PARAM-9">
-          <block type="Text">
-            <field name="TEXT">G3</field>
-          </block>
-        </value>
-        <value name="PARAM-10">
-          <block type="Text">
-            <field name="TEXT">M416</field>
-          </block>
-        </value>
-        <value name="PARAM-11">
-          <block type="Text">
-            <field name="TEXT">AEK-971</field>
-          </block>
-        </value>
-        <value name="PARAM-12">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsRumney</field>
-            <field name="VALUE-1">AKS-74u_RUM</field>
-          </block>
-        </value>
-        <value name="PARAM-13">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsRumney</field>
-            <field name="VALUE-1">PP2000_RUM</field>
-          </block>
-        </value>
-        <value name="PARAM-14">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsRumney</field>
-            <field name="VALUE-1">XM8C</field>
-          </block>
-        </value>
-        <value name="PARAM-15">
-          <block type="Text">
-            <field name="TEXT">AKS-74u</field>
-          </block>
-        </value>
-        <value name="PARAM-16">
-          <block type="Text">
-            <field name="TEXT">PP-2000</field>
-          </block>
-        </value>
-        <value name="PARAM-17">
-          <block type="Text">
-            <field name="TEXT">XM8 Compact</field>
-          </block>
-        </value>
-        <value name="PARAM-18">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsAlexandria</field>
-            <field name="VALUE-1">DAO-12</field>
-          </block>
-        </value>
-        <value name="PARAM-19">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsRumney</field>
-            <field name="VALUE-1">SPAS12_RUM</field>
-          </block>
-        </value>
-        <value name="PARAM-20">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsKingston</field>
-            <field name="VALUE-1">Remington870</field>
-          </block>
-        </value>
-        <value name="PARAM-21">
-          <block type="Text">
-            <field name="TEXT">DAO-12</field>
-          </block>
-        </value>
-        <value name="PARAM-22">
-          <block type="Text">
-            <field name="TEXT">SPAS-12</field>
-          </block>
-        </value>
-        <value name="PARAM-23">
-          <block type="Text">
-            <field name="TEXT">MCS-880</field>
-          </block>
-        </value>
-        <value name="PARAM-24">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsRumney</field>
-            <field name="VALUE-1">M249_RUM</field>
-          </block>
-        </value>
-        <value name="PARAM-25">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsRumney</field>
-            <field name="VALUE-1">XM8L</field>
-          </block>
-        </value>
-        <value name="PARAM-26">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsRumney</field>
-            <field name="VALUE-1">M60</field>
-          </block>
-        </value>
-        <value name="PARAM-27">
-          <block type="Text">
-            <field name="TEXT">M249 SAW</field>
-          </block>
-        </value>
-        <value name="PARAM-28">
-          <block type="Text">
-            <field name="TEXT">XM8 LMG</field>
-          </block>
-        </value>
-        <value name="PARAM-29">
-          <block type="Text">
-            <field name="TEXT">M60</field>
-          </block>
-        </value>
-        <value name="PARAM-30">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsRumney</field>
-            <field name="VALUE-1">M1_RUM</field>
-          </block>
-        </value>
-        <value name="PARAM-31">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsAlexandria</field>
-            <field name="VALUE-1">M39EMR</field>
-          </block>
-        </value>
-        <value name="PARAM-32">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsAlexandria</field>
-            <field name="VALUE-1">SVD</field>
-          </block>
-        </value>
-        <value name="PARAM-33">
-          <block type="Text">
-            <field name="TEXT">M1</field>
-          </block>
-        </value>
-        <value name="PARAM-34">
-          <block type="Text">
-            <field name="TEXT">M39 EMR</field>
-          </block>
-        </value>
-        <value name="PARAM-35">
-          <block type="Text">
-            <field name="TEXT">SVD</field>
-          </block>
-        </value>
-        <value name="PARAM-36">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsRumney</field>
-            <field name="VALUE-1">GOL</field>
-          </block>
-        </value>
-        <value name="PARAM-37">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsRumney</field>
-            <field name="VALUE-1">M24</field>
-          </block>
-        </value>
-        <value name="PARAM-38">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsRumney</field>
-            <field name="VALUE-1">M95</field>
-          </block>
-        </value>
-        <value name="PARAM-39">
-          <block type="Text">
-            <field name="TEXT">Gol Magnum</field>
-          </block>
-        </value>
-        <value name="PARAM-40">
-          <block type="Text">
-            <field name="TEXT">M24 Sniper</field>
-          </block>
-        </value>
-        <value name="PARAM-41">
-          <block type="Text">
-            <field name="TEXT">M95 Sniper</field>
-          </block>
-        </value>
-        <value name="PARAM-42">
-          <block type="ThrowablesItem">
-            <field name="VALUE-0">ThrowablesRumney</field>
-            <field name="VALUE-1">M18_Smoke_RUM</field>
-          </block>
-        </value>
-        <value name="PARAM-43">
-          <block type="ThrowablesItem">
-            <field name="VALUE-0">ThrowablesRumney</field>
-            <field name="VALUE-1">FragGrenade_RUM</field>
-          </block>
-        </value>
-        <value name="PARAM-44">
-          <block type="ThrowablesItem">
-            <field name="VALUE-0">ThrowablesAlexandria</field>
-            <field name="VALUE-1">M67</field>
-          </block>
-        </value>
-        <value name="PARAM-45">
-          <block type="Text">
-            <field name="TEXT">Smoke grenade</field>
-          </block>
-        </value>
-        <value name="PARAM-46">
-          <block type="Text">
-            <field name="TEXT">Frag grenade</field>
-          </block>
-        </value>
-        <value name="PARAM-47">
-          <block type="Text">
-            <field name="TEXT">M67 grenade</field>
-          </block>
-        </value>
-        <next>
-          <block type="SetVariableAtIndex">
-            <value name="VALUE-0">
-              <block type="variableReferenceBlock">
-                <mutation isObjectVar="false"></mutation>
-                <field name="OBJECTTYPE">Global</field>
-                <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-              </block>
-            </value>
-            <value name="VALUE-1">
-              <block type="Number">
-                <field name="NUM">0</field>
-              </block>
-            </value>
-            <value name="VALUE-2">
-              <block type="CharacterGadgetsItem">
-                <field name="VALUE-0">CharacterGadgetsRumney</field>
-                <field name="VALUE-1">AmmoBox_RUM</field>
-              </block>
-            </value>
-            <next>
-              <block type="SetVariableAtIndex">
-                <value name="VALUE-0">
-                  <block type="variableReferenceBlock">
-                    <mutation isObjectVar="false"></mutation>
-                    <field name="OBJECTTYPE">Global</field>
-                    <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                  </block>
-                </value>
-                <value name="VALUE-1">
-                  <block type="Number">
-                    <field name="NUM">1</field>
-                  </block>
-                </value>
-                <value name="VALUE-2">
-                  <block type="CharacterGadgetsItem">
-                    <field name="VALUE-0">CharacterGadgetsRumney</field>
-                    <field name="VALUE-1">MedKit</field>
-                  </block>
-                </value>
-                <next>
-                  <block type="SetVariableAtIndex">
-                    <value name="VALUE-0">
-                      <block type="variableReferenceBlock">
-                        <mutation isObjectVar="false"></mutation>
-                        <field name="OBJECTTYPE">Global</field>
-                        <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                      </block>
-                    </value>
-                    <value name="VALUE-1">
-                      <block type="Number">
-                        <field name="NUM">2</field>
-                      </block>
-                    </value>
-                    <value name="VALUE-2">
-                      <block type="ClassGadgetsItem">
-                        <field name="VALUE-0">ClassGadgetsKingston</field>
-                        <field name="VALUE-1">Med Pen</field>
-                      </block>
-                    </value>
-                    <next>
-                      <block type="SetVariableAtIndex">
-                        <value name="VALUE-0">
-                          <block type="variableReferenceBlock">
-                            <mutation isObjectVar="false"></mutation>
-                            <field name="OBJECTTYPE">Global</field>
-                            <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                          </block>
-                        </value>
-                        <value name="VALUE-1">
-                          <block type="Number">
-                            <field name="NUM">3</field>
-                          </block>
-                        </value>
-                        <value name="VALUE-2">
-                          <block type="CharacterGadgetsItem">
-                            <field name="VALUE-0">CharacterGadgetsRumney</field>
-                            <field name="VALUE-1">MotionSensor</field>
-                          </block>
-                        </value>
-                        <next>
-                          <block type="SetVariableAtIndex">
-                            <value name="VALUE-0">
-                              <block type="variableReferenceBlock">
-                                <mutation isObjectVar="false"></mutation>
-                                <field name="OBJECTTYPE">Global</field>
-                                <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                              </block>
-                            </value>
-                            <value name="VALUE-1">
-                              <block type="Number">
-                                <field name="NUM">4</field>
-                              </block>
-                            </value>
-                            <value name="VALUE-2">
-                              <block type="ClassGadgetsItem">
-                                <field name="VALUE-0">ClassGadgetsKingston</field>
-                                <field name="VALUE-1">SpawnBeacon</field>
-                              </block>
-                            </value>
-                            <next>
-                              <block type="SetVariableAtIndex">
-                                <value name="VALUE-0">
-                                  <block type="variableReferenceBlock">
-                                    <mutation isObjectVar="false"></mutation>
-                                    <field name="OBJECTTYPE">Global</field>
-                                    <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                  </block>
-                                </value>
-                                <value name="VALUE-1">
-                                  <block type="Number">
-                                    <field name="NUM">5</field>
-                                  </block>
-                                </value>
-                                <value name="VALUE-2">
-                                  <block type="OpenGadgetsItem">
-                                    <field name="VALUE-0">OpenGadgetsAlexandria</field>
-                                    <field name="VALUE-1">MAV_ALX</field>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="SetVariableAtIndex">
-                                    <value name="VALUE-0">
-                                      <block type="variableReferenceBlock">
-                                        <mutation isObjectVar="false"></mutation>
-                                        <field name="OBJECTTYPE">Global</field>
-                                        <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                      </block>
-                                    </value>
-                                    <value name="VALUE-1">
-                                      <block type="Number">
-                                        <field name="NUM">6</field>
-                                      </block>
-                                    </value>
-                                    <value name="VALUE-2">
-                                      <block type="OpenGadgetsItem">
-                                        <field name="VALUE-0">OpenGadgetsRumney</field>
-                                        <field name="VALUE-1">MortarStrike</field>
-                                      </block>
-                                    </value>
-                                    <next>
-                                      <block type="SetVariableAtIndex">
-                                        <value name="VALUE-0">
-                                          <block type="variableReferenceBlock">
-                                            <mutation isObjectVar="false"></mutation>
-                                            <field name="OBJECTTYPE">Global</field>
-                                            <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                          </block>
-                                        </value>
-                                        <value name="VALUE-1">
-                                          <block type="Number">
-                                            <field name="NUM">7</field>
-                                          </block>
-                                        </value>
-                                        <value name="VALUE-2">
-                                          <block type="OpenGadgetsItem">
-                                            <field name="VALUE-0">OpenGadgetsRumney</field>
-                                            <field name="VALUE-1">C4_RUM</field>
-                                          </block>
-                                        </value>
-                                        <next>
-                                          <block type="SetVariableAtIndex">
-                                            <value name="VALUE-0">
-                                              <block type="variableReferenceBlock">
-                                                <mutation isObjectVar="false"></mutation>
-                                                <field name="OBJECTTYPE">Global</field>
-                                                <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                              </block>
-                                            </value>
-                                            <value name="VALUE-1">
-                                              <block type="Number">
-                                                <field name="NUM">8</field>
-                                              </block>
-                                            </value>
-                                            <value name="VALUE-2">
-                                              <block type="OpenGadgetsItem">
-                                                <field name="VALUE-0">OpenGadgetsRumney</field>
-                                                <field name="VALUE-1">RPG7_RUM</field>
-                                              </block>
-                                            </value>
-                                            <next>
-                                              <block type="SetVariableAtIndex">
-                                                <value name="VALUE-0">
-                                                  <block type="variableReferenceBlock">
-                                                    <mutation isObjectVar="false"></mutation>
-                                                    <field name="OBJECTTYPE">Global</field>
-                                                    <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                                  </block>
-                                                </value>
-                                                <value name="VALUE-1">
-                                                  <block type="Number">
-                                                    <field name="NUM">9</field>
-                                                  </block>
-                                                </value>
-                                                <value name="VALUE-2">
-                                                  <block type="OpenGadgetsItem">
-                                                    <field name="VALUE-0">OpenGadgetsRumney</field>
-                                                    <field name="VALUE-1">M136AT4</field>
-                                                  </block>
-                                                </value>
-                                                <next>
-                                                  <block type="SetVariableAtIndex">
-                                                    <value name="VALUE-0">
-                                                      <block type="variableReferenceBlock">
-                                                        <mutation isObjectVar="false"></mutation>
-                                                        <field name="OBJECTTYPE">Global</field>
-                                                        <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
-                                                      </block>
-                                                    </value>
-                                                    <value name="VALUE-1">
-                                                      <block type="Number">
-                                                        <field name="NUM">0</field>
-                                                      </block>
-                                                    </value>
-                                                    <value name="VALUE-2">
-                                                      <block type="Text">
-                                                        <field name="TEXT">Ammo Crate</field>
-                                                      </block>
-                                                    </value>
-                                                    <next>
-                                                      <block type="SetVariableAtIndex">
-                                                        <value name="VALUE-0">
-                                                          <block type="variableReferenceBlock">
-                                                            <mutation isObjectVar="false"></mutation>
-                                                            <field name="OBJECTTYPE">Global</field>
-                                                            <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="VALUE-1">
-                                                          <block type="Number">
-                                                            <field name="NUM">1</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="VALUE-2">
-                                                          <block type="Text">
-                                                            <field name="TEXT">MedKit</field>
-                                                          </block>
-                                                        </value>
-                                                        <next>
-                                                          <block type="SetVariableAtIndex">
-                                                            <value name="VALUE-0">
-                                                              <block type="variableReferenceBlock">
-                                                                <mutation isObjectVar="false"></mutation>
-                                                                <field name="OBJECTTYPE">Global</field>
-                                                                <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
-                                                              </block>
-                                                            </value>
-                                                            <value name="VALUE-1">
-                                                              <block type="Number">
-                                                                <field name="NUM">2</field>
-                                                              </block>
-                                                            </value>
-                                                            <value name="VALUE-2">
-                                                              <block type="Text">
-                                                                <field name="TEXT">Med-Pen</field>
-                                                              </block>
-                                                            </value>
-                                                            <next>
-                                                              <block type="SetVariableAtIndex">
-                                                                <value name="VALUE-0">
-                                                                  <block type="variableReferenceBlock">
-                                                                    <mutation isObjectVar="false"></mutation>
-                                                                    <field name="OBJECTTYPE">Global</field>
-                                                                    <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
-                                                                  </block>
-                                                                </value>
-                                                                <value name="VALUE-1">
-                                                                  <block type="Number">
-                                                                    <field name="NUM">3</field>
-                                                                  </block>
-                                                                </value>
-                                                                <value name="VALUE-2">
-                                                                  <block type="Text">
-                                                                    <field name="TEXT">Motion sensor</field>
-                                                                  </block>
-                                                                </value>
-                                                                <next>
-                                                                  <block type="SetVariableAtIndex">
-                                                                    <value name="VALUE-0">
-                                                                      <block type="variableReferenceBlock">
-                                                                        <mutation isObjectVar="false"></mutation>
-                                                                        <field name="OBJECTTYPE">Global</field>
-                                                                        <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
-                                                                      </block>
-                                                                    </value>
-                                                                    <value name="VALUE-1">
-                                                                      <block type="Number">
-                                                                        <field name="NUM">4</field>
-                                                                      </block>
-                                                                    </value>
-                                                                    <value name="VALUE-2">
-                                                                      <block type="Text">
-                                                                        <field name="TEXT">Insertion Beacon</field>
-                                                                      </block>
-                                                                    </value>
-                                                                    <next>
-                                                                      <block type="SetVariableAtIndex">
-                                                                        <value name="VALUE-0">
-                                                                          <block type="variableReferenceBlock">
-                                                                            <mutation isObjectVar="false"></mutation>
-                                                                            <field name="OBJECTTYPE">Global</field>
-                                                                            <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="VALUE-1">
-                                                                          <block type="Number">
-                                                                            <field name="NUM">5</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <value name="VALUE-2">
-                                                                          <block type="Text">
-                                                                            <field name="TEXT">MAV Drone</field>
-                                                                          </block>
-                                                                        </value>
-                                                                        <next>
-                                                                          <block type="SetVariableAtIndex">
-                                                                            <value name="VALUE-0">
-                                                                              <block type="variableReferenceBlock">
-                                                                                <mutation isObjectVar="false"></mutation>
-                                                                                <field name="OBJECTTYPE">Global</field>
-                                                                                <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
-                                                                              </block>
-                                                                            </value>
-                                                                            <value name="VALUE-1">
-                                                                              <block type="Number">
-                                                                                <field name="NUM">6</field>
-                                                                              </block>
-                                                                            </value>
-                                                                            <value name="VALUE-2">
-                                                                              <block type="Text">
-                                                                                <field name="TEXT">Mortar Strike</field>
-                                                                              </block>
-                                                                            </value>
-                                                                            <next>
-                                                                              <block type="SetVariableAtIndex">
-                                                                                <value name="VALUE-0">
-                                                                                  <block type="variableReferenceBlock">
-                                                                                    <mutation isObjectVar="false"></mutation>
-                                                                                    <field name="OBJECTTYPE">Global</field>
-                                                                                    <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
-                                                                                  </block>
-                                                                                </value>
-                                                                                <value name="VALUE-1">
-                                                                                  <block type="Number">
-                                                                                    <field name="NUM">7</field>
-                                                                                  </block>
-                                                                                </value>
-                                                                                <value name="VALUE-2">
-                                                                                  <block type="Text">
-                                                                                    <field name="TEXT">C4</field>
-                                                                                  </block>
-                                                                                </value>
-                                                                                <next>
-                                                                                  <block type="SetVariableAtIndex">
-                                                                                    <value name="VALUE-0">
-                                                                                      <block type="variableReferenceBlock">
-                                                                                        <mutation isObjectVar="false"></mutation>
-                                                                                        <field name="OBJECTTYPE">Global</field>
-                                                                                        <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                    <value name="VALUE-1">
-                                                                                      <block type="Number">
-                                                                                        <field name="NUM">8</field>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                    <value name="VALUE-2">
-                                                                                      <block type="Text">
-                                                                                        <field name="TEXT">RPG-7</field>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                    <next>
-                                                                                      <block type="SetVariableAtIndex">
-                                                                                        <value name="VALUE-0">
-                                                                                          <block type="variableReferenceBlock">
-                                                                                            <mutation isObjectVar="false"></mutation>
-                                                                                            <field name="OBJECTTYPE">Global</field>
-                                                                                            <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                        <value name="VALUE-1">
-                                                                                          <block type="Number">
-                                                                                            <field name="NUM">9</field>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                        <value name="VALUE-2">
-                                                                                          <block type="Text">
-                                                                                            <field name="TEXT">M136 AT4</field>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                      </block>
-                                                                                    </next>
-                                                                                  </block>
-                                                                                </next>
-                                                                              </block>
-                                                                            </next>
-                                                                          </block>
-                                                                        </next>
-                                                                      </block>
-                                                                    </next>
-                                                                  </block>
-                                                                </next>
-                                                              </block>
-                                                            </next>
-                                                          </block>
-                                                        </next>
-                                                      </block>
-                                                    </next>
-                                                  </block>
-                                                </next>
-                                              </block>
-                                            </next>
-                                          </block>
-                                        </next>
-                                      </block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </statement>
-  </block>
-  <block type="subroutineBlock" deletable="false" x="2084" y="-4371">
+  <block type="subroutineBlock" deletable="false" x="13928" y="-3690">
     <field name="SUBROUTINE_NAME">1942_weapons_list</field>
     <statement name="ACTIONS">
       <block type="subroutineInstanceBlock" inline="false">
@@ -2976,7 +2976,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="394" y="-1805">
+  <block type="subroutineBlock" deletable="false" x="12205" y="-621">
     <mutation>
       <parameter types="Enum_SecondaryWeapons">Secondary1</parameter>
       <parameter types="Enum_SecondaryWeapons">Secondary2</parameter>
@@ -4037,7 +4037,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="15472" y="81">
+  <block type="subroutineBlock" deletable="false" x="17126" y="1508">
     <field name="SUBROUTINE_NAME">assign_teams</field>
     <statement name="ACTIONS">
       <block type="SetVariable" inline="false">
@@ -4205,7 +4205,60 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="781" y="1161">
+  <block type="DisplayCustomNotificationMessage" x="20698" y="1762">
+    <value name="VALUE-0">
+      <block type="Message">
+        <value name="VALUE-0">
+          <block type="Text">
+            <field name="TEXT">MenuPage {} - menuSelection {}</field>
+          </block>
+        </value>
+        <value name="VALUE-1">
+          <block type="GetVariable">
+            <value name="VALUE-0">
+              <block type="variableReferenceBlock">
+                <mutation isObjectVar="true"></mutation>
+                <field name="OBJECTTYPE">Player</field>
+                <field name="VAR" id="F+gAvAkkJN6|`VR^t_5N" variabletype="Player">MenuPage</field>
+                <value name="OBJECT">
+                  <block type="EventPlayer"></block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="VALUE-2">
+          <block type="GetVariable">
+            <value name="VALUE-0">
+              <block type="variableReferenceBlock">
+                <mutation isObjectVar="true"></mutation>
+                <field name="OBJECTTYPE">Player</field>
+                <field name="VAR" id="~44cXK!a{n=#!Q,X^aMu" variabletype="Player">MenuSelection</field>
+                <value name="OBJECT">
+                  <block type="EventPlayer"></block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <value name="VALUE-1">
+      <block type="CustomMessagesItem">
+        <field name="VALUE-0">CustomMessages</field>
+        <field name="VALUE-1">MessageText4</field>
+      </block>
+    </value>
+    <value name="VALUE-2">
+      <block type="Number">
+        <field name="NUM">1</field>
+      </block>
+    </value>
+    <value name="VALUE-3">
+      <block type="EventPlayer"></block>
+    </value>
+  </block>
+  <block type="subroutineBlock" deletable="false" x="11597" y="2473">
     <field name="SUBROUTINE_NAME">set_spawnpoints</field>
     <statement name="ACTIONS">
       <block type="If">
@@ -4896,7 +4949,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="4551" y="1427">
+  <block type="subroutineBlock" deletable="false" x="14202" y="2611">
     <field name="SUBROUTINE_NAME">set_mcoms</field>
     <statement name="ACTIONS">
       <block type="Teleport">
@@ -5638,7 +5691,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="15683" y="1157">
+  <block type="subroutineBlock" deletable="false" x="17161" y="2488">
     <field name="SUBROUTINE_NAME">create_weapon_prices</field>
     <statement name="ACTIONS">
       <block type="SetVariableAtIndex">
@@ -6838,60 +6891,7 @@
       </block>
     </statement>
   </block>
-  <block type="DisplayCustomNotificationMessage" x="20698" y="1762">
-    <value name="VALUE-0">
-      <block type="Message">
-        <value name="VALUE-0">
-          <block type="Text">
-            <field name="TEXT">MenuPage {} - menuSelection {}</field>
-          </block>
-        </value>
-        <value name="VALUE-1">
-          <block type="GetVariable">
-            <value name="VALUE-0">
-              <block type="variableReferenceBlock">
-                <mutation isObjectVar="true"></mutation>
-                <field name="OBJECTTYPE">Player</field>
-                <field name="VAR" id="F+gAvAkkJN6|`VR^t_5N" variabletype="Player">MenuPage</field>
-                <value name="OBJECT">
-                  <block type="EventPlayer"></block>
-                </value>
-              </block>
-            </value>
-          </block>
-        </value>
-        <value name="VALUE-2">
-          <block type="GetVariable">
-            <value name="VALUE-0">
-              <block type="variableReferenceBlock">
-                <mutation isObjectVar="true"></mutation>
-                <field name="OBJECTTYPE">Player</field>
-                <field name="VAR" id="~44cXK!a{n=#!Q,X^aMu" variabletype="Player">MenuSelection</field>
-                <value name="OBJECT">
-                  <block type="EventPlayer"></block>
-                </value>
-              </block>
-            </value>
-          </block>
-        </value>
-      </block>
-    </value>
-    <value name="VALUE-1">
-      <block type="CustomMessagesItem">
-        <field name="VALUE-0">CustomMessages</field>
-        <field name="VALUE-1">MessageText4</field>
-      </block>
-    </value>
-    <value name="VALUE-2">
-      <block type="Number">
-        <field name="NUM">1</field>
-      </block>
-    </value>
-    <value name="VALUE-3">
-      <block type="EventPlayer"></block>
-    </value>
-  </block>
-  <block type="subroutineBlock" deletable="false" x="21069" y="2905">
+  <block type="subroutineBlock" deletable="false" x="20944" y="2604">
     <field name="SUBROUTINE_NAME">menu_display</field>
     <statement name="ACTIONS">
       <block type="If">
@@ -17059,7 +17059,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="14118" y="7969">
+  <block type="subroutineBlock" deletable="false" x="14243" y="7175">
     <field name="SUBROUTINE_NAME">buy_for_bots</field>
     <statement name="ACTIONS">
       <block type="If">
@@ -17665,8 +17665,8 @@
       </block>
     </statement>
   </block>
-  <block type="EventPlayer" x="14582" y="8432"></block>
-  <block type="subroutineBlock" deletable="false" x="11268" y="9863">
+  <block type="EventPlayer" x="14646" y="8549"></block>
+  <block type="subroutineBlock" deletable="false" x="14234" y="9076">
     <field name="SUBROUTINE_NAME">end_of_round</field>
     <statement name="ACTIONS">
       <block type="SetVariable">
@@ -18581,7 +18581,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="12556" y="13854">
+  <block type="subroutineBlock" deletable="false" x="12665" y="13707">
     <mutation>
       <parameter types="Global">Price</parameter>
       <parameter types="Global">Weapon</parameter>
