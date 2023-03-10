@@ -7986,7 +7986,7 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="2456" y="749">
+  <block type="subroutineBlock" deletable="false" x="1620" y="669">
     <field name="SUBROUTINE_NAME">set_spawnpoints</field>
     <statement name="ACTIONS">
       <block type="If">
