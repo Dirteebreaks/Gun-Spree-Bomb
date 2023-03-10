@@ -3519,7 +3519,7 @@
           </block>
         </value>
         <next>
-          <block type="SetVariable">
+          <block type="SetVariableAtIndex">
             <value name="VALUE-0">
               <block type="variableReferenceBlock">
                 <mutation isObjectVar="false"></mutation>
@@ -3528,10 +3528,18 @@
               </block>
             </value>
             <value name="VALUE-1">
-              <block type="EmptyArray"></block>
+              <block type="Number">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+            <value name="VALUE-2">
+              <block type="OpenGadgetsItem">
+                <field name="VALUE-0">OpenGadgetsKingston</field>
+                <field name="VALUE-1">AmmoCrate</field>
+              </block>
             </value>
             <next>
-              <block type="SetVariable">
+              <block type="SetVariableAtIndex">
                 <value name="VALUE-0">
                   <block type="variableReferenceBlock">
                     <mutation isObjectVar="false"></mutation>
@@ -3540,28 +3548,18 @@
                   </block>
                 </value>
                 <value name="VALUE-1">
-                  <block type="AppendToArray">
-                    <value name="VALUE-0">
-                      <block type="GetVariable">
-                        <value name="VALUE-0">
-                          <block type="variableReferenceBlock">
-                            <mutation isObjectVar="false"></mutation>
-                            <field name="OBJECTTYPE">Global</field>
-                            <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                          </block>
-                        </value>
-                      </block>
-                    </value>
-                    <value name="VALUE-1">
-                      <block type="OpenGadgetsItem">
-                        <field name="VALUE-0">OpenGadgetsKingston</field>
-                        <field name="VALUE-1">AmmoCrate</field>
-                      </block>
-                    </value>
+                  <block type="Number">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+                <value name="VALUE-2">
+                  <block type="OpenGadgetsItem">
+                    <field name="VALUE-0">OpenGadgetsKingston</field>
+                    <field name="VALUE-1">HealthCrate</field>
                   </block>
                 </value>
                 <next>
-                  <block type="SetVariable">
+                  <block type="SetVariableAtIndex">
                     <value name="VALUE-0">
                       <block type="variableReferenceBlock">
                         <mutation isObjectVar="false"></mutation>
@@ -3570,28 +3568,18 @@
                       </block>
                     </value>
                     <value name="VALUE-1">
-                      <block type="AppendToArray">
-                        <value name="VALUE-0">
-                          <block type="GetVariable">
-                            <value name="VALUE-0">
-                              <block type="variableReferenceBlock">
-                                <mutation isObjectVar="false"></mutation>
-                                <field name="OBJECTTYPE">Global</field>
-                                <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                              </block>
-                            </value>
-                          </block>
-                        </value>
-                        <value name="VALUE-1">
-                          <block type="OpenGadgetsItem">
-                            <field name="VALUE-0">OpenGadgetsKingston</field>
-                            <field name="VALUE-1">HealthCrate</field>
-                          </block>
-                        </value>
+                      <block type="Number">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                    <value name="VALUE-2">
+                      <block type="OpenGadgetsItem">
+                        <field name="VALUE-0">OpenGadgetsKingston</field>
+                        <field name="VALUE-1">ArmorPiece</field>
                       </block>
                     </value>
                     <next>
-                      <block type="SetVariable">
+                      <block type="SetVariableAtIndex">
                         <value name="VALUE-0">
                           <block type="variableReferenceBlock">
                             <mutation isObjectVar="false"></mutation>
@@ -3600,28 +3588,18 @@
                           </block>
                         </value>
                         <value name="VALUE-1">
-                          <block type="AppendToArray">
-                            <value name="VALUE-0">
-                              <block type="GetVariable">
-                                <value name="VALUE-0">
-                                  <block type="variableReferenceBlock">
-                                    <mutation isObjectVar="false"></mutation>
-                                    <field name="OBJECTTYPE">Global</field>
-                                    <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                  </block>
-                                </value>
-                              </block>
-                            </value>
-                            <value name="VALUE-1">
-                              <block type="OpenGadgetsItem">
-                                <field name="VALUE-0">OpenGadgetsKingston</field>
-                                <field name="VALUE-1">ArmorPiece</field>
-                              </block>
-                            </value>
+                          <block type="Number">
+                            <field name="NUM">3</field>
+                          </block>
+                        </value>
+                        <value name="VALUE-2">
+                          <block type="CharacterGadgetsItem">
+                            <field name="VALUE-0">CharacterGadgetsKingston</field>
+                            <field name="VALUE-1">ConstructionKit</field>
                           </block>
                         </value>
                         <next>
-                          <block type="SetVariable">
+                          <block type="SetVariableAtIndex">
                             <value name="VALUE-0">
                               <block type="variableReferenceBlock">
                                 <mutation isObjectVar="false"></mutation>
@@ -3630,28 +3608,18 @@
                               </block>
                             </value>
                             <value name="VALUE-1">
-                              <block type="AppendToArray">
-                                <value name="VALUE-0">
-                                  <block type="GetVariable">
-                                    <value name="VALUE-0">
-                                      <block type="variableReferenceBlock">
-                                        <mutation isObjectVar="false"></mutation>
-                                        <field name="OBJECTTYPE">Global</field>
-                                        <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                      </block>
-                                    </value>
-                                  </block>
-                                </value>
-                                <value name="VALUE-1">
-                                  <block type="CharacterGadgetsItem">
-                                    <field name="VALUE-0">CharacterGadgetsKingston</field>
-                                    <field name="VALUE-1">ConstructionKit</field>
-                                  </block>
-                                </value>
+                              <block type="Number">
+                                <field name="NUM">4</field>
+                              </block>
+                            </value>
+                            <value name="VALUE-2">
+                              <block type="CharacterGadgetsItem">
+                                <field name="VALUE-0">CharacterGadgetsKingston</field>
+                                <field name="VALUE-1">BallisticShield</field>
                               </block>
                             </value>
                             <next>
-                              <block type="SetVariable">
+                              <block type="SetVariableAtIndex">
                                 <value name="VALUE-0">
                                   <block type="variableReferenceBlock">
                                     <mutation isObjectVar="false"></mutation>
@@ -3660,28 +3628,18 @@
                                   </block>
                                 </value>
                                 <value name="VALUE-1">
-                                  <block type="AppendToArray">
-                                    <value name="VALUE-0">
-                                      <block type="GetVariable">
-                                        <value name="VALUE-0">
-                                          <block type="variableReferenceBlock">
-                                            <mutation isObjectVar="false"></mutation>
-                                            <field name="OBJECTTYPE">Global</field>
-                                            <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                          </block>
-                                        </value>
-                                      </block>
-                                    </value>
-                                    <value name="VALUE-1">
-                                      <block type="CharacterGadgetsItem">
-                                        <field name="VALUE-0">CharacterGadgetsKingston</field>
-                                        <field name="VALUE-1">BallisticShield</field>
-                                      </block>
-                                    </value>
+                                  <block type="Number">
+                                    <field name="NUM">5</field>
+                                  </block>
+                                </value>
+                                <value name="VALUE-2">
+                                  <block type="OpenGadgetsItem">
+                                    <field name="VALUE-0">OpenGadgetsKingston</field>
+                                    <field name="VALUE-1">C4</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="SetVariable">
+                                  <block type="SetVariableAtIndex">
                                     <value name="VALUE-0">
                                       <block type="variableReferenceBlock">
                                         <mutation isObjectVar="false"></mutation>
@@ -3690,28 +3648,18 @@
                                       </block>
                                     </value>
                                     <value name="VALUE-1">
-                                      <block type="AppendToArray">
-                                        <value name="VALUE-0">
-                                          <block type="GetVariable">
-                                            <value name="VALUE-0">
-                                              <block type="variableReferenceBlock">
-                                                <mutation isObjectVar="false"></mutation>
-                                                <field name="OBJECTTYPE">Global</field>
-                                                <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                              </block>
-                                            </value>
-                                          </block>
-                                        </value>
-                                        <value name="VALUE-1">
-                                          <block type="OpenGadgetsItem">
-                                            <field name="VALUE-0">OpenGadgetsKingston</field>
-                                            <field name="VALUE-1">C4</field>
-                                          </block>
-                                        </value>
+                                      <block type="Number">
+                                        <field name="NUM">6</field>
+                                      </block>
+                                    </value>
+                                    <value name="VALUE-2">
+                                      <block type="OpenGadgetsItem">
+                                        <field name="VALUE-0">OpenGadgetsKingston</field>
+                                        <field name="VALUE-1">CarlGustav</field>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="SetVariable">
+                                      <block type="SetVariableAtIndex">
                                         <value name="VALUE-0">
                                           <block type="variableReferenceBlock">
                                             <mutation isObjectVar="false"></mutation>
@@ -3720,28 +3668,18 @@
                                           </block>
                                         </value>
                                         <value name="VALUE-1">
-                                          <block type="AppendToArray">
-                                            <value name="VALUE-0">
-                                              <block type="GetVariable">
-                                                <value name="VALUE-0">
-                                                  <block type="variableReferenceBlock">
-                                                    <mutation isObjectVar="false"></mutation>
-                                                    <field name="OBJECTTYPE">Global</field>
-                                                    <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </value>
-                                            <value name="VALUE-1">
-                                              <block type="OpenGadgetsItem">
-                                                <field name="VALUE-0">OpenGadgetsKingston</field>
-                                                <field name="VALUE-1">CarlGustav</field>
-                                              </block>
-                                            </value>
+                                          <block type="Number">
+                                            <field name="NUM">7</field>
+                                          </block>
+                                        </value>
+                                        <value name="VALUE-2">
+                                          <block type="CharacterGadgetsItem">
+                                            <field name="VALUE-0">CharacterGadgetsKingston</field>
+                                            <field name="VALUE-1">ARScanner</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="SetVariable">
+                                          <block type="SetVariableAtIndex">
                                             <value name="VALUE-0">
                                               <block type="variableReferenceBlock">
                                                 <mutation isObjectVar="false"></mutation>
@@ -3750,28 +3688,18 @@
                                               </block>
                                             </value>
                                             <value name="VALUE-1">
-                                              <block type="AppendToArray">
-                                                <value name="VALUE-0">
-                                                  <block type="GetVariable">
-                                                    <value name="VALUE-0">
-                                                      <block type="variableReferenceBlock">
-                                                        <mutation isObjectVar="false"></mutation>
-                                                        <field name="OBJECTTYPE">Global</field>
-                                                        <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                                      </block>
-                                                    </value>
-                                                  </block>
-                                                </value>
-                                                <value name="VALUE-1">
-                                                  <block type="CharacterGadgetsItem">
-                                                    <field name="VALUE-0">CharacterGadgetsKingston</field>
-                                                    <field name="VALUE-1">ARScanner</field>
-                                                  </block>
-                                                </value>
+                                              <block type="Number">
+                                                <field name="NUM">8</field>
+                                              </block>
+                                            </value>
+                                            <value name="VALUE-2">
+                                              <block type="CharacterGadgetsItem">
+                                                <field name="VALUE-0">CharacterGadgetsKingston</field>
+                                                <field name="VALUE-1">GrappleGun</field>
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="SetVariable">
+                                              <block type="SetVariableAtIndex">
                                                 <value name="VALUE-0">
                                                   <block type="variableReferenceBlock">
                                                     <mutation isObjectVar="false"></mutation>
@@ -3780,28 +3708,18 @@
                                                   </block>
                                                 </value>
                                                 <value name="VALUE-1">
-                                                  <block type="AppendToArray">
-                                                    <value name="VALUE-0">
-                                                      <block type="GetVariable">
-                                                        <value name="VALUE-0">
-                                                          <block type="variableReferenceBlock">
-                                                            <mutation isObjectVar="false"></mutation>
-                                                            <field name="OBJECTTYPE">Global</field>
-                                                            <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                                          </block>
-                                                        </value>
-                                                      </block>
-                                                    </value>
-                                                    <value name="VALUE-1">
-                                                      <block type="CharacterGadgetsItem">
-                                                        <field name="VALUE-0">CharacterGadgetsKingston</field>
-                                                        <field name="VALUE-1">GrappleGun</field>
-                                                      </block>
-                                                    </value>
+                                                  <block type="Number">
+                                                    <field name="NUM">9</field>
+                                                  </block>
+                                                </value>
+                                                <value name="VALUE-2">
+                                                  <block type="CharacterGadgetsItem">
+                                                    <field name="VALUE-0">CharacterGadgetsKingston</field>
+                                                    <field name="VALUE-1">XM370A</field>
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="SetVariable">
+                                                  <block type="SetVariableAtIndex">
                                                     <value name="VALUE-0">
                                                       <block type="variableReferenceBlock">
                                                         <mutation isObjectVar="false"></mutation>
@@ -3810,28 +3728,18 @@
                                                       </block>
                                                     </value>
                                                     <value name="VALUE-1">
-                                                      <block type="AppendToArray">
-                                                        <value name="VALUE-0">
-                                                          <block type="GetVariable">
-                                                            <value name="VALUE-0">
-                                                              <block type="variableReferenceBlock">
-                                                                <mutation isObjectVar="false"></mutation>
-                                                                <field name="OBJECTTYPE">Global</field>
-                                                                <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                                              </block>
-                                                            </value>
-                                                          </block>
-                                                        </value>
-                                                        <value name="VALUE-1">
-                                                          <block type="CharacterGadgetsItem">
-                                                            <field name="VALUE-0">CharacterGadgetsKingston</field>
-                                                            <field name="VALUE-1">XM370A</field>
-                                                          </block>
-                                                        </value>
+                                                      <block type="Number">
+                                                        <field name="NUM">10</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="VALUE-2">
+                                                      <block type="CharacterGadgetsItem">
+                                                        <field name="VALUE-0">CharacterGadgetsKingston</field>
+                                                        <field name="VALUE-1">AutoTurret</field>
                                                       </block>
                                                     </value>
                                                     <next>
-                                                      <block type="SetVariable">
+                                                      <block type="SetVariableAtIndex">
                                                         <value name="VALUE-0">
                                                           <block type="variableReferenceBlock">
                                                             <mutation isObjectVar="false"></mutation>
@@ -3840,54 +3748,33 @@
                                                           </block>
                                                         </value>
                                                         <value name="VALUE-1">
-                                                          <block type="AppendToArray">
-                                                            <value name="VALUE-0">
-                                                              <block type="GetVariable">
-                                                                <value name="VALUE-0">
-                                                                  <block type="variableReferenceBlock">
-                                                                    <mutation isObjectVar="false"></mutation>
-                                                                    <field name="OBJECTTYPE">Global</field>
-                                                                    <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                                                  </block>
-                                                                </value>
-                                                              </block>
-                                                            </value>
-                                                            <value name="VALUE-1">
-                                                              <block type="CharacterGadgetsItem">
-                                                                <field name="VALUE-0">CharacterGadgetsKingston</field>
-                                                                <field name="VALUE-1">AutoTurret</field>
-                                                              </block>
-                                                            </value>
+                                                          <block type="Number">
+                                                            <field name="NUM">11</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="VALUE-2">
+                                                          <block type="CharacterGadgetsItem">
+                                                            <field name="VALUE-0">CharacterGadgetsKingston</field>
+                                                            <field name="VALUE-1">StationaryMinigun</field>
                                                           </block>
                                                         </value>
                                                         <next>
-                                                          <block type="SetVariable">
+                                                          <block type="SetVariableAtIndex">
                                                             <value name="VALUE-0">
                                                               <block type="variableReferenceBlock">
                                                                 <mutation isObjectVar="false"></mutation>
                                                                 <field name="OBJECTTYPE">Global</field>
-                                                                <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
+                                                                <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
                                                               </block>
                                                             </value>
                                                             <value name="VALUE-1">
-                                                              <block type="AppendToArray">
-                                                                <value name="VALUE-0">
-                                                                  <block type="GetVariable">
-                                                                    <value name="VALUE-0">
-                                                                      <block type="variableReferenceBlock">
-                                                                        <mutation isObjectVar="false"></mutation>
-                                                                        <field name="OBJECTTYPE">Global</field>
-                                                                        <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
-                                                                      </block>
-                                                                    </value>
-                                                                  </block>
-                                                                </value>
-                                                                <value name="VALUE-1">
-                                                                  <block type="CharacterGadgetsItem">
-                                                                    <field name="VALUE-0">CharacterGadgetsKingston</field>
-                                                                    <field name="VALUE-1">StationaryMinigun</field>
-                                                                  </block>
-                                                                </value>
+                                                              <block type="Number">
+                                                                <field name="NUM">0</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="VALUE-2">
+                                                              <block type="Text">
+                                                                <field name="TEXT">Ammo Crate</field>
                                                               </block>
                                                             </value>
                                                             <next>
@@ -3901,12 +3788,12 @@
                                                                 </value>
                                                                 <value name="VALUE-1">
                                                                   <block type="Number">
-                                                                    <field name="NUM">0</field>
+                                                                    <field name="NUM">1</field>
                                                                   </block>
                                                                 </value>
                                                                 <value name="VALUE-2">
                                                                   <block type="Text">
-                                                                    <field name="TEXT">Ammo Crate</field>
+                                                                    <field name="TEXT">Med Crate</field>
                                                                   </block>
                                                                 </value>
                                                                 <next>
@@ -3920,12 +3807,12 @@
                                                                     </value>
                                                                     <value name="VALUE-1">
                                                                       <block type="Number">
-                                                                        <field name="NUM">1</field>
+                                                                        <field name="NUM">2</field>
                                                                       </block>
                                                                     </value>
                                                                     <value name="VALUE-2">
                                                                       <block type="Text">
-                                                                        <field name="TEXT">Med Crate</field>
+                                                                        <field name="TEXT">Armor Plate</field>
                                                                       </block>
                                                                     </value>
                                                                     <next>
@@ -3939,12 +3826,12 @@
                                                                         </value>
                                                                         <value name="VALUE-1">
                                                                           <block type="Number">
-                                                                            <field name="NUM">2</field>
+                                                                            <field name="NUM">3</field>
                                                                           </block>
                                                                         </value>
                                                                         <value name="VALUE-2">
                                                                           <block type="Text">
-                                                                            <field name="TEXT">Armor Plate</field>
+                                                                            <field name="TEXT">fortification system</field>
                                                                           </block>
                                                                         </value>
                                                                         <next>
@@ -3958,12 +3845,12 @@
                                                                             </value>
                                                                             <value name="VALUE-1">
                                                                               <block type="Number">
-                                                                                <field name="NUM">3</field>
+                                                                                <field name="NUM">4</field>
                                                                               </block>
                                                                             </value>
                                                                             <value name="VALUE-2">
                                                                               <block type="Text">
-                                                                                <field name="TEXT">fortification system</field>
+                                                                                <field name="TEXT">Ballistic shield</field>
                                                                               </block>
                                                                             </value>
                                                                             <next>
@@ -3977,12 +3864,12 @@
                                                                                 </value>
                                                                                 <value name="VALUE-1">
                                                                                   <block type="Number">
-                                                                                    <field name="NUM">4</field>
+                                                                                    <field name="NUM">5</field>
                                                                                   </block>
                                                                                 </value>
                                                                                 <value name="VALUE-2">
                                                                                   <block type="Text">
-                                                                                    <field name="TEXT">Ballistic shield</field>
+                                                                                    <field name="TEXT">C5</field>
                                                                                   </block>
                                                                                 </value>
                                                                                 <next>
@@ -3996,12 +3883,12 @@
                                                                                     </value>
                                                                                     <value name="VALUE-1">
                                                                                       <block type="Number">
-                                                                                        <field name="NUM">5</field>
+                                                                                        <field name="NUM">6</field>
                                                                                       </block>
                                                                                     </value>
                                                                                     <value name="VALUE-2">
                                                                                       <block type="Text">
-                                                                                        <field name="TEXT">C5</field>
+                                                                                        <field name="TEXT">Recoiless M5</field>
                                                                                       </block>
                                                                                     </value>
                                                                                     <next>
@@ -4015,12 +3902,12 @@
                                                                                         </value>
                                                                                         <value name="VALUE-1">
                                                                                           <block type="Number">
-                                                                                            <field name="NUM">6</field>
+                                                                                            <field name="NUM">7</field>
                                                                                           </block>
                                                                                         </value>
                                                                                         <value name="VALUE-2">
                                                                                           <block type="Text">
-                                                                                            <field name="TEXT">Recoiless M5</field>
+                                                                                            <field name="TEXT">EMG-X Scanner</field>
                                                                                           </block>
                                                                                         </value>
                                                                                         <next>
@@ -4034,12 +3921,12 @@
                                                                                             </value>
                                                                                             <value name="VALUE-1">
                                                                                               <block type="Number">
-                                                                                                <field name="NUM">7</field>
+                                                                                                <field name="NUM">8</field>
                                                                                               </block>
                                                                                             </value>
                                                                                             <value name="VALUE-2">
                                                                                               <block type="Text">
-                                                                                                <field name="TEXT">EMG-X Scanner</field>
+                                                                                                <field name="TEXT">Grappling hook</field>
                                                                                               </block>
                                                                                             </value>
                                                                                             <next>
@@ -4053,12 +3940,12 @@
                                                                                                 </value>
                                                                                                 <value name="VALUE-1">
                                                                                                   <block type="Number">
-                                                                                                    <field name="NUM">8</field>
+                                                                                                    <field name="NUM">9</field>
                                                                                                   </block>
                                                                                                 </value>
                                                                                                 <value name="VALUE-2">
                                                                                                   <block type="Text">
-                                                                                                    <field name="TEXT">Grappling hook</field>
+                                                                                                    <field name="TEXT">XM370 Airburst</field>
                                                                                                   </block>
                                                                                                 </value>
                                                                                                 <next>
@@ -4072,12 +3959,12 @@
                                                                                                     </value>
                                                                                                     <value name="VALUE-1">
                                                                                                       <block type="Number">
-                                                                                                        <field name="NUM">9</field>
+                                                                                                        <field name="NUM">10</field>
                                                                                                       </block>
                                                                                                     </value>
                                                                                                     <value name="VALUE-2">
                                                                                                       <block type="Text">
-                                                                                                        <field name="TEXT">XM370 Airburst</field>
+                                                                                                        <field name="TEXT">SG-36 Sentry gun</field>
                                                                                                       </block>
                                                                                                     </value>
                                                                                                     <next>
@@ -4091,35 +3978,14 @@
                                                                                                         </value>
                                                                                                         <value name="VALUE-1">
                                                                                                           <block type="Number">
-                                                                                                            <field name="NUM">10</field>
+                                                                                                            <field name="NUM">11</field>
                                                                                                           </block>
                                                                                                         </value>
                                                                                                         <value name="VALUE-2">
                                                                                                           <block type="Text">
-                                                                                                            <field name="TEXT">SG-36 Sentry gun</field>
+                                                                                                            <field name="TEXT">Mounted Vulkan</field>
                                                                                                           </block>
                                                                                                         </value>
-                                                                                                        <next>
-                                                                                                          <block type="SetVariableAtIndex">
-                                                                                                            <value name="VALUE-0">
-                                                                                                              <block type="variableReferenceBlock">
-                                                                                                                <mutation isObjectVar="false"></mutation>
-                                                                                                                <field name="OBJECTTYPE">Global</field>
-                                                                                                                <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
-                                                                                                              </block>
-                                                                                                            </value>
-                                                                                                            <value name="VALUE-1">
-                                                                                                              <block type="Number">
-                                                                                                                <field name="NUM">11</field>
-                                                                                                              </block>
-                                                                                                            </value>
-                                                                                                            <value name="VALUE-2">
-                                                                                                              <block type="Text">
-                                                                                                                <field name="TEXT">Mounted Vulkan</field>
-                                                                                                              </block>
-                                                                                                            </value>
-                                                                                                          </block>
-                                                                                                        </next>
                                                                                                       </block>
                                                                                                     </next>
                                                                                                   </block>
