@@ -1488,6 +1488,150 @@
       </block>
     </statement>
   </block>
+  <block type="If" x="15712" y="-3914">
+    <statement name="DO">
+      <block type="subroutineInstanceBlock" inline="false">
+        <mutation>
+          <parameter types="Enum_SecondaryWeapons">Secondary1</parameter>
+          <parameter types="Enum_SecondaryWeapons">Secondary2</parameter>
+          <parameter types="Enum_SecondaryWeapons">Secondary3</parameter>
+          <parameter types="String">MenuSecondary1</parameter>
+          <parameter types="String">MenuSecondary2</parameter>
+          <parameter types="String">MenuSecondary3</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR1</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR2</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR3</parameter>
+          <parameter types="String">MenuAR1</parameter>
+          <parameter types="String">MenuAR2</parameter>
+          <parameter types="String">MenuAR3</parameter>
+        </mutation>
+        <field name="SUBROUTINE_NAME">Weapons_Secondary_ARs</field>
+        <next>
+          <block type="subroutineInstanceBlock" inline="false">
+            <mutation>
+              <parameter types="Enum_PrimaryWeapons">SMG1</parameter>
+              <parameter types="Enum_PrimaryWeapons">SMG2</parameter>
+              <parameter types="Enum_PrimaryWeapons">SMG3</parameter>
+              <parameter types="String">MenuSMG1</parameter>
+              <parameter types="String">MenuSMG2</parameter>
+              <parameter types="String">MenuSMG3</parameter>
+              <parameter types="Enum_PrimaryWeapons">Shotgun1</parameter>
+              <parameter types="Enum_PrimaryWeapons">Shotgun2</parameter>
+              <parameter types="Enum_PrimaryWeapons">Shotgun3</parameter>
+              <parameter types="String">MenuShotgun1</parameter>
+              <parameter types="String">MenuShotgun2</parameter>
+              <parameter types="String">MenuShotgun3</parameter>
+            </mutation>
+            <field name="SUBROUTINE_NAME">Weapons_SMGs_Shotguns</field>
+            <next>
+              <block type="subroutineInstanceBlock" inline="false">
+                <mutation>
+                  <parameter types="Enum_PrimaryWeapons">LMG1</parameter>
+                  <parameter types="Enum_PrimaryWeapons">LMG2</parameter>
+                  <parameter types="Enum_PrimaryWeapons">LMG3</parameter>
+                  <parameter types="String">MenuLMG1</parameter>
+                  <parameter types="String">MenuLMG2</parameter>
+                  <parameter types="String">MenuLMG3</parameter>
+                  <parameter types="Enum_PrimaryWeapons">DMR1</parameter>
+                  <parameter types="Enum_PrimaryWeapons">DMR2</parameter>
+                  <parameter types="Enum_PrimaryWeapons">DMR3</parameter>
+                  <parameter types="String">MenuDMR1</parameter>
+                  <parameter types="String">MenuDMR2</parameter>
+                  <parameter types="String">MenuDMR3</parameter>
+                </mutation>
+                <field name="SUBROUTINE_NAME">Weapons_LMGs_DMRs</field>
+                <next>
+                  <block type="subroutineInstanceBlock" inline="false">
+                    <mutation>
+                      <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
+                      <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
+                      <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
+                      <parameter types="String">MenuSniper1</parameter>
+                      <parameter types="String">MenuSniper2</parameter>
+                      <parameter types="String">MenuSniper3</parameter>
+                      <parameter types="Enum_Throwables">Throwables1</parameter>
+                      <parameter types="Enum_Throwables">Throwables2</parameter>
+                      <parameter types="Enum_Throwables">Throwables3</parameter>
+                      <parameter types="String">MenuThrowables1</parameter>
+                      <parameter types="String">MenuThrowables2</parameter>
+                      <parameter types="String">MenuThrowables3</parameter>
+                    </mutation>
+                    <field name="SUBROUTINE_NAME">Weapons_Snipers_Throwables</field>
+                    <value name="PARAM-0">
+                      <block type="PrimaryWeaponsItem">
+                        <field name="VALUE-0">PrimaryWeaponsRumney</field>
+                        <field name="VALUE-1">GOL</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-1">
+                      <block type="PrimaryWeaponsItem">
+                        <field name="VALUE-0">PrimaryWeaponsAlexandria</field>
+                        <field name="VALUE-1">M98B</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-2">
+                      <block type="PrimaryWeaponsItem">
+                        <field name="VALUE-0">PrimaryWeaponsRumney</field>
+                        <field name="VALUE-1">M95</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-3">
+                      <block type="Text">
+                        <field name="TEXT">Gol Magnum</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-4">
+                      <block type="Text">
+                        <field name="TEXT">M98B</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-5">
+                      <block type="Text">
+                        <field name="TEXT">M95 Sniper</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-6">
+                      <block type="ThrowablesItem">
+                        <field name="VALUE-0">ThrowablesAlexandria</field>
+                        <field name="VALUE-1">M18_Smoke_ALX</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-7">
+                      <block type="ThrowablesItem">
+                        <field name="VALUE-0">ThrowablesRumney</field>
+                        <field name="VALUE-1">FragGrenade_RUM</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-8">
+                      <block type="ThrowablesItem">
+                        <field name="VALUE-0">ThrowablesAlexandria</field>
+                        <field name="VALUE-1">M67</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-9">
+                      <block type="Text">
+                        <field name="TEXT">Smoke grenade</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-10">
+                      <block type="Text">
+                        <field name="TEXT">Frag grenade</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-11">
+                      <block type="Text">
+                        <field name="TEXT">M67 grenade</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
   <block type="subroutineBlock" deletable="false" x="14557" y="-3802">
     <field name="SUBROUTINE_NAME">bf3_weapons_list</field>
     <statement name="ACTIONS">
@@ -2162,245 +2306,265 @@
       </block>
     </statement>
   </block>
+  <block type="subroutineInstanceBlock" inline="false" x="10593" y="-3594">
+    <mutation>
+      <parameter types="Enum_SecondaryWeapons">Secondary1</parameter>
+      <parameter types="Enum_SecondaryWeapons">Secondary2</parameter>
+      <parameter types="Enum_SecondaryWeapons">Secondary3</parameter>
+      <parameter types="String">MenuSecondary1</parameter>
+      <parameter types="String">MenuSecondary2</parameter>
+      <parameter types="String">MenuSecondary3</parameter>
+      <parameter types="Enum_PrimaryWeapons">AR1</parameter>
+      <parameter types="Enum_PrimaryWeapons">AR2</parameter>
+      <parameter types="Enum_PrimaryWeapons">AR3</parameter>
+      <parameter types="String">MenuAR1</parameter>
+      <parameter types="String">MenuAR2</parameter>
+      <parameter types="String">MenuAR3</parameter>
+      <parameter types="Enum_PrimaryWeapons">SMG1</parameter>
+      <parameter types="Enum_PrimaryWeapons">SMG2</parameter>
+      <parameter types="Enum_PrimaryWeapons">SMG3</parameter>
+      <parameter types="String">MenuSMG1</parameter>
+      <parameter types="String">MenuSMG2</parameter>
+      <parameter types="String">MenuSMG3</parameter>
+      <parameter types="Enum_PrimaryWeapons">Shotguns1</parameter>
+      <parameter types="Enum_PrimaryWeapons">Shotguns2</parameter>
+      <parameter types="Enum_PrimaryWeapons">Shotguns3</parameter>
+      <parameter types="String">MenuShotguns1</parameter>
+      <parameter types="String">MenuShotguns2</parameter>
+      <parameter types="String">MenuShotguns3</parameter>
+      <parameter types="Enum_PrimaryWeapons">LMG1</parameter>
+      <parameter types="Enum_PrimaryWeapons">LMG2</parameter>
+      <parameter types="Enum_PrimaryWeapons">LMG3</parameter>
+      <parameter types="String">MenuLMG1</parameter>
+      <parameter types="String">MenuLMG2</parameter>
+      <parameter types="String">MenuLMG3</parameter>
+      <parameter types="Enum_PrimaryWeapons">DMR1</parameter>
+      <parameter types="Enum_PrimaryWeapons">DMR2</parameter>
+      <parameter types="Enum_PrimaryWeapons">DMR3</parameter>
+      <parameter types="String">MenuDMR1</parameter>
+      <parameter types="String">MenuDMR2</parameter>
+      <parameter types="String">MenuDMR3</parameter>
+    </mutation>
+    <field name="SUBROUTINE_NAME">Main_Weapon_lists</field>
+    <value name="PARAM-0">
+      <block type="SecondaryWeaponsItem">
+        <field name="VALUE-0">SecondaryWeaponsGrafton</field>
+        <field name="VALUE-1">P38</field>
+      </block>
+    </value>
+    <value name="PARAM-1">
+      <block type="SecondaryWeaponsItem">
+        <field name="VALUE-0">SecondaryWeaponsGrafton</field>
+        <field name="VALUE-1">MkVIRevolver</field>
+      </block>
+    </value>
+    <value name="PARAM-2">
+      <block type="SecondaryWeaponsItem">
+        <field name="VALUE-0">SecondaryWeaponsGrafton</field>
+        <field name="VALUE-1">M1911_GRA</field>
+      </block>
+    </value>
+    <value name="PARAM-3">
+      <block type="Text">
+        <field name="TEXT">P38</field>
+      </block>
+    </value>
+    <value name="PARAM-4">
+      <block type="Text">
+        <field name="TEXT">MK VI Revolver</field>
+      </block>
+    </value>
+    <value name="PARAM-5">
+      <block type="Text">
+        <field name="TEXT">M1911</field>
+      </block>
+    </value>
+    <value name="PARAM-6">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">M2_Carbine</field>
+      </block>
+    </value>
+    <value name="PARAM-7">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">BAR1918</field>
+      </block>
+    </value>
+    <value name="PARAM-8">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">STG44</field>
+      </block>
+    </value>
+    <value name="PARAM-9">
+      <block type="Text">
+        <field name="TEXT">M2 Carbine</field>
+      </block>
+    </value>
+    <value name="PARAM-10">
+      <block type="Text">
+        <field name="TEXT">BAR 1918</field>
+      </block>
+    </value>
+    <value name="PARAM-11">
+      <block type="Text">
+        <field name="TEXT">StG 44</field>
+      </block>
+    </value>
+    <value name="PARAM-12">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">Sten</field>
+      </block>
+    </value>
+    <value name="PARAM-13">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">Thompson_GRA</field>
+      </block>
+    </value>
+    <value name="PARAM-14">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">MP40</field>
+      </block>
+    </value>
+    <value name="PARAM-15">
+      <block type="Text">
+        <field name="TEXT">Sten</field>
+      </block>
+    </value>
+    <value name="PARAM-16">
+      <block type="Text">
+        <field name="TEXT">Tommy Gun</field>
+      </block>
+    </value>
+    <value name="PARAM-17">
+      <block type="Text">
+        <field name="TEXT">MP 40</field>
+      </block>
+    </value>
+    <value name="PARAM-18">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">Browning_A5</field>
+      </block>
+    </value>
+    <value name="PARAM-19">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">Browning_A5</field>
+      </block>
+    </value>
+    <value name="PARAM-20">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">Browning_A5</field>
+      </block>
+    </value>
+    <value name="PARAM-21">
+      <block type="Text">
+        <field name="TEXT">12G Auto</field>
+      </block>
+    </value>
+    <value name="PARAM-22">
+      <block type="Text">
+        <field name="TEXT">12G Auto</field>
+      </block>
+    </value>
+    <value name="PARAM-23">
+      <block type="Text">
+        <field name="TEXT">12G Auto</field>
+      </block>
+    </value>
+    <value name="PARAM-24">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">Bren_LMG</field>
+      </block>
+    </value>
+    <value name="PARAM-25">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">Bren_LMG</field>
+      </block>
+    </value>
+    <value name="PARAM-26">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">Bren_LMG</field>
+      </block>
+    </value>
+    <value name="PARAM-27">
+      <block type="Text">
+        <field name="TEXT">Bren LMG</field>
+      </block>
+    </value>
+    <value name="PARAM-28">
+      <block type="Text">
+        <field name="TEXT">Bren LMG</field>
+      </block>
+    </value>
+    <value name="PARAM-29">
+      <block type="Text">
+        <field name="TEXT">Bren LMG</field>
+      </block>
+    </value>
+    <value name="PARAM-30">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">M1_GRA</field>
+      </block>
+    </value>
+    <value name="PARAM-31">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">Gewehr43</field>
+      </block>
+    </value>
+    <value name="PARAM-32">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">K98</field>
+      </block>
+    </value>
+    <value name="PARAM-33">
+      <block type="Text">
+        <field name="TEXT">M1</field>
+      </block>
+    </value>
+    <value name="PARAM-34">
+      <block type="Text">
+        <field name="TEXT">Gewehr 43</field>
+      </block>
+    </value>
+    <value name="PARAM-35">
+      <block type="Text">
+        <field name="TEXT">K98</field>
+      </block>
+    </value>
+  </block>
   <block type="subroutineBlock" deletable="false" x="12274" y="-3677">
     <field name="SUBROUTINE_NAME">1942_weapons_list</field>
     <statement name="ACTIONS">
-      <block type="subroutineInstanceBlock" inline="false">
-        <mutation>
-          <parameter types="Enum_SecondaryWeapons">Secondary1</parameter>
-          <parameter types="Enum_SecondaryWeapons">Secondary2</parameter>
-          <parameter types="Enum_SecondaryWeapons">Secondary3</parameter>
-          <parameter types="String">MenuSecondary1</parameter>
-          <parameter types="String">MenuSecondary2</parameter>
-          <parameter types="String">MenuSecondary3</parameter>
-          <parameter types="Enum_PrimaryWeapons">AR1</parameter>
-          <parameter types="Enum_PrimaryWeapons">AR2</parameter>
-          <parameter types="Enum_PrimaryWeapons">AR3</parameter>
-          <parameter types="String">MenuAR1</parameter>
-          <parameter types="String">MenuAR2</parameter>
-          <parameter types="String">MenuAR3</parameter>
-          <parameter types="Enum_PrimaryWeapons">SMG1</parameter>
-          <parameter types="Enum_PrimaryWeapons">SMG2</parameter>
-          <parameter types="Enum_PrimaryWeapons">SMG3</parameter>
-          <parameter types="String">MenuSMG1</parameter>
-          <parameter types="String">MenuSMG2</parameter>
-          <parameter types="String">MenuSMG3</parameter>
-          <parameter types="Enum_PrimaryWeapons">Shotguns1</parameter>
-          <parameter types="Enum_PrimaryWeapons">Shotguns2</parameter>
-          <parameter types="Enum_PrimaryWeapons">Shotguns3</parameter>
-          <parameter types="String">MenuShotguns1</parameter>
-          <parameter types="String">MenuShotguns2</parameter>
-          <parameter types="String">MenuShotguns3</parameter>
-          <parameter types="Enum_PrimaryWeapons">LMG1</parameter>
-          <parameter types="Enum_PrimaryWeapons">LMG2</parameter>
-          <parameter types="Enum_PrimaryWeapons">LMG3</parameter>
-          <parameter types="String">MenuLMG1</parameter>
-          <parameter types="String">MenuLMG2</parameter>
-          <parameter types="String">MenuLMG3</parameter>
-          <parameter types="Enum_PrimaryWeapons">DMR1</parameter>
-          <parameter types="Enum_PrimaryWeapons">DMR2</parameter>
-          <parameter types="Enum_PrimaryWeapons">DMR3</parameter>
-          <parameter types="String">MenuDMR1</parameter>
-          <parameter types="String">MenuDMR2</parameter>
-          <parameter types="String">MenuDMR3</parameter>
-        </mutation>
-        <field name="SUBROUTINE_NAME">Main_Weapon_lists</field>
-        <value name="PARAM-0">
-          <block type="SecondaryWeaponsItem">
-            <field name="VALUE-0">SecondaryWeaponsGrafton</field>
-            <field name="VALUE-1">P38</field>
+      <block type="SetVariableAtIndex">
+        <value name="VALUE-0">
+          <block type="variableReferenceBlock">
+            <mutation isObjectVar="false"></mutation>
+            <field name="OBJECTTYPE">Global</field>
+            <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
           </block>
         </value>
-        <value name="PARAM-1">
-          <block type="SecondaryWeaponsItem">
-            <field name="VALUE-0">SecondaryWeaponsGrafton</field>
-            <field name="VALUE-1">MkVIRevolver</field>
+        <value name="VALUE-1">
+          <block type="Number">
+            <field name="NUM">0</field>
           </block>
         </value>
-        <value name="PARAM-2">
-          <block type="SecondaryWeaponsItem">
-            <field name="VALUE-0">SecondaryWeaponsGrafton</field>
-            <field name="VALUE-1">M1911_GRA</field>
-          </block>
-        </value>
-        <value name="PARAM-3">
-          <block type="Text">
-            <field name="TEXT">P38</field>
-          </block>
-        </value>
-        <value name="PARAM-4">
-          <block type="Text">
-            <field name="TEXT">MK VI Revolver</field>
-          </block>
-        </value>
-        <value name="PARAM-5">
-          <block type="Text">
-            <field name="TEXT">M1911</field>
-          </block>
-        </value>
-        <value name="PARAM-6">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">M2_Carbine</field>
-          </block>
-        </value>
-        <value name="PARAM-7">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">BAR1918</field>
-          </block>
-        </value>
-        <value name="PARAM-8">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">STG44</field>
-          </block>
-        </value>
-        <value name="PARAM-9">
-          <block type="Text">
-            <field name="TEXT">M2 Carbine</field>
-          </block>
-        </value>
-        <value name="PARAM-10">
-          <block type="Text">
-            <field name="TEXT">BAR 1918</field>
-          </block>
-        </value>
-        <value name="PARAM-11">
-          <block type="Text">
-            <field name="TEXT">StG 44</field>
-          </block>
-        </value>
-        <value name="PARAM-12">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">Sten</field>
-          </block>
-        </value>
-        <value name="PARAM-13">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">Thompson_GRA</field>
-          </block>
-        </value>
-        <value name="PARAM-14">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">MP40</field>
-          </block>
-        </value>
-        <value name="PARAM-15">
-          <block type="Text">
-            <field name="TEXT">Sten</field>
-          </block>
-        </value>
-        <value name="PARAM-16">
-          <block type="Text">
-            <field name="TEXT">Tommy Gun</field>
-          </block>
-        </value>
-        <value name="PARAM-17">
-          <block type="Text">
-            <field name="TEXT">MP 40</field>
-          </block>
-        </value>
-        <value name="PARAM-18">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">Browning_A5</field>
-          </block>
-        </value>
-        <value name="PARAM-19">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">Browning_A5</field>
-          </block>
-        </value>
-        <value name="PARAM-20">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">Browning_A5</field>
-          </block>
-        </value>
-        <value name="PARAM-21">
-          <block type="Text">
-            <field name="TEXT">12G Auto</field>
-          </block>
-        </value>
-        <value name="PARAM-22">
-          <block type="Text">
-            <field name="TEXT">12G Auto</field>
-          </block>
-        </value>
-        <value name="PARAM-23">
-          <block type="Text">
-            <field name="TEXT">12G Auto</field>
-          </block>
-        </value>
-        <value name="PARAM-24">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">Bren_LMG</field>
-          </block>
-        </value>
-        <value name="PARAM-25">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">Bren_LMG</field>
-          </block>
-        </value>
-        <value name="PARAM-26">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">Bren_LMG</field>
-          </block>
-        </value>
-        <value name="PARAM-27">
-          <block type="Text">
-            <field name="TEXT">Bren LMG</field>
-          </block>
-        </value>
-        <value name="PARAM-28">
-          <block type="Text">
-            <field name="TEXT">Bren LMG</field>
-          </block>
-        </value>
-        <value name="PARAM-29">
-          <block type="Text">
-            <field name="TEXT">Bren LMG</field>
-          </block>
-        </value>
-        <value name="PARAM-30">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">M1_GRA</field>
-          </block>
-        </value>
-        <value name="PARAM-31">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">Gewehr43</field>
-          </block>
-        </value>
-        <value name="PARAM-32">
-          <block type="PrimaryWeaponsItem">
-            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-            <field name="VALUE-1">K98</field>
-          </block>
-        </value>
-        <value name="PARAM-33">
-          <block type="Text">
-            <field name="TEXT">M1</field>
-          </block>
-        </value>
-        <value name="PARAM-34">
-          <block type="Text">
-            <field name="TEXT">Gewehr 43</field>
-          </block>
-        </value>
-        <value name="PARAM-35">
-          <block type="Text">
-            <field name="TEXT">K98</field>
+        <value name="VALUE-2">
+          <block type="CharacterGadgetsItem">
+            <field name="VALUE-0">CharacterGadgetsGrafton</field>
+            <field name="VALUE-1">Binoculars</field>
           </block>
         </value>
         <next>
@@ -2414,13 +2578,13 @@
             </value>
             <value name="VALUE-1">
               <block type="Number">
-                <field name="NUM">0</field>
+                <field name="NUM">1</field>
               </block>
             </value>
             <value name="VALUE-2">
               <block type="CharacterGadgetsItem">
                 <field name="VALUE-0">CharacterGadgetsGrafton</field>
-                <field name="VALUE-1">Binoculars</field>
+                <field name="VALUE-1">MedKit_GRA</field>
               </block>
             </value>
             <next>
@@ -2434,13 +2598,13 @@
                 </value>
                 <value name="VALUE-1">
                   <block type="Number">
-                    <field name="NUM">1</field>
+                    <field name="NUM">2</field>
                   </block>
                 </value>
                 <value name="VALUE-2">
-                  <block type="CharacterGadgetsItem">
-                    <field name="VALUE-0">CharacterGadgetsGrafton</field>
-                    <field name="VALUE-1">MedKit_GRA</field>
+                  <block type="ClassGadgetsItem">
+                    <field name="VALUE-0">ClassGadgetsKingston</field>
+                    <field name="VALUE-1">Med Pen</field>
                   </block>
                 </value>
                 <next>
@@ -2454,13 +2618,13 @@
                     </value>
                     <value name="VALUE-1">
                       <block type="Number">
-                        <field name="NUM">2</field>
+                        <field name="NUM">3</field>
                       </block>
                     </value>
                     <value name="VALUE-2">
-                      <block type="ClassGadgetsItem">
-                        <field name="VALUE-0">ClassGadgetsKingston</field>
-                        <field name="VALUE-1">Med Pen</field>
+                      <block type="OpenGadgetsItem">
+                        <field name="VALUE-0">OpenGadgetsGrafton</field>
+                        <field name="VALUE-1">Landmine</field>
                       </block>
                     </value>
                     <next>
@@ -2474,13 +2638,13 @@
                         </value>
                         <value name="VALUE-1">
                           <block type="Number">
-                            <field name="NUM">3</field>
+                            <field name="NUM">4</field>
                           </block>
                         </value>
                         <value name="VALUE-2">
-                          <block type="OpenGadgetsItem">
-                            <field name="VALUE-0">OpenGadgetsGrafton</field>
-                            <field name="VALUE-1">Landmine</field>
+                          <block type="PrimaryWeaponsItem">
+                            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+                            <field name="VALUE-1">Bazooka</field>
                           </block>
                         </value>
                         <next>
@@ -2494,13 +2658,13 @@
                             </value>
                             <value name="VALUE-1">
                               <block type="Number">
-                                <field name="NUM">4</field>
+                                <field name="NUM">5</field>
                               </block>
                             </value>
                             <value name="VALUE-2">
                               <block type="PrimaryWeaponsItem">
                                 <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-                                <field name="VALUE-1">Bazooka</field>
+                                <field name="VALUE-1">Panzerschreck</field>
                               </block>
                             </value>
                             <next>
@@ -2509,18 +2673,17 @@
                                   <block type="variableReferenceBlock">
                                     <mutation isObjectVar="false"></mutation>
                                     <field name="OBJECTTYPE">Global</field>
-                                    <field name="VAR" id="7q?HQebhQ^wV5Zxy$mF7" variabletype="Global">Gadgets</field>
+                                    <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
                                   </block>
                                 </value>
                                 <value name="VALUE-1">
                                   <block type="Number">
-                                    <field name="NUM">5</field>
+                                    <field name="NUM">0</field>
                                   </block>
                                 </value>
                                 <value name="VALUE-2">
-                                  <block type="PrimaryWeaponsItem">
-                                    <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-                                    <field name="VALUE-1">Panzerschreck</field>
+                                  <block type="Text">
+                                    <field name="TEXT">Binoculars</field>
                                   </block>
                                 </value>
                                 <next>
@@ -2534,12 +2697,12 @@
                                     </value>
                                     <value name="VALUE-1">
                                       <block type="Number">
-                                        <field name="NUM">0</field>
+                                        <field name="NUM">1</field>
                                       </block>
                                     </value>
                                     <value name="VALUE-2">
                                       <block type="Text">
-                                        <field name="TEXT">Binoculars</field>
+                                        <field name="TEXT">MedKit</field>
                                       </block>
                                     </value>
                                     <next>
@@ -2553,12 +2716,12 @@
                                         </value>
                                         <value name="VALUE-1">
                                           <block type="Number">
-                                            <field name="NUM">1</field>
+                                            <field name="NUM">2</field>
                                           </block>
                                         </value>
                                         <value name="VALUE-2">
                                           <block type="Text">
-                                            <field name="TEXT">MedKit</field>
+                                            <field name="TEXT">Med-Pen</field>
                                           </block>
                                         </value>
                                         <next>
@@ -2572,12 +2735,12 @@
                                             </value>
                                             <value name="VALUE-1">
                                               <block type="Number">
-                                                <field name="NUM">2</field>
+                                                <field name="NUM">3</field>
                                               </block>
                                             </value>
                                             <value name="VALUE-2">
                                               <block type="Text">
-                                                <field name="TEXT">Med-Pen</field>
+                                                <field name="TEXT">Landmine</field>
                                               </block>
                                             </value>
                                             <next>
@@ -2591,12 +2754,12 @@
                                                 </value>
                                                 <value name="VALUE-1">
                                                   <block type="Number">
-                                                    <field name="NUM">3</field>
+                                                    <field name="NUM">4</field>
                                                   </block>
                                                 </value>
                                                 <value name="VALUE-2">
                                                   <block type="Text">
-                                                    <field name="TEXT">Landmine</field>
+                                                    <field name="TEXT">Bazooka</field>
                                                   </block>
                                                 </value>
                                                 <next>
@@ -2610,35 +2773,14 @@
                                                     </value>
                                                     <value name="VALUE-1">
                                                       <block type="Number">
-                                                        <field name="NUM">4</field>
+                                                        <field name="NUM">5</field>
                                                       </block>
                                                     </value>
                                                     <value name="VALUE-2">
                                                       <block type="Text">
-                                                        <field name="TEXT">Bazooka</field>
+                                                        <field name="TEXT">Panzerscheck</field>
                                                       </block>
                                                     </value>
-                                                    <next>
-                                                      <block type="SetVariableAtIndex">
-                                                        <value name="VALUE-0">
-                                                          <block type="variableReferenceBlock">
-                                                            <mutation isObjectVar="false"></mutation>
-                                                            <field name="OBJECTTYPE">Global</field>
-                                                            <field name="VAR" id="Hy}]=2G:+Vfy^_9Zfy?A" variabletype="Global">MenuGadgets</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="VALUE-1">
-                                                          <block type="Number">
-                                                            <field name="NUM">5</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="VALUE-2">
-                                                          <block type="Text">
-                                                            <field name="TEXT">Panzerscheck</field>
-                                                          </block>
-                                                        </value>
-                                                      </block>
-                                                    </next>
                                                   </block>
                                                 </next>
                                               </block>
@@ -2663,6 +2805,477 @@
         </next>
       </block>
     </statement>
+  </block>
+  <block type="subroutineBlock" deletable="false" x="9485" y="-3238">
+    <mutation>
+      <parameter types="Enum_SecondaryWeapons">Secondary1</parameter>
+      <parameter types="Enum_SecondaryWeapons">Secondary2</parameter>
+      <parameter types="Enum_SecondaryWeapons">Secondary3</parameter>
+      <parameter types="String">MenuSecondary1</parameter>
+      <parameter types="String">MenuSecondary2</parameter>
+      <parameter types="String">MenuSecondary3</parameter>
+      <parameter types="Enum_PrimaryWeapons">AR1</parameter>
+      <parameter types="Enum_PrimaryWeapons">AR2</parameter>
+      <parameter types="Enum_PrimaryWeapons">AR3</parameter>
+      <parameter types="String">MenuAR1</parameter>
+      <parameter types="String">MenuAR2</parameter>
+      <parameter types="String">MenuAR3</parameter>
+      <parameter types="Enum_PrimaryWeapons">SMG1</parameter>
+      <parameter types="Enum_PrimaryWeapons">SMG2</parameter>
+      <parameter types="Enum_PrimaryWeapons">SMG3</parameter>
+      <parameter types="String">MenuSMG1</parameter>
+      <parameter types="String">MenuSMG2</parameter>
+      <parameter types="String">MenuSMG3</parameter>
+      <parameter types="Enum_PrimaryWeapons">Shotguns1</parameter>
+      <parameter types="Enum_PrimaryWeapons">Shotguns2</parameter>
+      <parameter types="Enum_PrimaryWeapons">Shotguns3</parameter>
+      <parameter types="String">MenuShotguns1</parameter>
+      <parameter types="String">MenuShotguns2</parameter>
+      <parameter types="String">MenuShotguns3</parameter>
+      <parameter types="Enum_PrimaryWeapons">LMG1</parameter>
+      <parameter types="Enum_PrimaryWeapons">LMG2</parameter>
+      <parameter types="Enum_PrimaryWeapons">LMG3</parameter>
+      <parameter types="String">MenuLMG1</parameter>
+      <parameter types="String">MenuLMG2</parameter>
+      <parameter types="String">MenuLMG3</parameter>
+      <parameter types="Enum_PrimaryWeapons">DMR1</parameter>
+      <parameter types="Enum_PrimaryWeapons">DMR2</parameter>
+      <parameter types="Enum_PrimaryWeapons">DMR3</parameter>
+      <parameter types="String">MenuDMR1</parameter>
+      <parameter types="String">MenuDMR2</parameter>
+      <parameter types="String">MenuDMR3</parameter>
+    </mutation>
+    <field name="SUBROUTINE_NAME">Main_Weapon_lists</field>
+  </block>
+  <block type="If" x="11426" y="-3204">
+    <statement name="DO">
+      <block type="subroutineInstanceBlock" inline="false">
+        <mutation>
+          <parameter types="Enum_SecondaryWeapons">Secondary1</parameter>
+          <parameter types="Enum_SecondaryWeapons">Secondary2</parameter>
+          <parameter types="Enum_SecondaryWeapons">Secondary3</parameter>
+          <parameter types="String">MenuSecondary1</parameter>
+          <parameter types="String">MenuSecondary2</parameter>
+          <parameter types="String">MenuSecondary3</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR1</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR2</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR3</parameter>
+          <parameter types="String">MenuAR1</parameter>
+          <parameter types="String">MenuAR2</parameter>
+          <parameter types="String">MenuAR3</parameter>
+        </mutation>
+        <field name="SUBROUTINE_NAME">Weapons_Secondary_ARs</field>
+        <next>
+          <block type="subroutineInstanceBlock" inline="false">
+            <mutation>
+              <parameter types="Enum_PrimaryWeapons">SMG1</parameter>
+              <parameter types="Enum_PrimaryWeapons">SMG2</parameter>
+              <parameter types="Enum_PrimaryWeapons">SMG3</parameter>
+              <parameter types="String">MenuSMG1</parameter>
+              <parameter types="String">MenuSMG2</parameter>
+              <parameter types="String">MenuSMG3</parameter>
+              <parameter types="Enum_PrimaryWeapons">Shotgun1</parameter>
+              <parameter types="Enum_PrimaryWeapons">Shotgun2</parameter>
+              <parameter types="Enum_PrimaryWeapons">Shotgun3</parameter>
+              <parameter types="String">MenuShotgun1</parameter>
+              <parameter types="String">MenuShotgun2</parameter>
+              <parameter types="String">MenuShotgun3</parameter>
+            </mutation>
+            <field name="SUBROUTINE_NAME">Weapons_SMGs_Shotguns</field>
+            <next>
+              <block type="subroutineInstanceBlock" inline="false">
+                <mutation>
+                  <parameter types="Enum_PrimaryWeapons">LMG1</parameter>
+                  <parameter types="Enum_PrimaryWeapons">LMG2</parameter>
+                  <parameter types="Enum_PrimaryWeapons">LMG3</parameter>
+                  <parameter types="String">MenuLMG1</parameter>
+                  <parameter types="String">MenuLMG2</parameter>
+                  <parameter types="String">MenuLMG3</parameter>
+                  <parameter types="Enum_PrimaryWeapons">DMR1</parameter>
+                  <parameter types="Enum_PrimaryWeapons">DMR2</parameter>
+                  <parameter types="Enum_PrimaryWeapons">DMR3</parameter>
+                  <parameter types="String">MenuDMR1</parameter>
+                  <parameter types="String">MenuDMR2</parameter>
+                  <parameter types="String">MenuDMR3</parameter>
+                </mutation>
+                <field name="SUBROUTINE_NAME">Weapons_LMGs_DMRs</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="If" x="17729" y="-3530">
+    <statement name="DO">
+      <block type="subroutineInstanceBlock" inline="false">
+        <mutation>
+          <parameter types="Enum_SecondaryWeapons">Secondary1</parameter>
+          <parameter types="Enum_SecondaryWeapons">Secondary2</parameter>
+          <parameter types="Enum_SecondaryWeapons">Secondary3</parameter>
+          <parameter types="String">MenuSecondary1</parameter>
+          <parameter types="String">MenuSecondary2</parameter>
+          <parameter types="String">MenuSecondary3</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR1</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR2</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR3</parameter>
+          <parameter types="String">MenuAR1</parameter>
+          <parameter types="String">MenuAR2</parameter>
+          <parameter types="String">MenuAR3</parameter>
+        </mutation>
+        <field name="SUBROUTINE_NAME">Weapons_Secondary_ARs</field>
+        <next>
+          <block type="subroutineInstanceBlock" inline="false">
+            <mutation>
+              <parameter types="Enum_PrimaryWeapons">SMG1</parameter>
+              <parameter types="Enum_PrimaryWeapons">SMG2</parameter>
+              <parameter types="Enum_PrimaryWeapons">SMG3</parameter>
+              <parameter types="String">MenuSMG1</parameter>
+              <parameter types="String">MenuSMG2</parameter>
+              <parameter types="String">MenuSMG3</parameter>
+              <parameter types="Enum_PrimaryWeapons">Shotgun1</parameter>
+              <parameter types="Enum_PrimaryWeapons">Shotgun2</parameter>
+              <parameter types="Enum_PrimaryWeapons">Shotgun3</parameter>
+              <parameter types="String">MenuShotgun1</parameter>
+              <parameter types="String">MenuShotgun2</parameter>
+              <parameter types="String">MenuShotgun3</parameter>
+            </mutation>
+            <field name="SUBROUTINE_NAME">Weapons_SMGs_Shotguns</field>
+            <next>
+              <block type="subroutineInstanceBlock" inline="false">
+                <mutation>
+                  <parameter types="Enum_PrimaryWeapons">LMG1</parameter>
+                  <parameter types="Enum_PrimaryWeapons">LMG2</parameter>
+                  <parameter types="Enum_PrimaryWeapons">LMG3</parameter>
+                  <parameter types="String">MenuLMG1</parameter>
+                  <parameter types="String">MenuLMG2</parameter>
+                  <parameter types="String">MenuLMG3</parameter>
+                  <parameter types="Enum_PrimaryWeapons">DMR1</parameter>
+                  <parameter types="Enum_PrimaryWeapons">DMR2</parameter>
+                  <parameter types="Enum_PrimaryWeapons">DMR3</parameter>
+                  <parameter types="String">MenuDMR1</parameter>
+                  <parameter types="String">MenuDMR2</parameter>
+                  <parameter types="String">MenuDMR3</parameter>
+                </mutation>
+                <field name="SUBROUTINE_NAME">Weapons_LMGs_DMRs</field>
+                <next>
+                  <block type="subroutineInstanceBlock" inline="false">
+                    <mutation>
+                      <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
+                      <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
+                      <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
+                      <parameter types="String">MenuSniper1</parameter>
+                      <parameter types="String">MenuSniper2</parameter>
+                      <parameter types="String">MenuSniper3</parameter>
+                      <parameter types="Enum_Throwables">Throwables1</parameter>
+                      <parameter types="Enum_Throwables">Throwables2</parameter>
+                      <parameter types="Enum_Throwables">Throwables3</parameter>
+                      <parameter types="String">MenuThrowables1</parameter>
+                      <parameter types="String">MenuThrowables2</parameter>
+                      <parameter types="String">MenuThrowables3</parameter>
+                    </mutation>
+                    <field name="SUBROUTINE_NAME">Weapons_Snipers_Throwables</field>
+                    <value name="PARAM-0">
+                      <block type="PrimaryWeaponsItem">
+                        <field name="VALUE-0">PrimaryWeaponsRumney</field>
+                        <field name="VALUE-1">GOL</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-1">
+                      <block type="PrimaryWeaponsItem">
+                        <field name="VALUE-0">PrimaryWeaponsRumney</field>
+                        <field name="VALUE-1">M24</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-2">
+                      <block type="PrimaryWeaponsItem">
+                        <field name="VALUE-0">PrimaryWeaponsRumney</field>
+                        <field name="VALUE-1">M95</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-3">
+                      <block type="Text">
+                        <field name="TEXT">Gol Magnum</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-4">
+                      <block type="Text">
+                        <field name="TEXT">M24 Sniper</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-5">
+                      <block type="Text">
+                        <field name="TEXT">M95 Sniper</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-6">
+                      <block type="ThrowablesItem">
+                        <field name="VALUE-0">ThrowablesRumney</field>
+                        <field name="VALUE-1">M18_Smoke_RUM</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-7">
+                      <block type="ThrowablesItem">
+                        <field name="VALUE-0">ThrowablesRumney</field>
+                        <field name="VALUE-1">FragGrenade_RUM</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-8">
+                      <block type="ThrowablesItem">
+                        <field name="VALUE-0">ThrowablesAlexandria</field>
+                        <field name="VALUE-1">M67</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-9">
+                      <block type="Text">
+                        <field name="TEXT">Smoke grenade</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-10">
+                      <block type="Text">
+                        <field name="TEXT">Frag grenade</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-11">
+                      <block type="Text">
+                        <field name="TEXT">M67 grenade</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="If" x="20275" y="-3344">
+    <statement name="DO">
+      <block type="subroutineInstanceBlock" inline="false">
+        <mutation>
+          <parameter types="Enum_SecondaryWeapons">Secondary1</parameter>
+          <parameter types="Enum_SecondaryWeapons">Secondary2</parameter>
+          <parameter types="Enum_SecondaryWeapons">Secondary3</parameter>
+          <parameter types="String">MenuSecondary1</parameter>
+          <parameter types="String">MenuSecondary2</parameter>
+          <parameter types="String">MenuSecondary3</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR1</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR2</parameter>
+          <parameter types="Enum_PrimaryWeapons">AR3</parameter>
+          <parameter types="String">MenuAR1</parameter>
+          <parameter types="String">MenuAR2</parameter>
+          <parameter types="String">MenuAR3</parameter>
+        </mutation>
+        <field name="SUBROUTINE_NAME">Weapons_Secondary_ARs</field>
+        <next>
+          <block type="subroutineInstanceBlock" inline="false">
+            <mutation>
+              <parameter types="Enum_PrimaryWeapons">SMG1</parameter>
+              <parameter types="Enum_PrimaryWeapons">SMG2</parameter>
+              <parameter types="Enum_PrimaryWeapons">SMG3</parameter>
+              <parameter types="String">MenuSMG1</parameter>
+              <parameter types="String">MenuSMG2</parameter>
+              <parameter types="String">MenuSMG3</parameter>
+              <parameter types="Enum_PrimaryWeapons">Shotgun1</parameter>
+              <parameter types="Enum_PrimaryWeapons">Shotgun2</parameter>
+              <parameter types="Enum_PrimaryWeapons">Shotgun3</parameter>
+              <parameter types="String">MenuShotgun1</parameter>
+              <parameter types="String">MenuShotgun2</parameter>
+              <parameter types="String">MenuShotgun3</parameter>
+            </mutation>
+            <field name="SUBROUTINE_NAME">Weapons_SMGs_Shotguns</field>
+            <next>
+              <block type="subroutineInstanceBlock" inline="false">
+                <mutation>
+                  <parameter types="Enum_PrimaryWeapons">LMG1</parameter>
+                  <parameter types="Enum_PrimaryWeapons">LMG2</parameter>
+                  <parameter types="Enum_PrimaryWeapons">LMG3</parameter>
+                  <parameter types="String">MenuLMG1</parameter>
+                  <parameter types="String">MenuLMG2</parameter>
+                  <parameter types="String">MenuLMG3</parameter>
+                  <parameter types="Enum_PrimaryWeapons">DMR1</parameter>
+                  <parameter types="Enum_PrimaryWeapons">DMR2</parameter>
+                  <parameter types="Enum_PrimaryWeapons">DMR3</parameter>
+                  <parameter types="String">MenuDMR1</parameter>
+                  <parameter types="String">MenuDMR2</parameter>
+                  <parameter types="String">MenuDMR3</parameter>
+                </mutation>
+                <field name="SUBROUTINE_NAME">Weapons_LMGs_DMRs</field>
+                <next>
+                  <block type="subroutineInstanceBlock" inline="false">
+                    <mutation>
+                      <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
+                      <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
+                      <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
+                      <parameter types="String">MenuSniper1</parameter>
+                      <parameter types="String">MenuSniper2</parameter>
+                      <parameter types="String">MenuSniper3</parameter>
+                      <parameter types="Enum_Throwables">Throwables1</parameter>
+                      <parameter types="Enum_Throwables">Throwables2</parameter>
+                      <parameter types="Enum_Throwables">Throwables3</parameter>
+                      <parameter types="String">MenuThrowables1</parameter>
+                      <parameter types="String">MenuThrowables2</parameter>
+                      <parameter types="String">MenuThrowables3</parameter>
+                    </mutation>
+                    <field name="SUBROUTINE_NAME">Weapons_Snipers_Throwables</field>
+                    <value name="PARAM-0">
+                      <block type="PrimaryWeaponsItem">
+                        <field name="VALUE-0">PrimaryWeaponsKingston</field>
+                        <field name="VALUE-1">Marlin</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-1">
+                      <block type="PrimaryWeaponsItem">
+                        <field name="VALUE-0">PrimaryWeaponsKingston</field>
+                        <field name="VALUE-1">TRGM10</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-2">
+                      <block type="PrimaryWeaponsItem">
+                        <field name="VALUE-0">PrimaryWeaponsKingston</field>
+                        <field name="VALUE-1">DSR1</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-3">
+                      <block type="Text">
+                        <field name="TEXT">GVT 45-70</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-4">
+                      <block type="Text">
+                        <field name="TEXT">SWS-10</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-5">
+                      <block type="Text">
+                        <field name="TEXT">DXR-1</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-6">
+                      <block type="ThrowablesItem">
+                        <field name="VALUE-0">ThrowablesKingston</field>
+                        <field name="VALUE-1">SmokeGrenade</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-7">
+                      <block type="ThrowablesItem">
+                        <field name="VALUE-0">ThrowablesKingston</field>
+                        <field name="VALUE-1">FragGrenade</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-8">
+                      <block type="ThrowablesItem">
+                        <field name="VALUE-0">ThrowablesKingston</field>
+                        <field name="VALUE-1">IncendiaryGrenade</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-9">
+                      <block type="Text">
+                        <field name="TEXT">Smoke grenade</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-10">
+                      <block type="Text">
+                        <field name="TEXT">Frag grenade</field>
+                      </block>
+                    </value>
+                    <value name="PARAM-11">
+                      <block type="Text">
+                        <field name="TEXT">Incendiary grenade</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="subroutineInstanceBlock" inline="false" x="11816" y="-2361">
+    <mutation>
+      <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
+      <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
+      <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
+      <parameter types="String">MenuSniper1</parameter>
+      <parameter types="String">MenuSniper2</parameter>
+      <parameter types="String">MenuSniper3</parameter>
+      <parameter types="Enum_Throwables">Throwables1</parameter>
+      <parameter types="Enum_Throwables">Throwables2</parameter>
+      <parameter types="Enum_Throwables">Throwables3</parameter>
+      <parameter types="String">MenuThrowables1</parameter>
+      <parameter types="String">MenuThrowables2</parameter>
+      <parameter types="String">MenuThrowables3</parameter>
+    </mutation>
+    <field name="SUBROUTINE_NAME">Weapons_Snipers_Throwables</field>
+    <value name="PARAM-0">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">M1Sniper_GRA</field>
+      </block>
+    </value>
+    <value name="PARAM-1">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">LeeEnfieldNo4</field>
+      </block>
+    </value>
+    <value name="PARAM-2">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">K98 Sniper</field>
+      </block>
+    </value>
+    <value name="PARAM-3">
+      <block type="Text">
+        <field name="TEXT">M1 Sniper</field>
+      </block>
+    </value>
+    <value name="PARAM-4">
+      <block type="Text">
+        <field name="TEXT">No4 Sniper</field>
+      </block>
+    </value>
+    <value name="PARAM-5">
+      <block type="Text">
+        <field name="TEXT">K98 Sniper</field>
+      </block>
+    </value>
+    <value name="PARAM-6">
+      <block type="ThrowablesItem">
+        <field name="VALUE-0">ThrowablesGrafton</field>
+        <field name="VALUE-1">M18_Smoke_GRA</field>
+      </block>
+    </value>
+    <value name="PARAM-7">
+      <block type="ThrowablesItem">
+        <field name="VALUE-0">ThrowablesGrafton</field>
+        <field name="VALUE-1">StickGrenade</field>
+      </block>
+    </value>
+    <value name="PARAM-8">
+      <block type="ThrowablesItem">
+        <field name="VALUE-0">ThrowablesGrafton</field>
+        <field name="VALUE-1">FragGrenadeMkII</field>
+      </block>
+    </value>
+    <value name="PARAM-9">
+      <block type="Text">
+        <field name="TEXT">Smoke grenade</field>
+      </block>
+    </value>
+    <value name="PARAM-10">
+      <block type="Text">
+        <field name="TEXT">Stick grenade</field>
+      </block>
+    </value>
+    <value name="PARAM-11">
+      <block type="Text">
+        <field name="TEXT">Mk II grenade</field>
+      </block>
+    </value>
   </block>
   <block type="subroutineBlock" deletable="false" x="6100" y="-1717">
     <mutation>
@@ -2933,379 +3546,6 @@
       </block>
     </statement>
   </block>
-  <block type="subroutineBlock" deletable="false" x="11274" y="-1731">
-    <mutation>
-      <parameter types="Enum_SecondaryWeapons">Secondary1</parameter>
-      <parameter types="Enum_SecondaryWeapons">Secondary2</parameter>
-      <parameter types="Enum_SecondaryWeapons">Secondary3</parameter>
-      <parameter types="String">MenuSecondary1</parameter>
-      <parameter types="String">MenuSecondary2</parameter>
-      <parameter types="String">MenuSecondary3</parameter>
-      <parameter types="Enum_PrimaryWeapons">AR1</parameter>
-      <parameter types="Enum_PrimaryWeapons">AR2</parameter>
-      <parameter types="Enum_PrimaryWeapons">AR3</parameter>
-      <parameter types="String">MenuAR1</parameter>
-      <parameter types="String">MenuAR2</parameter>
-      <parameter types="String">MenuAR3</parameter>
-      <parameter types="Enum_PrimaryWeapons">SMG1</parameter>
-      <parameter types="Enum_PrimaryWeapons">SMG2</parameter>
-      <parameter types="Enum_PrimaryWeapons">SMG3</parameter>
-      <parameter types="String">MenuSMG1</parameter>
-      <parameter types="String">MenuSMG2</parameter>
-      <parameter types="String">MenuSMG3</parameter>
-      <parameter types="Enum_PrimaryWeapons">Shotguns1</parameter>
-      <parameter types="Enum_PrimaryWeapons">Shotguns2</parameter>
-      <parameter types="Enum_PrimaryWeapons">Shotguns3</parameter>
-      <parameter types="String">MenuShotguns1</parameter>
-      <parameter types="String">MenuShotguns2</parameter>
-      <parameter types="String">MenuShotguns3</parameter>
-      <parameter types="Enum_PrimaryWeapons">LMG1</parameter>
-      <parameter types="Enum_PrimaryWeapons">LMG2</parameter>
-      <parameter types="Enum_PrimaryWeapons">LMG3</parameter>
-      <parameter types="String">MenuLMG1</parameter>
-      <parameter types="String">MenuLMG2</parameter>
-      <parameter types="String">MenuLMG3</parameter>
-      <parameter types="Enum_PrimaryWeapons">DMR1</parameter>
-      <parameter types="Enum_PrimaryWeapons">DMR2</parameter>
-      <parameter types="Enum_PrimaryWeapons">DMR3</parameter>
-      <parameter types="String">MenuDMR1</parameter>
-      <parameter types="String">MenuDMR2</parameter>
-      <parameter types="String">MenuDMR3</parameter>
-    </mutation>
-    <field name="SUBROUTINE_NAME">Main_Weapon_lists</field>
-  </block>
-  <block type="subroutineInstanceBlock" inline="false" x="15424" y="-1777">
-    <mutation>
-      <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
-      <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
-      <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
-      <parameter types="String">MenuSniper1</parameter>
-      <parameter types="String">MenuSniper2</parameter>
-      <parameter types="String">MenuSniper3</parameter>
-      <parameter types="Enum_Throwables">Throwables1</parameter>
-      <parameter types="Enum_Throwables">Throwables2</parameter>
-      <parameter types="Enum_Throwables">Throwables3</parameter>
-      <parameter types="String">MenuThrowables1</parameter>
-      <parameter types="String">MenuThrowables2</parameter>
-      <parameter types="String">MenuThrowables3</parameter>
-    </mutation>
-    <field name="SUBROUTINE_NAME">Weapons_Snipers_Throwables</field>
-    <value name="PARAM-0">
-      <block type="PrimaryWeaponsItem">
-        <field name="VALUE-0">PrimaryWeaponsRumney</field>
-        <field name="VALUE-1">GOL</field>
-      </block>
-    </value>
-    <value name="PARAM-1">
-      <block type="PrimaryWeaponsItem">
-        <field name="VALUE-0">PrimaryWeaponsAlexandria</field>
-        <field name="VALUE-1">M98B</field>
-      </block>
-    </value>
-    <value name="PARAM-2">
-      <block type="PrimaryWeaponsItem">
-        <field name="VALUE-0">PrimaryWeaponsRumney</field>
-        <field name="VALUE-1">M95</field>
-      </block>
-    </value>
-    <value name="PARAM-3">
-      <block type="Text">
-        <field name="TEXT">Gol Magnum</field>
-      </block>
-    </value>
-    <value name="PARAM-4">
-      <block type="Text">
-        <field name="TEXT">M98B</field>
-      </block>
-    </value>
-    <value name="PARAM-5">
-      <block type="Text">
-        <field name="TEXT">M95 Sniper</field>
-      </block>
-    </value>
-    <value name="PARAM-6">
-      <block type="ThrowablesItem">
-        <field name="VALUE-0">ThrowablesAlexandria</field>
-        <field name="VALUE-1">M18_Smoke_ALX</field>
-      </block>
-    </value>
-    <value name="PARAM-7">
-      <block type="ThrowablesItem">
-        <field name="VALUE-0">ThrowablesRumney</field>
-        <field name="VALUE-1">FragGrenade_RUM</field>
-      </block>
-    </value>
-    <value name="PARAM-8">
-      <block type="ThrowablesItem">
-        <field name="VALUE-0">ThrowablesAlexandria</field>
-        <field name="VALUE-1">M67</field>
-      </block>
-    </value>
-    <value name="PARAM-9">
-      <block type="Text">
-        <field name="TEXT">Smoke grenade</field>
-      </block>
-    </value>
-    <value name="PARAM-10">
-      <block type="Text">
-        <field name="TEXT">Frag grenade</field>
-      </block>
-    </value>
-    <value name="PARAM-11">
-      <block type="Text">
-        <field name="TEXT">M67 grenade</field>
-      </block>
-    </value>
-  </block>
-  <block type="subroutineInstanceBlock" inline="false" x="18040" y="-1905">
-    <mutation>
-      <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
-      <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
-      <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
-      <parameter types="String">MenuSniper1</parameter>
-      <parameter types="String">MenuSniper2</parameter>
-      <parameter types="String">MenuSniper3</parameter>
-      <parameter types="Enum_Throwables">Throwables1</parameter>
-      <parameter types="Enum_Throwables">Throwables2</parameter>
-      <parameter types="Enum_Throwables">Throwables3</parameter>
-      <parameter types="String">MenuThrowables1</parameter>
-      <parameter types="String">MenuThrowables2</parameter>
-      <parameter types="String">MenuThrowables3</parameter>
-    </mutation>
-    <field name="SUBROUTINE_NAME">Weapons_Snipers_Throwables</field>
-    <value name="PARAM-0">
-      <block type="PrimaryWeaponsItem">
-        <field name="VALUE-0">PrimaryWeaponsRumney</field>
-        <field name="VALUE-1">GOL</field>
-      </block>
-    </value>
-    <value name="PARAM-1">
-      <block type="PrimaryWeaponsItem">
-        <field name="VALUE-0">PrimaryWeaponsRumney</field>
-        <field name="VALUE-1">M24</field>
-      </block>
-    </value>
-    <value name="PARAM-2">
-      <block type="PrimaryWeaponsItem">
-        <field name="VALUE-0">PrimaryWeaponsRumney</field>
-        <field name="VALUE-1">M95</field>
-      </block>
-    </value>
-    <value name="PARAM-3">
-      <block type="Text">
-        <field name="TEXT">Gol Magnum</field>
-      </block>
-    </value>
-    <value name="PARAM-4">
-      <block type="Text">
-        <field name="TEXT">M24 Sniper</field>
-      </block>
-    </value>
-    <value name="PARAM-5">
-      <block type="Text">
-        <field name="TEXT">M95 Sniper</field>
-      </block>
-    </value>
-    <value name="PARAM-6">
-      <block type="ThrowablesItem">
-        <field name="VALUE-0">ThrowablesRumney</field>
-        <field name="VALUE-1">M18_Smoke_RUM</field>
-      </block>
-    </value>
-    <value name="PARAM-7">
-      <block type="ThrowablesItem">
-        <field name="VALUE-0">ThrowablesRumney</field>
-        <field name="VALUE-1">FragGrenade_RUM</field>
-      </block>
-    </value>
-    <value name="PARAM-8">
-      <block type="ThrowablesItem">
-        <field name="VALUE-0">ThrowablesAlexandria</field>
-        <field name="VALUE-1">M67</field>
-      </block>
-    </value>
-    <value name="PARAM-9">
-      <block type="Text">
-        <field name="TEXT">Smoke grenade</field>
-      </block>
-    </value>
-    <value name="PARAM-10">
-      <block type="Text">
-        <field name="TEXT">Frag grenade</field>
-      </block>
-    </value>
-    <value name="PARAM-11">
-      <block type="Text">
-        <field name="TEXT">M67 grenade</field>
-      </block>
-    </value>
-  </block>
-  <block type="subroutineInstanceBlock" inline="false" x="19694" y="-1822">
-    <mutation>
-      <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
-      <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
-      <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
-      <parameter types="String">MenuSniper1</parameter>
-      <parameter types="String">MenuSniper2</parameter>
-      <parameter types="String">MenuSniper3</parameter>
-      <parameter types="Enum_Throwables">Throwables1</parameter>
-      <parameter types="Enum_Throwables">Throwables2</parameter>
-      <parameter types="Enum_Throwables">Throwables3</parameter>
-      <parameter types="String">MenuThrowables1</parameter>
-      <parameter types="String">MenuThrowables2</parameter>
-      <parameter types="String">MenuThrowables3</parameter>
-    </mutation>
-    <field name="SUBROUTINE_NAME">Weapons_Snipers_Throwables</field>
-    <value name="PARAM-0">
-      <block type="PrimaryWeaponsItem">
-        <field name="VALUE-0">PrimaryWeaponsKingston</field>
-        <field name="VALUE-1">Marlin</field>
-      </block>
-    </value>
-    <value name="PARAM-1">
-      <block type="PrimaryWeaponsItem">
-        <field name="VALUE-0">PrimaryWeaponsKingston</field>
-        <field name="VALUE-1">TRGM10</field>
-      </block>
-    </value>
-    <value name="PARAM-2">
-      <block type="PrimaryWeaponsItem">
-        <field name="VALUE-0">PrimaryWeaponsKingston</field>
-        <field name="VALUE-1">DSR1</field>
-      </block>
-    </value>
-    <value name="PARAM-3">
-      <block type="Text">
-        <field name="TEXT">GVT 45-70</field>
-      </block>
-    </value>
-    <value name="PARAM-4">
-      <block type="Text">
-        <field name="TEXT">SWS-10</field>
-      </block>
-    </value>
-    <value name="PARAM-5">
-      <block type="Text">
-        <field name="TEXT">DXR-1</field>
-      </block>
-    </value>
-    <value name="PARAM-6">
-      <block type="ThrowablesItem">
-        <field name="VALUE-0">ThrowablesKingston</field>
-        <field name="VALUE-1">SmokeGrenade</field>
-      </block>
-    </value>
-    <value name="PARAM-7">
-      <block type="ThrowablesItem">
-        <field name="VALUE-0">ThrowablesKingston</field>
-        <field name="VALUE-1">FragGrenade</field>
-      </block>
-    </value>
-    <value name="PARAM-8">
-      <block type="ThrowablesItem">
-        <field name="VALUE-0">ThrowablesKingston</field>
-        <field name="VALUE-1">IncendiaryGrenade</field>
-      </block>
-    </value>
-    <value name="PARAM-9">
-      <block type="Text">
-        <field name="TEXT">Smoke grenade</field>
-      </block>
-    </value>
-    <value name="PARAM-10">
-      <block type="Text">
-        <field name="TEXT">Frag grenade</field>
-      </block>
-    </value>
-    <value name="PARAM-11">
-      <block type="Text">
-        <field name="TEXT">Incendiary grenade</field>
-      </block>
-    </value>
-  </block>
-  <block type="subroutineInstanceBlock" inline="false" x="13144" y="-1356">
-    <mutation>
-      <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
-      <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
-      <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
-      <parameter types="String">MenuSniper1</parameter>
-      <parameter types="String">MenuSniper2</parameter>
-      <parameter types="String">MenuSniper3</parameter>
-      <parameter types="Enum_Throwables">Throwables1</parameter>
-      <parameter types="Enum_Throwables">Throwables2</parameter>
-      <parameter types="Enum_Throwables">Throwables3</parameter>
-      <parameter types="String">MenuThrowables1</parameter>
-      <parameter types="String">MenuThrowables2</parameter>
-      <parameter types="String">MenuThrowables3</parameter>
-    </mutation>
-    <field name="SUBROUTINE_NAME">Weapons_Snipers_Throwables</field>
-    <value name="PARAM-0">
-      <block type="PrimaryWeaponsItem">
-        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-        <field name="VALUE-1">M1Sniper_GRA</field>
-      </block>
-    </value>
-    <value name="PARAM-1">
-      <block type="PrimaryWeaponsItem">
-        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-        <field name="VALUE-1">LeeEnfieldNo4</field>
-      </block>
-    </value>
-    <value name="PARAM-2">
-      <block type="PrimaryWeaponsItem">
-        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-        <field name="VALUE-1">K98 Sniper</field>
-      </block>
-    </value>
-    <value name="PARAM-3">
-      <block type="Text">
-        <field name="TEXT">M1 Sniper</field>
-      </block>
-    </value>
-    <value name="PARAM-4">
-      <block type="Text">
-        <field name="TEXT">No4 Sniper</field>
-      </block>
-    </value>
-    <value name="PARAM-5">
-      <block type="Text">
-        <field name="TEXT">K98 Sniper</field>
-      </block>
-    </value>
-    <value name="PARAM-6">
-      <block type="ThrowablesItem">
-        <field name="VALUE-0">ThrowablesGrafton</field>
-        <field name="VALUE-1">M18_Smoke_GRA</field>
-      </block>
-    </value>
-    <value name="PARAM-7">
-      <block type="ThrowablesItem">
-        <field name="VALUE-0">ThrowablesGrafton</field>
-        <field name="VALUE-1">StickGrenade</field>
-      </block>
-    </value>
-    <value name="PARAM-8">
-      <block type="ThrowablesItem">
-        <field name="VALUE-0">ThrowablesGrafton</field>
-        <field name="VALUE-1">FragGrenadeMkII</field>
-      </block>
-    </value>
-    <value name="PARAM-9">
-      <block type="Text">
-        <field name="TEXT">Smoke grenade</field>
-      </block>
-    </value>
-    <value name="PARAM-10">
-      <block type="Text">
-        <field name="TEXT">Stick grenade</field>
-      </block>
-    </value>
-    <value name="PARAM-11">
-      <block type="Text">
-        <field name="TEXT">Mk II grenade</field>
-      </block>
-    </value>
-  </block>
   <block type="subroutineBlock" deletable="false" x="6178" y="-903">
     <mutation>
       <parameter types="Enum_PrimaryWeapons">SMG1</parameter>
@@ -3338,7 +3578,7 @@
         </value>
         <value name="VALUE-2">
           <block type="subroutineArgumentBlock">
-            <field name="ARGUMENT_INDEX">12</field>
+            <field name="ARGUMENT_INDEX">-1</field>
           </block>
         </value>
         <next>
@@ -3357,7 +3597,7 @@
             </value>
             <value name="VALUE-2">
               <block type="subroutineArgumentBlock">
-                <field name="ARGUMENT_INDEX">13</field>
+                <field name="ARGUMENT_INDEX">-1</field>
               </block>
             </value>
             <next>
@@ -3376,7 +3616,7 @@
                 </value>
                 <value name="VALUE-2">
                   <block type="subroutineArgumentBlock">
-                    <field name="ARGUMENT_INDEX">14</field>
+                    <field name="ARGUMENT_INDEX">-1</field>
                   </block>
                 </value>
                 <next>
@@ -3395,7 +3635,7 @@
                     </value>
                     <value name="VALUE-2">
                       <block type="subroutineArgumentBlock">
-                        <field name="ARGUMENT_INDEX">15</field>
+                        <field name="ARGUMENT_INDEX">-1</field>
                       </block>
                     </value>
                     <next>
@@ -3414,7 +3654,7 @@
                         </value>
                         <value name="VALUE-2">
                           <block type="subroutineArgumentBlock">
-                            <field name="ARGUMENT_INDEX">16</field>
+                            <field name="ARGUMENT_INDEX">-1</field>
                           </block>
                         </value>
                         <next>
@@ -3433,7 +3673,7 @@
                             </value>
                             <value name="VALUE-2">
                               <block type="subroutineArgumentBlock">
-                                <field name="ARGUMENT_INDEX">17</field>
+                                <field name="ARGUMENT_INDEX">-1</field>
                               </block>
                             </value>
                             <next>
@@ -3452,7 +3692,7 @@
                                 </value>
                                 <value name="VALUE-2">
                                   <block type="subroutineArgumentBlock">
-                                    <field name="ARGUMENT_INDEX">18</field>
+                                    <field name="ARGUMENT_INDEX">-1</field>
                                   </block>
                                 </value>
                                 <next>
@@ -3471,7 +3711,7 @@
                                     </value>
                                     <value name="VALUE-2">
                                       <block type="subroutineArgumentBlock">
-                                        <field name="ARGUMENT_INDEX">19</field>
+                                        <field name="ARGUMENT_INDEX">-1</field>
                                       </block>
                                     </value>
                                     <next>
@@ -3490,7 +3730,7 @@
                                         </value>
                                         <value name="VALUE-2">
                                           <block type="subroutineArgumentBlock">
-                                            <field name="ARGUMENT_INDEX">20</field>
+                                            <field name="ARGUMENT_INDEX">-1</field>
                                           </block>
                                         </value>
                                         <next>
@@ -3509,7 +3749,7 @@
                                             </value>
                                             <value name="VALUE-2">
                                               <block type="subroutineArgumentBlock">
-                                                <field name="ARGUMENT_INDEX">21</field>
+                                                <field name="ARGUMENT_INDEX">-1</field>
                                               </block>
                                             </value>
                                             <next>
@@ -3528,7 +3768,7 @@
                                                 </value>
                                                 <value name="VALUE-2">
                                                   <block type="subroutineArgumentBlock">
-                                                    <field name="ARGUMENT_INDEX">22</field>
+                                                    <field name="ARGUMENT_INDEX">-1</field>
                                                   </block>
                                                 </value>
                                                 <next>
@@ -3547,7 +3787,7 @@
                                                     </value>
                                                     <value name="VALUE-2">
                                                       <block type="subroutineArgumentBlock">
-                                                        <field name="ARGUMENT_INDEX">23</field>
+                                                        <field name="ARGUMENT_INDEX">-1</field>
                                                       </block>
                                                     </value>
                                                   </block>
@@ -3607,7 +3847,7 @@
         </value>
         <value name="VALUE-2">
           <block type="subroutineArgumentBlock">
-            <field name="ARGUMENT_INDEX">24</field>
+            <field name="ARGUMENT_INDEX">-1</field>
           </block>
         </value>
         <next>
@@ -3626,7 +3866,7 @@
             </value>
             <value name="VALUE-2">
               <block type="subroutineArgumentBlock">
-                <field name="ARGUMENT_INDEX">25</field>
+                <field name="ARGUMENT_INDEX">-1</field>
               </block>
             </value>
             <next>
@@ -3645,7 +3885,7 @@
                 </value>
                 <value name="VALUE-2">
                   <block type="subroutineArgumentBlock">
-                    <field name="ARGUMENT_INDEX">26</field>
+                    <field name="ARGUMENT_INDEX">-1</field>
                   </block>
                 </value>
                 <next>
@@ -3664,7 +3904,7 @@
                     </value>
                     <value name="VALUE-2">
                       <block type="subroutineArgumentBlock">
-                        <field name="ARGUMENT_INDEX">27</field>
+                        <field name="ARGUMENT_INDEX">-1</field>
                       </block>
                     </value>
                     <next>
@@ -3683,7 +3923,7 @@
                         </value>
                         <value name="VALUE-2">
                           <block type="subroutineArgumentBlock">
-                            <field name="ARGUMENT_INDEX">28</field>
+                            <field name="ARGUMENT_INDEX">-1</field>
                           </block>
                         </value>
                         <next>
@@ -3702,7 +3942,7 @@
                             </value>
                             <value name="VALUE-2">
                               <block type="subroutineArgumentBlock">
-                                <field name="ARGUMENT_INDEX">29</field>
+                                <field name="ARGUMENT_INDEX">-1</field>
                               </block>
                             </value>
                             <next>
@@ -3721,7 +3961,7 @@
                                 </value>
                                 <value name="VALUE-2">
                                   <block type="subroutineArgumentBlock">
-                                    <field name="ARGUMENT_INDEX">30</field>
+                                    <field name="ARGUMENT_INDEX">-1</field>
                                   </block>
                                 </value>
                                 <next>
@@ -3740,7 +3980,7 @@
                                     </value>
                                     <value name="VALUE-2">
                                       <block type="subroutineArgumentBlock">
-                                        <field name="ARGUMENT_INDEX">31</field>
+                                        <field name="ARGUMENT_INDEX">-1</field>
                                       </block>
                                     </value>
                                     <next>
@@ -3759,7 +3999,7 @@
                                         </value>
                                         <value name="VALUE-2">
                                           <block type="subroutineArgumentBlock">
-                                            <field name="ARGUMENT_INDEX">32</field>
+                                            <field name="ARGUMENT_INDEX">-1</field>
                                           </block>
                                         </value>
                                         <next>
@@ -3778,7 +4018,7 @@
                                             </value>
                                             <value name="VALUE-2">
                                               <block type="subroutineArgumentBlock">
-                                                <field name="ARGUMENT_INDEX">33</field>
+                                                <field name="ARGUMENT_INDEX">-1</field>
                                               </block>
                                             </value>
                                             <next>
@@ -3797,7 +4037,7 @@
                                                 </value>
                                                 <value name="VALUE-2">
                                                   <block type="subroutineArgumentBlock">
-                                                    <field name="ARGUMENT_INDEX">34</field>
+                                                    <field name="ARGUMENT_INDEX">-1</field>
                                                   </block>
                                                 </value>
                                                 <next>
@@ -3816,7 +4056,7 @@
                                                     </value>
                                                     <value name="VALUE-2">
                                                       <block type="subroutineArgumentBlock">
-                                                        <field name="ARGUMENT_INDEX">35</field>
+                                                        <field name="ARGUMENT_INDEX">-1</field>
                                                       </block>
                                                     </value>
                                                   </block>
@@ -3895,7 +4135,7 @@
             </value>
             <value name="VALUE-2">
               <block type="subroutineArgumentBlock">
-                <field name="ARGUMENT_INDEX">37</field>
+                <field name="ARGUMENT_INDEX">-1</field>
               </block>
             </value>
             <next>
@@ -3914,7 +4154,7 @@
                 </value>
                 <value name="VALUE-2">
                   <block type="subroutineArgumentBlock">
-                    <field name="ARGUMENT_INDEX">38</field>
+                    <field name="ARGUMENT_INDEX">-1</field>
                   </block>
                 </value>
                 <next>
@@ -3933,7 +4173,7 @@
                     </value>
                     <value name="VALUE-2">
                       <block type="subroutineArgumentBlock">
-                        <field name="ARGUMENT_INDEX">39</field>
+                        <field name="ARGUMENT_INDEX">-1</field>
                       </block>
                     </value>
                     <next>
@@ -3952,7 +4192,7 @@
                         </value>
                         <value name="VALUE-2">
                           <block type="subroutineArgumentBlock">
-                            <field name="ARGUMENT_INDEX">40</field>
+                            <field name="ARGUMENT_INDEX">-1</field>
                           </block>
                         </value>
                         <next>
@@ -3971,7 +4211,7 @@
                             </value>
                             <value name="VALUE-2">
                               <block type="subroutineArgumentBlock">
-                                <field name="ARGUMENT_INDEX">41</field>
+                                <field name="ARGUMENT_INDEX">-1</field>
                               </block>
                             </value>
                             <next>
@@ -3990,7 +4230,7 @@
                                 </value>
                                 <value name="VALUE-2">
                                   <block type="subroutineArgumentBlock">
-                                    <field name="ARGUMENT_INDEX">42</field>
+                                    <field name="ARGUMENT_INDEX">-1</field>
                                   </block>
                                 </value>
                                 <next>
@@ -4009,7 +4249,7 @@
                                     </value>
                                     <value name="VALUE-2">
                                       <block type="subroutineArgumentBlock">
-                                        <field name="ARGUMENT_INDEX">43</field>
+                                        <field name="ARGUMENT_INDEX">-1</field>
                                       </block>
                                     </value>
                                     <next>
@@ -4028,7 +4268,7 @@
                                         </value>
                                         <value name="VALUE-2">
                                           <block type="subroutineArgumentBlock">
-                                            <field name="ARGUMENT_INDEX">44</field>
+                                            <field name="ARGUMENT_INDEX">-1</field>
                                           </block>
                                         </value>
                                         <next>
@@ -4047,7 +4287,7 @@
                                             </value>
                                             <value name="VALUE-2">
                                               <block type="subroutineArgumentBlock">
-                                                <field name="ARGUMENT_INDEX">45</field>
+                                                <field name="ARGUMENT_INDEX">-1</field>
                                               </block>
                                             </value>
                                             <next>
@@ -4066,7 +4306,7 @@
                                                 </value>
                                                 <value name="VALUE-2">
                                                   <block type="subroutineArgumentBlock">
-                                                    <field name="ARGUMENT_INDEX">46</field>
+                                                    <field name="ARGUMENT_INDEX">-1</field>
                                                   </block>
                                                 </value>
                                                 <next>
@@ -4085,7 +4325,7 @@
                                                     </value>
                                                     <value name="VALUE-2">
                                                       <block type="subroutineArgumentBlock">
-                                                        <field name="ARGUMENT_INDEX">47</field>
+                                                        <field name="ARGUMENT_INDEX">-1</field>
                                                       </block>
                                                     </value>
                                                   </block>
