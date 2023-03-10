@@ -1062,6 +1062,11 @@
                                                                             </value>
                                                                           </block>
                                                                         </value>
+                                                                        <value name="VALUE-1">
+                                                                          <block type="subroutineArgumentBlock">
+                                                                            <field name="ARGUMENT_INDEX">12</field>
+                                                                          </block>
+                                                                        </value>
                                                                       </block>
                                                                     </value>
                                                                     <next>
@@ -1084,6 +1089,11 @@
                                                                                     <field name="VAR" id="y(O?E1[^hWq4}J++enxN" variabletype="Global">SMGs</field>
                                                                                   </block>
                                                                                 </value>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="VALUE-1">
+                                                                              <block type="subroutineArgumentBlock">
+                                                                                <field name="ARGUMENT_INDEX">13</field>
                                                                               </block>
                                                                             </value>
                                                                           </block>
@@ -1110,6 +1120,11 @@
                                                                                     </value>
                                                                                   </block>
                                                                                 </value>
+                                                                                <value name="VALUE-1">
+                                                                                  <block type="subroutineArgumentBlock">
+                                                                                    <field name="ARGUMENT_INDEX">14</field>
+                                                                                  </block>
+                                                                                </value>
                                                                               </block>
                                                                             </value>
                                                                             <next>
@@ -1126,6 +1141,11 @@
                                                                                     <field name="NUM">0</field>
                                                                                   </block>
                                                                                 </value>
+                                                                                <value name="VALUE-2">
+                                                                                  <block type="subroutineArgumentBlock">
+                                                                                    <field name="ARGUMENT_INDEX">15</field>
+                                                                                  </block>
+                                                                                </value>
                                                                                 <next>
                                                                                   <block type="SetVariableAtIndex">
                                                                                     <value name="VALUE-0">
@@ -1140,6 +1160,11 @@
                                                                                         <field name="NUM">1</field>
                                                                                       </block>
                                                                                     </value>
+                                                                                    <value name="VALUE-2">
+                                                                                      <block type="subroutineArgumentBlock">
+                                                                                        <field name="ARGUMENT_INDEX">16</field>
+                                                                                      </block>
+                                                                                    </value>
                                                                                     <next>
                                                                                       <block type="SetVariableAtIndex">
                                                                                         <value name="VALUE-0">
@@ -1152,6 +1177,11 @@
                                                                                         <value name="VALUE-1">
                                                                                           <block type="Number">
                                                                                             <field name="NUM">2</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="VALUE-2">
+                                                                                          <block type="subroutineArgumentBlock">
+                                                                                            <field name="ARGUMENT_INDEX">17</field>
                                                                                           </block>
                                                                                         </value>
                                                                                         <next>
@@ -1188,20 +1218,40 @@
                                                                                                         </value>
                                                                                                       </block>
                                                                                                     </value>
+                                                                                                    <value name="VALUE-1">
+                                                                                                      <block type="subroutineArgumentBlock">
+                                                                                                        <field name="ARGUMENT_INDEX">18</field>
+                                                                                                      </block>
+                                                                                                    </value>
                                                                                                   </block>
                                                                                                 </value>
                                                                                                 <next>
-                                                                                                  <block type="SetVariableAtIndex">
+                                                                                                  <block type="SetVariable">
                                                                                                     <value name="VALUE-0">
                                                                                                       <block type="variableReferenceBlock">
                                                                                                         <mutation isObjectVar="false"></mutation>
                                                                                                         <field name="OBJECTTYPE">Global</field>
-                                                                                                        <field name="VAR" id="8t=T(:l$OY1RZc|`2%w+" variabletype="Global">MenuShotgun</field>
+                                                                                                        <field name="VAR" id="-,2-@QEAUsTz3EPrJB)j" variabletype="Global">Shotguns</field>
                                                                                                       </block>
                                                                                                     </value>
                                                                                                     <value name="VALUE-1">
-                                                                                                      <block type="Number">
-                                                                                                        <field name="NUM">0</field>
+                                                                                                      <block type="AppendToArray">
+                                                                                                        <value name="VALUE-0">
+                                                                                                          <block type="GetVariable">
+                                                                                                            <value name="VALUE-0">
+                                                                                                              <block type="variableReferenceBlock">
+                                                                                                                <mutation isObjectVar="false"></mutation>
+                                                                                                                <field name="OBJECTTYPE">Global</field>
+                                                                                                                <field name="VAR" id="-,2-@QEAUsTz3EPrJB)j" variabletype="Global">Shotguns</field>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <value name="VALUE-1">
+                                                                                                          <block type="subroutineArgumentBlock">
+                                                                                                            <field name="ARGUMENT_INDEX">19</field>
+                                                                                                          </block>
+                                                                                                        </value>
                                                                                                       </block>
                                                                                                     </value>
                                                                                                     <next>
@@ -1210,34 +1260,46 @@
                                                                                                           <block type="variableReferenceBlock">
                                                                                                             <mutation isObjectVar="false"></mutation>
                                                                                                             <field name="OBJECTTYPE">Global</field>
-                                                                                                            <field name="VAR" id="O?+M`-kPfgeO4y4FIfO4" variabletype="Global">LMGs</field>
+                                                                                                            <field name="VAR" id="-,2-@QEAUsTz3EPrJB)j" variabletype="Global">Shotguns</field>
                                                                                                           </block>
                                                                                                         </value>
                                                                                                         <value name="VALUE-1">
-                                                                                                          <block type="EmptyArray"></block>
+                                                                                                          <block type="AppendToArray">
+                                                                                                            <value name="VALUE-0">
+                                                                                                              <block type="GetVariable">
+                                                                                                                <value name="VALUE-0">
+                                                                                                                  <block type="variableReferenceBlock">
+                                                                                                                    <mutation isObjectVar="false"></mutation>
+                                                                                                                    <field name="OBJECTTYPE">Global</field>
+                                                                                                                    <field name="VAR" id="-,2-@QEAUsTz3EPrJB)j" variabletype="Global">Shotguns</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <value name="VALUE-1">
+                                                                                                              <block type="subroutineArgumentBlock">
+                                                                                                                <field name="ARGUMENT_INDEX">20</field>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                          </block>
                                                                                                         </value>
                                                                                                         <next>
-                                                                                                          <block type="SetVariable">
+                                                                                                          <block type="SetVariableAtIndex">
                                                                                                             <value name="VALUE-0">
                                                                                                               <block type="variableReferenceBlock">
                                                                                                                 <mutation isObjectVar="false"></mutation>
                                                                                                                 <field name="OBJECTTYPE">Global</field>
-                                                                                                                <field name="VAR" id="O?+M`-kPfgeO4y4FIfO4" variabletype="Global">LMGs</field>
+                                                                                                                <field name="VAR" id="8t=T(:l$OY1RZc|`2%w+" variabletype="Global">MenuShotgun</field>
                                                                                                               </block>
                                                                                                             </value>
                                                                                                             <value name="VALUE-1">
-                                                                                                              <block type="AppendToArray">
-                                                                                                                <value name="VALUE-0">
-                                                                                                                  <block type="GetVariable">
-                                                                                                                    <value name="VALUE-0">
-                                                                                                                      <block type="variableReferenceBlock">
-                                                                                                                        <mutation isObjectVar="false"></mutation>
-                                                                                                                        <field name="OBJECTTYPE">Global</field>
-                                                                                                                        <field name="VAR" id="O?+M`-kPfgeO4y4FIfO4" variabletype="Global">LMGs</field>
-                                                                                                                      </block>
-                                                                                                                    </value>
-                                                                                                                  </block>
-                                                                                                                </value>
+                                                                                                              <block type="Number">
+                                                                                                                <field name="NUM">0</field>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <value name="VALUE-2">
+                                                                                                              <block type="subroutineArgumentBlock">
+                                                                                                                <field name="ARGUMENT_INDEX">21</field>
                                                                                                               </block>
                                                                                                             </value>
                                                                                                             <next>
@@ -1246,7 +1308,7 @@
                                                                                                                   <block type="variableReferenceBlock">
                                                                                                                     <mutation isObjectVar="false"></mutation>
                                                                                                                     <field name="OBJECTTYPE">Global</field>
-                                                                                                                    <field name="VAR" id="u}XW=2=R-is~c32-NMiw" variabletype="Global">MenuLMG</field>
+                                                                                                                    <field name="VAR" id="8t=T(:l$OY1RZc|`2%w+" variabletype="Global">MenuShotgun</field>
                                                                                                                   </block>
                                                                                                                 </value>
                                                                                                                 <value name="VALUE-1">
@@ -1254,17 +1316,29 @@
                                                                                                                     <field name="NUM">0</field>
                                                                                                                   </block>
                                                                                                                 </value>
+                                                                                                                <value name="VALUE-2">
+                                                                                                                  <block type="subroutineArgumentBlock">
+                                                                                                                    <field name="ARGUMENT_INDEX">22</field>
+                                                                                                                  </block>
+                                                                                                                </value>
                                                                                                                 <next>
-                                                                                                                  <block type="SetVariable">
+                                                                                                                  <block type="SetVariableAtIndex">
                                                                                                                     <value name="VALUE-0">
                                                                                                                       <block type="variableReferenceBlock">
                                                                                                                         <mutation isObjectVar="false"></mutation>
                                                                                                                         <field name="OBJECTTYPE">Global</field>
-                                                                                                                        <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
+                                                                                                                        <field name="VAR" id="8t=T(:l$OY1RZc|`2%w+" variabletype="Global">MenuShotgun</field>
                                                                                                                       </block>
                                                                                                                     </value>
                                                                                                                     <value name="VALUE-1">
-                                                                                                                      <block type="EmptyArray"></block>
+                                                                                                                      <block type="Number">
+                                                                                                                        <field name="NUM">0</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                    <value name="VALUE-2">
+                                                                                                                      <block type="subroutineArgumentBlock">
+                                                                                                                        <field name="ARGUMENT_INDEX">23</field>
+                                                                                                                      </block>
                                                                                                                     </value>
                                                                                                                     <next>
                                                                                                                       <block type="SetVariable">
@@ -1272,23 +1346,11 @@
                                                                                                                           <block type="variableReferenceBlock">
                                                                                                                             <mutation isObjectVar="false"></mutation>
                                                                                                                             <field name="OBJECTTYPE">Global</field>
-                                                                                                                            <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
+                                                                                                                            <field name="VAR" id="O?+M`-kPfgeO4y4FIfO4" variabletype="Global">LMGs</field>
                                                                                                                           </block>
                                                                                                                         </value>
                                                                                                                         <value name="VALUE-1">
-                                                                                                                          <block type="AppendToArray">
-                                                                                                                            <value name="VALUE-0">
-                                                                                                                              <block type="GetVariable">
-                                                                                                                                <value name="VALUE-0">
-                                                                                                                                  <block type="variableReferenceBlock">
-                                                                                                                                    <mutation isObjectVar="false"></mutation>
-                                                                                                                                    <field name="OBJECTTYPE">Global</field>
-                                                                                                                                    <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
-                                                                                                                                  </block>
-                                                                                                                                </value>
-                                                                                                                              </block>
-                                                                                                                            </value>
-                                                                                                                          </block>
+                                                                                                                          <block type="EmptyArray"></block>
                                                                                                                         </value>
                                                                                                                         <next>
                                                                                                                           <block type="SetVariable">
@@ -1296,7 +1358,7 @@
                                                                                                                               <block type="variableReferenceBlock">
                                                                                                                                 <mutation isObjectVar="false"></mutation>
                                                                                                                                 <field name="OBJECTTYPE">Global</field>
-                                                                                                                                <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
+                                                                                                                                <field name="VAR" id="O?+M`-kPfgeO4y4FIfO4" variabletype="Global">LMGs</field>
                                                                                                                               </block>
                                                                                                                             </value>
                                                                                                                             <value name="VALUE-1">
@@ -1307,9 +1369,14 @@
                                                                                                                                       <block type="variableReferenceBlock">
                                                                                                                                         <mutation isObjectVar="false"></mutation>
                                                                                                                                         <field name="OBJECTTYPE">Global</field>
-                                                                                                                                        <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
+                                                                                                                                        <field name="VAR" id="O?+M`-kPfgeO4y4FIfO4" variabletype="Global">LMGs</field>
                                                                                                                                       </block>
                                                                                                                                     </value>
+                                                                                                                                  </block>
+                                                                                                                                </value>
+                                                                                                                                <value name="VALUE-1">
+                                                                                                                                  <block type="subroutineArgumentBlock">
+                                                                                                                                    <field name="ARGUMENT_INDEX">24</field>
                                                                                                                                   </block>
                                                                                                                                 </value>
                                                                                                                               </block>
@@ -1320,7 +1387,7 @@
                                                                                                                                   <block type="variableReferenceBlock">
                                                                                                                                     <mutation isObjectVar="false"></mutation>
                                                                                                                                     <field name="OBJECTTYPE">Global</field>
-                                                                                                                                    <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
+                                                                                                                                    <field name="VAR" id="O?+M`-kPfgeO4y4FIfO4" variabletype="Global">LMGs</field>
                                                                                                                                   </block>
                                                                                                                                 </value>
                                                                                                                                 <value name="VALUE-1">
@@ -1331,25 +1398,45 @@
                                                                                                                                           <block type="variableReferenceBlock">
                                                                                                                                             <mutation isObjectVar="false"></mutation>
                                                                                                                                             <field name="OBJECTTYPE">Global</field>
-                                                                                                                                            <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
+                                                                                                                                            <field name="VAR" id="O?+M`-kPfgeO4y4FIfO4" variabletype="Global">LMGs</field>
                                                                                                                                           </block>
                                                                                                                                         </value>
+                                                                                                                                      </block>
+                                                                                                                                    </value>
+                                                                                                                                    <value name="VALUE-1">
+                                                                                                                                      <block type="subroutineArgumentBlock">
+                                                                                                                                        <field name="ARGUMENT_INDEX">25</field>
                                                                                                                                       </block>
                                                                                                                                     </value>
                                                                                                                                   </block>
                                                                                                                                 </value>
                                                                                                                                 <next>
-                                                                                                                                  <block type="SetVariableAtIndex">
+                                                                                                                                  <block type="SetVariable">
                                                                                                                                     <value name="VALUE-0">
                                                                                                                                       <block type="variableReferenceBlock">
                                                                                                                                         <mutation isObjectVar="false"></mutation>
                                                                                                                                         <field name="OBJECTTYPE">Global</field>
-                                                                                                                                        <field name="VAR" id="tT.$[?2z90Dpa5+1c?Gl" variabletype="Global">MenuDMR</field>
+                                                                                                                                        <field name="VAR" id="O?+M`-kPfgeO4y4FIfO4" variabletype="Global">LMGs</field>
                                                                                                                                       </block>
                                                                                                                                     </value>
                                                                                                                                     <value name="VALUE-1">
-                                                                                                                                      <block type="Number">
-                                                                                                                                        <field name="NUM">0</field>
+                                                                                                                                      <block type="AppendToArray">
+                                                                                                                                        <value name="VALUE-0">
+                                                                                                                                          <block type="GetVariable">
+                                                                                                                                            <value name="VALUE-0">
+                                                                                                                                              <block type="variableReferenceBlock">
+                                                                                                                                                <mutation isObjectVar="false"></mutation>
+                                                                                                                                                <field name="OBJECTTYPE">Global</field>
+                                                                                                                                                <field name="VAR" id="O?+M`-kPfgeO4y4FIfO4" variabletype="Global">LMGs</field>
+                                                                                                                                              </block>
+                                                                                                                                            </value>
+                                                                                                                                          </block>
+                                                                                                                                        </value>
+                                                                                                                                        <value name="VALUE-1">
+                                                                                                                                          <block type="subroutineArgumentBlock">
+                                                                                                                                            <field name="ARGUMENT_INDEX">26</field>
+                                                                                                                                          </block>
+                                                                                                                                        </value>
                                                                                                                                       </block>
                                                                                                                                     </value>
                                                                                                                                     <next>
@@ -1358,12 +1445,17 @@
                                                                                                                                           <block type="variableReferenceBlock">
                                                                                                                                             <mutation isObjectVar="false"></mutation>
                                                                                                                                             <field name="OBJECTTYPE">Global</field>
-                                                                                                                                            <field name="VAR" id="tT.$[?2z90Dpa5+1c?Gl" variabletype="Global">MenuDMR</field>
+                                                                                                                                            <field name="VAR" id="u}XW=2=R-is~c32-NMiw" variabletype="Global">MenuLMG</field>
                                                                                                                                           </block>
                                                                                                                                         </value>
                                                                                                                                         <value name="VALUE-1">
                                                                                                                                           <block type="Number">
-                                                                                                                                            <field name="NUM">1</field>
+                                                                                                                                            <field name="NUM">0</field>
+                                                                                                                                          </block>
+                                                                                                                                        </value>
+                                                                                                                                        <value name="VALUE-2">
+                                                                                                                                          <block type="subroutineArgumentBlock">
+                                                                                                                                            <field name="ARGUMENT_INDEX">27</field>
                                                                                                                                           </block>
                                                                                                                                         </value>
                                                                                                                                         <next>
@@ -1372,25 +1464,37 @@
                                                                                                                                               <block type="variableReferenceBlock">
                                                                                                                                                 <mutation isObjectVar="false"></mutation>
                                                                                                                                                 <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                <field name="VAR" id="tT.$[?2z90Dpa5+1c?Gl" variabletype="Global">MenuDMR</field>
+                                                                                                                                                <field name="VAR" id="u}XW=2=R-is~c32-NMiw" variabletype="Global">MenuLMG</field>
                                                                                                                                               </block>
                                                                                                                                             </value>
                                                                                                                                             <value name="VALUE-1">
                                                                                                                                               <block type="Number">
-                                                                                                                                                <field name="NUM">2</field>
+                                                                                                                                                <field name="NUM">0</field>
+                                                                                                                                              </block>
+                                                                                                                                            </value>
+                                                                                                                                            <value name="VALUE-2">
+                                                                                                                                              <block type="subroutineArgumentBlock">
+                                                                                                                                                <field name="ARGUMENT_INDEX">28</field>
                                                                                                                                               </block>
                                                                                                                                             </value>
                                                                                                                                             <next>
-                                                                                                                                              <block type="SetVariable">
+                                                                                                                                              <block type="SetVariableAtIndex">
                                                                                                                                                 <value name="VALUE-0">
                                                                                                                                                   <block type="variableReferenceBlock">
                                                                                                                                                     <mutation isObjectVar="false"></mutation>
                                                                                                                                                     <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                    <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
+                                                                                                                                                    <field name="VAR" id="u}XW=2=R-is~c32-NMiw" variabletype="Global">MenuLMG</field>
                                                                                                                                                   </block>
                                                                                                                                                 </value>
                                                                                                                                                 <value name="VALUE-1">
-                                                                                                                                                  <block type="EmptyArray"></block>
+                                                                                                                                                  <block type="Number">
+                                                                                                                                                    <field name="NUM">0</field>
+                                                                                                                                                  </block>
+                                                                                                                                                </value>
+                                                                                                                                                <value name="VALUE-2">
+                                                                                                                                                  <block type="subroutineArgumentBlock">
+                                                                                                                                                    <field name="ARGUMENT_INDEX">29</field>
+                                                                                                                                                  </block>
                                                                                                                                                 </value>
                                                                                                                                                 <next>
                                                                                                                                                   <block type="SetVariable">
@@ -1398,23 +1502,11 @@
                                                                                                                                                       <block type="variableReferenceBlock">
                                                                                                                                                         <mutation isObjectVar="false"></mutation>
                                                                                                                                                         <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                        <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
+                                                                                                                                                        <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
                                                                                                                                                       </block>
                                                                                                                                                     </value>
                                                                                                                                                     <value name="VALUE-1">
-                                                                                                                                                      <block type="AppendToArray">
-                                                                                                                                                        <value name="VALUE-0">
-                                                                                                                                                          <block type="GetVariable">
-                                                                                                                                                            <value name="VALUE-0">
-                                                                                                                                                              <block type="variableReferenceBlock">
-                                                                                                                                                                <mutation isObjectVar="false"></mutation>
-                                                                                                                                                                <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
-                                                                                                                                                              </block>
-                                                                                                                                                            </value>
-                                                                                                                                                          </block>
-                                                                                                                                                        </value>
-                                                                                                                                                      </block>
+                                                                                                                                                      <block type="EmptyArray"></block>
                                                                                                                                                     </value>
                                                                                                                                                     <next>
                                                                                                                                                       <block type="SetVariable">
@@ -1422,7 +1514,7 @@
                                                                                                                                                           <block type="variableReferenceBlock">
                                                                                                                                                             <mutation isObjectVar="false"></mutation>
                                                                                                                                                             <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                            <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
+                                                                                                                                                            <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
                                                                                                                                                           </block>
                                                                                                                                                         </value>
                                                                                                                                                         <value name="VALUE-1">
@@ -1433,7 +1525,7 @@
                                                                                                                                                                   <block type="variableReferenceBlock">
                                                                                                                                                                     <mutation isObjectVar="false"></mutation>
                                                                                                                                                                     <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                    <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
+                                                                                                                                                                    <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
                                                                                                                                                                   </block>
                                                                                                                                                                 </value>
                                                                                                                                                               </block>
@@ -1446,7 +1538,7 @@
                                                                                                                                                               <block type="variableReferenceBlock">
                                                                                                                                                                 <mutation isObjectVar="false"></mutation>
                                                                                                                                                                 <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
+                                                                                                                                                                <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
                                                                                                                                                               </block>
                                                                                                                                                             </value>
                                                                                                                                                             <value name="VALUE-1">
@@ -1457,7 +1549,7 @@
                                                                                                                                                                       <block type="variableReferenceBlock">
                                                                                                                                                                         <mutation isObjectVar="false"></mutation>
                                                                                                                                                                         <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                        <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
+                                                                                                                                                                        <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
                                                                                                                                                                       </block>
                                                                                                                                                                     </value>
                                                                                                                                                                   </block>
@@ -1465,17 +1557,27 @@
                                                                                                                                                               </block>
                                                                                                                                                             </value>
                                                                                                                                                             <next>
-                                                                                                                                                              <block type="SetVariableAtIndex">
+                                                                                                                                                              <block type="SetVariable">
                                                                                                                                                                 <value name="VALUE-0">
                                                                                                                                                                   <block type="variableReferenceBlock">
                                                                                                                                                                     <mutation isObjectVar="false"></mutation>
                                                                                                                                                                     <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                    <field name="VAR" id="vuQ{!_`N#w9l%4f(en,2" variabletype="Global">MenuSniper</field>
+                                                                                                                                                                    <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
                                                                                                                                                                   </block>
                                                                                                                                                                 </value>
                                                                                                                                                                 <value name="VALUE-1">
-                                                                                                                                                                  <block type="Number">
-                                                                                                                                                                    <field name="NUM">0</field>
+                                                                                                                                                                  <block type="AppendToArray">
+                                                                                                                                                                    <value name="VALUE-0">
+                                                                                                                                                                      <block type="GetVariable">
+                                                                                                                                                                        <value name="VALUE-0">
+                                                                                                                                                                          <block type="variableReferenceBlock">
+                                                                                                                                                                            <mutation isObjectVar="false"></mutation>
+                                                                                                                                                                            <field name="OBJECTTYPE">Global</field>
+                                                                                                                                                                            <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
+                                                                                                                                                                          </block>
+                                                                                                                                                                        </value>
+                                                                                                                                                                      </block>
+                                                                                                                                                                    </value>
                                                                                                                                                                   </block>
                                                                                                                                                                 </value>
                                                                                                                                                                 <next>
@@ -1484,12 +1586,12 @@
                                                                                                                                                                       <block type="variableReferenceBlock">
                                                                                                                                                                         <mutation isObjectVar="false"></mutation>
                                                                                                                                                                         <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                        <field name="VAR" id="vuQ{!_`N#w9l%4f(en,2" variabletype="Global">MenuSniper</field>
+                                                                                                                                                                        <field name="VAR" id="tT.$[?2z90Dpa5+1c?Gl" variabletype="Global">MenuDMR</field>
                                                                                                                                                                       </block>
                                                                                                                                                                     </value>
                                                                                                                                                                     <value name="VALUE-1">
                                                                                                                                                                       <block type="Number">
-                                                                                                                                                                        <field name="NUM">1</field>
+                                                                                                                                                                        <field name="NUM">0</field>
                                                                                                                                                                       </block>
                                                                                                                                                                     </value>
                                                                                                                                                                     <next>
@@ -1498,25 +1600,27 @@
                                                                                                                                                                           <block type="variableReferenceBlock">
                                                                                                                                                                             <mutation isObjectVar="false"></mutation>
                                                                                                                                                                             <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                            <field name="VAR" id="vuQ{!_`N#w9l%4f(en,2" variabletype="Global">MenuSniper</field>
+                                                                                                                                                                            <field name="VAR" id="tT.$[?2z90Dpa5+1c?Gl" variabletype="Global">MenuDMR</field>
                                                                                                                                                                           </block>
                                                                                                                                                                         </value>
                                                                                                                                                                         <value name="VALUE-1">
                                                                                                                                                                           <block type="Number">
-                                                                                                                                                                            <field name="NUM">2</field>
+                                                                                                                                                                            <field name="NUM">1</field>
                                                                                                                                                                           </block>
                                                                                                                                                                         </value>
                                                                                                                                                                         <next>
-                                                                                                                                                                          <block type="SetVariable">
+                                                                                                                                                                          <block type="SetVariableAtIndex">
                                                                                                                                                                             <value name="VALUE-0">
                                                                                                                                                                               <block type="variableReferenceBlock">
                                                                                                                                                                                 <mutation isObjectVar="false"></mutation>
                                                                                                                                                                                 <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                                <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
+                                                                                                                                                                                <field name="VAR" id="tT.$[?2z90Dpa5+1c?Gl" variabletype="Global">MenuDMR</field>
                                                                                                                                                                               </block>
                                                                                                                                                                             </value>
                                                                                                                                                                             <value name="VALUE-1">
-                                                                                                                                                                              <block type="EmptyArray"></block>
+                                                                                                                                                                              <block type="Number">
+                                                                                                                                                                                <field name="NUM">2</field>
+                                                                                                                                                                              </block>
                                                                                                                                                                             </value>
                                                                                                                                                                             <next>
                                                                                                                                                                               <block type="SetVariable">
@@ -1524,23 +1628,11 @@
                                                                                                                                                                                   <block type="variableReferenceBlock">
                                                                                                                                                                                     <mutation isObjectVar="false"></mutation>
                                                                                                                                                                                     <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                                    <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
+                                                                                                                                                                                    <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
                                                                                                                                                                                   </block>
                                                                                                                                                                                 </value>
                                                                                                                                                                                 <value name="VALUE-1">
-                                                                                                                                                                                  <block type="AppendToArray">
-                                                                                                                                                                                    <value name="VALUE-0">
-                                                                                                                                                                                      <block type="GetVariable">
-                                                                                                                                                                                        <value name="VALUE-0">
-                                                                                                                                                                                          <block type="variableReferenceBlock">
-                                                                                                                                                                                            <mutation isObjectVar="false"></mutation>
-                                                                                                                                                                                            <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                                            <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
-                                                                                                                                                                                          </block>
-                                                                                                                                                                                        </value>
-                                                                                                                                                                                      </block>
-                                                                                                                                                                                    </value>
-                                                                                                                                                                                  </block>
+                                                                                                                                                                                  <block type="EmptyArray"></block>
                                                                                                                                                                                 </value>
                                                                                                                                                                                 <next>
                                                                                                                                                                                   <block type="SetVariable">
@@ -1548,7 +1640,7 @@
                                                                                                                                                                                       <block type="variableReferenceBlock">
                                                                                                                                                                                         <mutation isObjectVar="false"></mutation>
                                                                                                                                                                                         <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                                        <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
+                                                                                                                                                                                        <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
                                                                                                                                                                                       </block>
                                                                                                                                                                                     </value>
                                                                                                                                                                                     <value name="VALUE-1">
@@ -1559,7 +1651,7 @@
                                                                                                                                                                                               <block type="variableReferenceBlock">
                                                                                                                                                                                                 <mutation isObjectVar="false"></mutation>
                                                                                                                                                                                                 <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                                                <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
+                                                                                                                                                                                                <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
                                                                                                                                                                                               </block>
                                                                                                                                                                                             </value>
                                                                                                                                                                                           </block>
@@ -1572,7 +1664,7 @@
                                                                                                                                                                                           <block type="variableReferenceBlock">
                                                                                                                                                                                             <mutation isObjectVar="false"></mutation>
                                                                                                                                                                                             <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                                            <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
+                                                                                                                                                                                            <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
                                                                                                                                                                                           </block>
                                                                                                                                                                                         </value>
                                                                                                                                                                                         <value name="VALUE-1">
@@ -1583,7 +1675,7 @@
                                                                                                                                                                                                   <block type="variableReferenceBlock">
                                                                                                                                                                                                     <mutation isObjectVar="false"></mutation>
                                                                                                                                                                                                     <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                                                    <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
+                                                                                                                                                                                                    <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
                                                                                                                                                                                                   </block>
                                                                                                                                                                                                 </value>
                                                                                                                                                                                               </block>
@@ -1591,17 +1683,27 @@
                                                                                                                                                                                           </block>
                                                                                                                                                                                         </value>
                                                                                                                                                                                         <next>
-                                                                                                                                                                                          <block type="SetVariableAtIndex">
+                                                                                                                                                                                          <block type="SetVariable">
                                                                                                                                                                                             <value name="VALUE-0">
                                                                                                                                                                                               <block type="variableReferenceBlock">
                                                                                                                                                                                                 <mutation isObjectVar="false"></mutation>
                                                                                                                                                                                                 <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                                                <field name="VAR" id="B4gZ48qI(AKu7/4l)}/{" variabletype="Global">MenuThrowables</field>
+                                                                                                                                                                                                <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
                                                                                                                                                                                               </block>
                                                                                                                                                                                             </value>
                                                                                                                                                                                             <value name="VALUE-1">
-                                                                                                                                                                                              <block type="Number">
-                                                                                                                                                                                                <field name="NUM">0</field>
+                                                                                                                                                                                              <block type="AppendToArray">
+                                                                                                                                                                                                <value name="VALUE-0">
+                                                                                                                                                                                                  <block type="GetVariable">
+                                                                                                                                                                                                    <value name="VALUE-0">
+                                                                                                                                                                                                      <block type="variableReferenceBlock">
+                                                                                                                                                                                                        <mutation isObjectVar="false"></mutation>
+                                                                                                                                                                                                        <field name="OBJECTTYPE">Global</field>
+                                                                                                                                                                                                        <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
+                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                </value>
                                                                                                                                                                                               </block>
                                                                                                                                                                                             </value>
                                                                                                                                                                                             <next>
@@ -1610,12 +1712,12 @@
                                                                                                                                                                                                   <block type="variableReferenceBlock">
                                                                                                                                                                                                     <mutation isObjectVar="false"></mutation>
                                                                                                                                                                                                     <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                                                    <field name="VAR" id="B4gZ48qI(AKu7/4l)}/{" variabletype="Global">MenuThrowables</field>
+                                                                                                                                                                                                    <field name="VAR" id="vuQ{!_`N#w9l%4f(en,2" variabletype="Global">MenuSniper</field>
                                                                                                                                                                                                   </block>
                                                                                                                                                                                                 </value>
                                                                                                                                                                                                 <value name="VALUE-1">
                                                                                                                                                                                                   <block type="Number">
-                                                                                                                                                                                                    <field name="NUM">1</field>
+                                                                                                                                                                                                    <field name="NUM">0</field>
                                                                                                                                                                                                   </block>
                                                                                                                                                                                                 </value>
                                                                                                                                                                                                 <next>
@@ -1624,14 +1726,170 @@
                                                                                                                                                                                                       <block type="variableReferenceBlock">
                                                                                                                                                                                                         <mutation isObjectVar="false"></mutation>
                                                                                                                                                                                                         <field name="OBJECTTYPE">Global</field>
-                                                                                                                                                                                                        <field name="VAR" id="B4gZ48qI(AKu7/4l)}/{" variabletype="Global">MenuThrowables</field>
+                                                                                                                                                                                                        <field name="VAR" id="vuQ{!_`N#w9l%4f(en,2" variabletype="Global">MenuSniper</field>
                                                                                                                                                                                                       </block>
                                                                                                                                                                                                     </value>
                                                                                                                                                                                                     <value name="VALUE-1">
                                                                                                                                                                                                       <block type="Number">
-                                                                                                                                                                                                        <field name="NUM">2</field>
+                                                                                                                                                                                                        <field name="NUM">1</field>
                                                                                                                                                                                                       </block>
                                                                                                                                                                                                     </value>
+                                                                                                                                                                                                    <next>
+                                                                                                                                                                                                      <block type="SetVariableAtIndex">
+                                                                                                                                                                                                        <value name="VALUE-0">
+                                                                                                                                                                                                          <block type="variableReferenceBlock">
+                                                                                                                                                                                                            <mutation isObjectVar="false"></mutation>
+                                                                                                                                                                                                            <field name="OBJECTTYPE">Global</field>
+                                                                                                                                                                                                            <field name="VAR" id="vuQ{!_`N#w9l%4f(en,2" variabletype="Global">MenuSniper</field>
+                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                        <value name="VALUE-1">
+                                                                                                                                                                                                          <block type="Number">
+                                                                                                                                                                                                            <field name="NUM">2</field>
+                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                        <next>
+                                                                                                                                                                                                          <block type="SetVariable">
+                                                                                                                                                                                                            <value name="VALUE-0">
+                                                                                                                                                                                                              <block type="variableReferenceBlock">
+                                                                                                                                                                                                                <mutation isObjectVar="false"></mutation>
+                                                                                                                                                                                                                <field name="OBJECTTYPE">Global</field>
+                                                                                                                                                                                                                <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
+                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                            <value name="VALUE-1">
+                                                                                                                                                                                                              <block type="EmptyArray"></block>
+                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                            <next>
+                                                                                                                                                                                                              <block type="SetVariable">
+                                                                                                                                                                                                                <value name="VALUE-0">
+                                                                                                                                                                                                                  <block type="variableReferenceBlock">
+                                                                                                                                                                                                                    <mutation isObjectVar="false"></mutation>
+                                                                                                                                                                                                                    <field name="OBJECTTYPE">Global</field>
+                                                                                                                                                                                                                    <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
+                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                </value>
+                                                                                                                                                                                                                <value name="VALUE-1">
+                                                                                                                                                                                                                  <block type="AppendToArray">
+                                                                                                                                                                                                                    <value name="VALUE-0">
+                                                                                                                                                                                                                      <block type="GetVariable">
+                                                                                                                                                                                                                        <value name="VALUE-0">
+                                                                                                                                                                                                                          <block type="variableReferenceBlock">
+                                                                                                                                                                                                                            <mutation isObjectVar="false"></mutation>
+                                                                                                                                                                                                                            <field name="OBJECTTYPE">Global</field>
+                                                                                                                                                                                                                            <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
+                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                </value>
+                                                                                                                                                                                                                <next>
+                                                                                                                                                                                                                  <block type="SetVariable">
+                                                                                                                                                                                                                    <value name="VALUE-0">
+                                                                                                                                                                                                                      <block type="variableReferenceBlock">
+                                                                                                                                                                                                                        <mutation isObjectVar="false"></mutation>
+                                                                                                                                                                                                                        <field name="OBJECTTYPE">Global</field>
+                                                                                                                                                                                                                        <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
+                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                    <value name="VALUE-1">
+                                                                                                                                                                                                                      <block type="AppendToArray">
+                                                                                                                                                                                                                        <value name="VALUE-0">
+                                                                                                                                                                                                                          <block type="GetVariable">
+                                                                                                                                                                                                                            <value name="VALUE-0">
+                                                                                                                                                                                                                              <block type="variableReferenceBlock">
+                                                                                                                                                                                                                                <mutation isObjectVar="false"></mutation>
+                                                                                                                                                                                                                                <field name="OBJECTTYPE">Global</field>
+                                                                                                                                                                                                                                <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
+                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                    <next>
+                                                                                                                                                                                                                      <block type="SetVariable">
+                                                                                                                                                                                                                        <value name="VALUE-0">
+                                                                                                                                                                                                                          <block type="variableReferenceBlock">
+                                                                                                                                                                                                                            <mutation isObjectVar="false"></mutation>
+                                                                                                                                                                                                                            <field name="OBJECTTYPE">Global</field>
+                                                                                                                                                                                                                            <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
+                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                                        <value name="VALUE-1">
+                                                                                                                                                                                                                          <block type="AppendToArray">
+                                                                                                                                                                                                                            <value name="VALUE-0">
+                                                                                                                                                                                                                              <block type="GetVariable">
+                                                                                                                                                                                                                                <value name="VALUE-0">
+                                                                                                                                                                                                                                  <block type="variableReferenceBlock">
+                                                                                                                                                                                                                                    <mutation isObjectVar="false"></mutation>
+                                                                                                                                                                                                                                    <field name="OBJECTTYPE">Global</field>
+                                                                                                                                                                                                                                    <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
+                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                </value>
+                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                                        <next>
+                                                                                                                                                                                                                          <block type="SetVariableAtIndex">
+                                                                                                                                                                                                                            <value name="VALUE-0">
+                                                                                                                                                                                                                              <block type="variableReferenceBlock">
+                                                                                                                                                                                                                                <mutation isObjectVar="false"></mutation>
+                                                                                                                                                                                                                                <field name="OBJECTTYPE">Global</field>
+                                                                                                                                                                                                                                <field name="VAR" id="B4gZ48qI(AKu7/4l)}/{" variabletype="Global">MenuThrowables</field>
+                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                                            <value name="VALUE-1">
+                                                                                                                                                                                                                              <block type="Number">
+                                                                                                                                                                                                                                <field name="NUM">0</field>
+                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                            </value>
+                                                                                                                                                                                                                            <next>
+                                                                                                                                                                                                                              <block type="SetVariableAtIndex">
+                                                                                                                                                                                                                                <value name="VALUE-0">
+                                                                                                                                                                                                                                  <block type="variableReferenceBlock">
+                                                                                                                                                                                                                                    <mutation isObjectVar="false"></mutation>
+                                                                                                                                                                                                                                    <field name="OBJECTTYPE">Global</field>
+                                                                                                                                                                                                                                    <field name="VAR" id="B4gZ48qI(AKu7/4l)}/{" variabletype="Global">MenuThrowables</field>
+                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                </value>
+                                                                                                                                                                                                                                <value name="VALUE-1">
+                                                                                                                                                                                                                                  <block type="Number">
+                                                                                                                                                                                                                                    <field name="NUM">1</field>
+                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                </value>
+                                                                                                                                                                                                                                <next>
+                                                                                                                                                                                                                                  <block type="SetVariableAtIndex">
+                                                                                                                                                                                                                                    <value name="VALUE-0">
+                                                                                                                                                                                                                                      <block type="variableReferenceBlock">
+                                                                                                                                                                                                                                        <mutation isObjectVar="false"></mutation>
+                                                                                                                                                                                                                                        <field name="OBJECTTYPE">Global</field>
+                                                                                                                                                                                                                                        <field name="VAR" id="B4gZ48qI(AKu7/4l)}/{" variabletype="Global">MenuThrowables</field>
+                                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                                    <value name="VALUE-1">
+                                                                                                                                                                                                                                      <block type="Number">
+                                                                                                                                                                                                                                        <field name="NUM">2</field>
+                                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                </next>
+                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                            </next>
+                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                        </next>
+                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                    </next>
+                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                </next>
+                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                            </next>
+                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                        </next>
+                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                    </next>
                                                                                                                                                                                                   </block>
                                                                                                                                                                                                 </next>
                                                                                                                                                                                               </block>
