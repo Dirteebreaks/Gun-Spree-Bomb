@@ -2974,23 +2974,6 @@
     </mutation>
     <field name="SUBROUTINE_NAME">Main_Weapon_lists</field>
   </block>
-  <block type="subroutineInstanceBlock" inline="false" x="13392" y="-1323">
-    <mutation>
-      <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
-      <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
-      <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
-      <parameter types="String">MenuSniper1</parameter>
-      <parameter types="String">MenuSniper2</parameter>
-      <parameter types="String">MenuSniper3</parameter>
-      <parameter types="Enum_Throwables">Throwables1</parameter>
-      <parameter types="Enum_Throwables">Throwables2</parameter>
-      <parameter types="Enum_Throwables">Throwables3</parameter>
-      <parameter types="String">MenuThrowables1</parameter>
-      <parameter types="String">MenuThrowables2</parameter>
-      <parameter types="String">MenuThrowables3</parameter>
-    </mutation>
-    <field name="SUBROUTINE_NAME">Weapons_Snipers_Throwables</field>
-  </block>
   <block type="subroutineBlock" deletable="false" x="6178" y="-903">
     <mutation>
       <parameter types="Enum_PrimaryWeapons">SMG1</parameter>
@@ -3260,6 +3243,89 @@
       </block>
     </statement>
   </block>
+  <block type="subroutineInstanceBlock" inline="false" x="13412" y="-1264">
+    <mutation>
+      <parameter types="Enum_PrimaryWeapons">Sniper1</parameter>
+      <parameter types="Enum_PrimaryWeapons">Sniper2</parameter>
+      <parameter types="Enum_PrimaryWeapons">Sniper3</parameter>
+      <parameter types="String">MenuSniper1</parameter>
+      <parameter types="String">MenuSniper2</parameter>
+      <parameter types="String">MenuSniper3</parameter>
+      <parameter types="Enum_Throwables">Throwables1</parameter>
+      <parameter types="Enum_Throwables">Throwables2</parameter>
+      <parameter types="Enum_Throwables">Throwables3</parameter>
+      <parameter types="String">MenuThrowables1</parameter>
+      <parameter types="String">MenuThrowables2</parameter>
+      <parameter types="String">MenuThrowables3</parameter>
+    </mutation>
+    <field name="SUBROUTINE_NAME">Weapons_Snipers_Throwables</field>
+    <value name="PARAM-0">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">M1Sniper_GRA</field>
+      </block>
+    </value>
+    <value name="PARAM-1">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">LeeEnfieldNo4</field>
+      </block>
+    </value>
+    <value name="PARAM-2">
+      <block type="PrimaryWeaponsItem">
+        <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+        <field name="VALUE-1">K98 Sniper</field>
+      </block>
+    </value>
+    <value name="PARAM-3">
+      <block type="Text">
+        <field name="TEXT">M1 Sniper</field>
+      </block>
+    </value>
+    <value name="PARAM-4">
+      <block type="Text">
+        <field name="TEXT">No4 Sniper</field>
+      </block>
+    </value>
+    <value name="PARAM-5">
+      <block type="Text">
+        <field name="TEXT">K98 Sniper</field>
+      </block>
+    </value>
+    <value name="PARAM-6">
+      <block type="ThrowablesItem">
+        <field name="VALUE-0">ThrowablesGrafton</field>
+        <field name="VALUE-1">M18_Smoke_GRA</field>
+      </block>
+    </value>
+    <value name="PARAM-7">
+      <block type="ThrowablesItem">
+        <field name="VALUE-0">ThrowablesGrafton</field>
+        <field name="VALUE-1">StickGrenade</field>
+      </block>
+    </value>
+    <value name="PARAM-8">
+      <block type="ThrowablesItem">
+        <field name="VALUE-0">ThrowablesGrafton</field>
+        <field name="VALUE-1">FragGrenadeMkII</field>
+      </block>
+    </value>
+    <value name="PARAM-9">
+      <block type="Text">
+        <field name="TEXT">Smoke grenade</field>
+      </block>
+    </value>
+    <value name="PARAM-10">
+      <block type="Text">
+        <field name="TEXT">Stick grenade</field>
+      </block>
+    </value>
+    <value name="PARAM-11">
+      <block type="Text">
+        <field name="TEXT">Mk II grenade</field>
+      </block>
+    </value>
+  </block>
   <block type="Text" x="17219" y="-943">
     <field name="TEXT">M67 grenade</field>
   </block>
@@ -3304,9 +3370,6 @@
   </block>
   <block type="Text" x="19054" y="-920">
     <field name="TEXT">Incendiary grenade</field>
-  </block>
-  <block type="Text" x="13940" y="-614">
-    <field name="TEXT">Mk II grenade</field>
   </block>
   <block type="ThrowablesItem" x="19105" y="-826">
     <field name="VALUE-0">ThrowablesKingston</field>
@@ -3619,12 +3682,6 @@
   <block type="Text" x="15611" y="-506">
     <field name="TEXT">M67 grenade</field>
   </block>
-  <block type="Text" x="14259" y="-393">
-    <field name="TEXT">Smoke grenade</field>
-  </block>
-  <block type="Text" x="14098" y="-270">
-    <field name="TEXT">Stick grenade</field>
-  </block>
   <block type="ThrowablesItem" x="15698" y="-326">
     <field name="VALUE-0">ThrowablesRumney</field>
     <field name="VALUE-1">FragGrenade_RUM</field>
@@ -3663,39 +3720,6 @@
   </block>
   <block type="Text" x="15699" y="-274">
     <field name="TEXT">Smoke grenade</field>
-  </block>
-  <block type="ThrowablesItem" x="14456" y="-125">
-    <field name="VALUE-0">ThrowablesGrafton</field>
-    <field name="VALUE-1">M18_Smoke_GRA</field>
-  </block>
-  <block type="ThrowablesItem" x="13861" y="-86">
-    <field name="VALUE-0">ThrowablesGrafton</field>
-    <field name="VALUE-1">FragGrenadeMkII</field>
-  </block>
-  <block type="PrimaryWeaponsItem" x="14258" y="21">
-    <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-    <field name="VALUE-1">K98 Sniper</field>
-  </block>
-  <block type="ThrowablesItem" x="13766" y="51">
-    <field name="VALUE-0">ThrowablesGrafton</field>
-    <field name="VALUE-1">StickGrenade</field>
-  </block>
-  <block type="PrimaryWeaponsItem" x="14273" y="74">
-    <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-    <field name="VALUE-1">M1Sniper_GRA</field>
-  </block>
-  <block type="Text" x="13890" y="120">
-    <field name="TEXT">M1 Sniper</field>
-  </block>
-  <block type="Text" x="13892" y="162">
-    <field name="TEXT">K98 Sniper</field>
-  </block>
-  <block type="PrimaryWeaponsItem" x="14250" y="150">
-    <field name="VALUE-0">PrimaryWeaponsGrafton</field>
-    <field name="VALUE-1">LeeEnfieldNo4</field>
-  </block>
-  <block type="Text" x="14063" y="168">
-    <field name="TEXT">No4 Sniper</field>
   </block>
   <block type="subroutineBlock" deletable="false" x="6195" y="784">
     <mutation>
