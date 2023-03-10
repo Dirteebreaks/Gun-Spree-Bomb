@@ -214,7 +214,29 @@
             <field name="VALUE-1">Browning_A5</field>
           </block>
         </value>
+        <value name="PARAM-19">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+            <field name="VALUE-1">Browning_A5</field>
+          </block>
+        </value>
+        <value name="PARAM-20">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+            <field name="VALUE-1">Browning_A5</field>
+          </block>
+        </value>
         <value name="PARAM-21">
+          <block type="Text">
+            <field name="TEXT">12G Auto</field>
+          </block>
+        </value>
+        <value name="PARAM-22">
+          <block type="Text">
+            <field name="TEXT">12G Auto</field>
+          </block>
+        </value>
+        <value name="PARAM-23">
           <block type="Text">
             <field name="TEXT">12G Auto</field>
           </block>
@@ -225,7 +247,29 @@
             <field name="VALUE-1">Bren_LMG</field>
           </block>
         </value>
+        <value name="PARAM-25">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+            <field name="VALUE-1">Bren_LMG</field>
+          </block>
+        </value>
+        <value name="PARAM-26">
+          <block type="PrimaryWeaponsItem">
+            <field name="VALUE-0">PrimaryWeaponsGrafton</field>
+            <field name="VALUE-1">Bren_LMG</field>
+          </block>
+        </value>
         <value name="PARAM-27">
+          <block type="Text">
+            <field name="TEXT">Bren LMG</field>
+          </block>
+        </value>
+        <value name="PARAM-28">
+          <block type="Text">
+            <field name="TEXT">Bren LMG</field>
+          </block>
+        </value>
+        <value name="PARAM-29">
           <block type="Text">
             <field name="TEXT">Bren LMG</field>
           </block>
@@ -1530,6 +1574,11 @@
                                                                                                                                                                 </value>
                                                                                                                                                               </block>
                                                                                                                                                             </value>
+                                                                                                                                                            <value name="VALUE-1">
+                                                                                                                                                              <block type="subroutineArgumentBlock">
+                                                                                                                                                                <field name="ARGUMENT_INDEX">30</field>
+                                                                                                                                                              </block>
+                                                                                                                                                            </value>
                                                                                                                                                           </block>
                                                                                                                                                         </value>
                                                                                                                                                         <next>
@@ -1552,6 +1601,11 @@
                                                                                                                                                                         <field name="VAR" id="i?D6q5?c|6?8f:i{Lw3J" variabletype="Global">DMRs</field>
                                                                                                                                                                       </block>
                                                                                                                                                                     </value>
+                                                                                                                                                                  </block>
+                                                                                                                                                                </value>
+                                                                                                                                                                <value name="VALUE-1">
+                                                                                                                                                                  <block type="subroutineArgumentBlock">
+                                                                                                                                                                    <field name="ARGUMENT_INDEX">31</field>
                                                                                                                                                                   </block>
                                                                                                                                                                 </value>
                                                                                                                                                               </block>
@@ -1578,6 +1632,11 @@
                                                                                                                                                                         </value>
                                                                                                                                                                       </block>
                                                                                                                                                                     </value>
+                                                                                                                                                                    <value name="VALUE-1">
+                                                                                                                                                                      <block type="subroutineArgumentBlock">
+                                                                                                                                                                        <field name="ARGUMENT_INDEX">32</field>
+                                                                                                                                                                      </block>
+                                                                                                                                                                    </value>
                                                                                                                                                                   </block>
                                                                                                                                                                 </value>
                                                                                                                                                                 <next>
@@ -1594,6 +1653,11 @@
                                                                                                                                                                         <field name="NUM">0</field>
                                                                                                                                                                       </block>
                                                                                                                                                                     </value>
+                                                                                                                                                                    <value name="VALUE-2">
+                                                                                                                                                                      <block type="subroutineArgumentBlock">
+                                                                                                                                                                        <field name="ARGUMENT_INDEX">33</field>
+                                                                                                                                                                      </block>
+                                                                                                                                                                    </value>
                                                                                                                                                                     <next>
                                                                                                                                                                       <block type="SetVariableAtIndex">
                                                                                                                                                                         <value name="VALUE-0">
@@ -1608,6 +1672,11 @@
                                                                                                                                                                             <field name="NUM">1</field>
                                                                                                                                                                           </block>
                                                                                                                                                                         </value>
+                                                                                                                                                                        <value name="VALUE-2">
+                                                                                                                                                                          <block type="subroutineArgumentBlock">
+                                                                                                                                                                            <field name="ARGUMENT_INDEX">34</field>
+                                                                                                                                                                          </block>
+                                                                                                                                                                        </value>
                                                                                                                                                                         <next>
                                                                                                                                                                           <block type="SetVariableAtIndex">
                                                                                                                                                                             <value name="VALUE-0">
@@ -1620,6 +1689,11 @@
                                                                                                                                                                             <value name="VALUE-1">
                                                                                                                                                                               <block type="Number">
                                                                                                                                                                                 <field name="NUM">2</field>
+                                                                                                                                                                              </block>
+                                                                                                                                                                            </value>
+                                                                                                                                                                            <value name="VALUE-2">
+                                                                                                                                                                              <block type="subroutineArgumentBlock">
+                                                                                                                                                                                <field name="ARGUMENT_INDEX">35</field>
                                                                                                                                                                               </block>
                                                                                                                                                                             </value>
                                                                                                                                                                             <next>
@@ -1656,6 +1730,11 @@
                                                                                                                                                                                             </value>
                                                                                                                                                                                           </block>
                                                                                                                                                                                         </value>
+                                                                                                                                                                                        <value name="VALUE-1">
+                                                                                                                                                                                          <block type="subroutineArgumentBlock">
+                                                                                                                                                                                            <field name="ARGUMENT_INDEX">36</field>
+                                                                                                                                                                                          </block>
+                                                                                                                                                                                        </value>
                                                                                                                                                                                       </block>
                                                                                                                                                                                     </value>
                                                                                                                                                                                     <next>
@@ -1678,6 +1757,11 @@
                                                                                                                                                                                                     <field name="VAR" id="rjWu@eDtQ_Ais=}G$@T)" variabletype="Global">Snipers</field>
                                                                                                                                                                                                   </block>
                                                                                                                                                                                                 </value>
+                                                                                                                                                                                              </block>
+                                                                                                                                                                                            </value>
+                                                                                                                                                                                            <value name="VALUE-1">
+                                                                                                                                                                                              <block type="subroutineArgumentBlock">
+                                                                                                                                                                                                <field name="ARGUMENT_INDEX">37</field>
                                                                                                                                                                                               </block>
                                                                                                                                                                                             </value>
                                                                                                                                                                                           </block>
@@ -1704,6 +1788,11 @@
                                                                                                                                                                                                     </value>
                                                                                                                                                                                                   </block>
                                                                                                                                                                                                 </value>
+                                                                                                                                                                                                <value name="VALUE-1">
+                                                                                                                                                                                                  <block type="subroutineArgumentBlock">
+                                                                                                                                                                                                    <field name="ARGUMENT_INDEX">38</field>
+                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                </value>
                                                                                                                                                                                               </block>
                                                                                                                                                                                             </value>
                                                                                                                                                                                             <next>
@@ -1720,6 +1809,11 @@
                                                                                                                                                                                                     <field name="NUM">0</field>
                                                                                                                                                                                                   </block>
                                                                                                                                                                                                 </value>
+                                                                                                                                                                                                <value name="VALUE-2">
+                                                                                                                                                                                                  <block type="subroutineArgumentBlock">
+                                                                                                                                                                                                    <field name="ARGUMENT_INDEX">39</field>
+                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                </value>
                                                                                                                                                                                                 <next>
                                                                                                                                                                                                   <block type="SetVariableAtIndex">
                                                                                                                                                                                                     <value name="VALUE-0">
@@ -1734,6 +1828,11 @@
                                                                                                                                                                                                         <field name="NUM">1</field>
                                                                                                                                                                                                       </block>
                                                                                                                                                                                                     </value>
+                                                                                                                                                                                                    <value name="VALUE-2">
+                                                                                                                                                                                                      <block type="subroutineArgumentBlock">
+                                                                                                                                                                                                        <field name="ARGUMENT_INDEX">40</field>
+                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                    </value>
                                                                                                                                                                                                     <next>
                                                                                                                                                                                                       <block type="SetVariableAtIndex">
                                                                                                                                                                                                         <value name="VALUE-0">
@@ -1746,6 +1845,11 @@
                                                                                                                                                                                                         <value name="VALUE-1">
                                                                                                                                                                                                           <block type="Number">
                                                                                                                                                                                                             <field name="NUM">2</field>
+                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                        <value name="VALUE-2">
+                                                                                                                                                                                                          <block type="subroutineArgumentBlock">
+                                                                                                                                                                                                            <field name="ARGUMENT_INDEX">41</field>
                                                                                                                                                                                                           </block>
                                                                                                                                                                                                         </value>
                                                                                                                                                                                                         <next>
@@ -1782,6 +1886,11 @@
                                                                                                                                                                                                                         </value>
                                                                                                                                                                                                                       </block>
                                                                                                                                                                                                                     </value>
+                                                                                                                                                                                                                    <value name="VALUE-1">
+                                                                                                                                                                                                                      <block type="subroutineArgumentBlock">
+                                                                                                                                                                                                                        <field name="ARGUMENT_INDEX">42</field>
+                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                    </value>
                                                                                                                                                                                                                   </block>
                                                                                                                                                                                                                 </value>
                                                                                                                                                                                                                 <next>
@@ -1804,6 +1913,11 @@
                                                                                                                                                                                                                                 <field name="VAR" id="E)q!1{p*W_iCXa}Nyjjq" variabletype="Global">Throwables</field>
                                                                                                                                                                                                                               </block>
                                                                                                                                                                                                                             </value>
+                                                                                                                                                                                                                          </block>
+                                                                                                                                                                                                                        </value>
+                                                                                                                                                                                                                        <value name="VALUE-1">
+                                                                                                                                                                                                                          <block type="subroutineArgumentBlock">
+                                                                                                                                                                                                                            <field name="ARGUMENT_INDEX">43</field>
                                                                                                                                                                                                                           </block>
                                                                                                                                                                                                                         </value>
                                                                                                                                                                                                                       </block>
@@ -1830,6 +1944,11 @@
                                                                                                                                                                                                                                 </value>
                                                                                                                                                                                                                               </block>
                                                                                                                                                                                                                             </value>
+                                                                                                                                                                                                                            <value name="VALUE-1">
+                                                                                                                                                                                                                              <block type="subroutineArgumentBlock">
+                                                                                                                                                                                                                                <field name="ARGUMENT_INDEX">44</field>
+                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                            </value>
                                                                                                                                                                                                                           </block>
                                                                                                                                                                                                                         </value>
                                                                                                                                                                                                                         <next>
@@ -1846,6 +1965,11 @@
                                                                                                                                                                                                                                 <field name="NUM">0</field>
                                                                                                                                                                                                                               </block>
                                                                                                                                                                                                                             </value>
+                                                                                                                                                                                                                            <value name="VALUE-2">
+                                                                                                                                                                                                                              <block type="subroutineArgumentBlock">
+                                                                                                                                                                                                                                <field name="ARGUMENT_INDEX">45</field>
+                                                                                                                                                                                                                              </block>
+                                                                                                                                                                                                                            </value>
                                                                                                                                                                                                                             <next>
                                                                                                                                                                                                                               <block type="SetVariableAtIndex">
                                                                                                                                                                                                                                 <value name="VALUE-0">
@@ -1860,6 +1984,11 @@
                                                                                                                                                                                                                                     <field name="NUM">1</field>
                                                                                                                                                                                                                                   </block>
                                                                                                                                                                                                                                 </value>
+                                                                                                                                                                                                                                <value name="VALUE-2">
+                                                                                                                                                                                                                                  <block type="subroutineArgumentBlock">
+                                                                                                                                                                                                                                    <field name="ARGUMENT_INDEX">46</field>
+                                                                                                                                                                                                                                  </block>
+                                                                                                                                                                                                                                </value>
                                                                                                                                                                                                                                 <next>
                                                                                                                                                                                                                                   <block type="SetVariableAtIndex">
                                                                                                                                                                                                                                     <value name="VALUE-0">
@@ -1872,6 +2001,11 @@
                                                                                                                                                                                                                                     <value name="VALUE-1">
                                                                                                                                                                                                                                       <block type="Number">
                                                                                                                                                                                                                                         <field name="NUM">2</field>
+                                                                                                                                                                                                                                      </block>
+                                                                                                                                                                                                                                    </value>
+                                                                                                                                                                                                                                    <value name="VALUE-2">
+                                                                                                                                                                                                                                      <block type="subroutineArgumentBlock">
+                                                                                                                                                                                                                                        <field name="ARGUMENT_INDEX">47</field>
                                                                                                                                                                                                                                       </block>
                                                                                                                                                                                                                                     </value>
                                                                                                                                                                                                                                   </block>
@@ -7734,6 +7868,9 @@
         </next>
       </block>
     </statement>
+  </block>
+  <block type="subroutineArgumentBlock" x="3278" y="-76">
+    <field name="ARGUMENT_INDEX">-1</field>
   </block>
   <block type="subroutineBlock" deletable="false" x="2456" y="749">
     <field name="SUBROUTINE_NAME">set_spawnpoints</field>
