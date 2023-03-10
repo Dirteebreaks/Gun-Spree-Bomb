@@ -68,6 +68,18 @@
       <parameter types="String">MenuAR1</parameter>
       <parameter types="String">MenuAR2</parameter>
       <parameter types="String">MenuAR3</parameter>
+      <parameter types="Enum_PrimaryWeapons">SMG1</parameter>
+      <parameter types="Enum_PrimaryWeapons">SMG2</parameter>
+      <parameter types="Enum_PrimaryWeapons">SMG3</parameter>
+      <parameter types="String">MenuSMG1</parameter>
+      <parameter types="String">MenuSMG2</parameter>
+      <parameter types="String">MenuSMG3</parameter>
+      <parameter types="Enum_PrimaryWeapons">Shotguns1</parameter>
+      <parameter types="Enum_PrimaryWeapons">Shotguns2</parameter>
+      <parameter types="Enum_PrimaryWeapons">Shotguns3</parameter>
+      <parameter types="String">MenuShotguns1</parameter>
+      <parameter types="String">MenuShotguns2</parameter>
+      <parameter types="String">MenuShotguns3</parameter>
     </mutation>
     <field name="SUBROUTINE_NAME">Weapon_lists</field>
     <statement name="ACTIONS">
@@ -1586,6 +1598,18 @@
           <parameter types="String">MenuAR1</parameter>
           <parameter types="String">MenuAR2</parameter>
           <parameter types="String">MenuAR3</parameter>
+          <parameter types="Enum_PrimaryWeapons">SMG1</parameter>
+          <parameter types="Enum_PrimaryWeapons">SMG2</parameter>
+          <parameter types="Enum_PrimaryWeapons">SMG3</parameter>
+          <parameter types="String">MenuSMG1</parameter>
+          <parameter types="String">MenuSMG2</parameter>
+          <parameter types="String">MenuSMG3</parameter>
+          <parameter types="Enum_PrimaryWeapons">Shotguns1</parameter>
+          <parameter types="Enum_PrimaryWeapons">Shotguns2</parameter>
+          <parameter types="Enum_PrimaryWeapons">Shotguns3</parameter>
+          <parameter types="String">MenuShotguns1</parameter>
+          <parameter types="String">MenuShotguns2</parameter>
+          <parameter types="String">MenuShotguns3</parameter>
         </mutation>
         <field name="SUBROUTINE_NAME">Weapon_lists</field>
         <value name="PARAM-0">
